@@ -1,0 +1,40 @@
+Offensive Security Engineer, Vulnerability Research
+Blackfen Labs
+Remote (United States)
+
+About us
+Blackfen Labs is a security research firm that finds and helps fix vulnerabilities in the software our clients ship: embedded device firmware, desktop applications, file parsers and network services. Our work ranges from two-week assessments to long-running research programs, and we publish what we can at blackfen-labs.example.com/research.
+
+The role
+We are looking for an Offensive Security Engineer to join our vulnerability research team. You will fuzz, reverse engineer and exploit software written mostly in C and C++, write clear reports for client engineering teams, and help them verify their fixes. New team members are paired with a senior researcher for their first two engagements.
+
+Responsibilities
+- Build fuzzing harnesses for parsers and network services using libFuzzer, AFL++ or custom tooling, and keep them running at scale.
+- Triage crashes, identify root causes and determine exploitability.
+- Develop proof-of-concept exploits for memory corruption bugs (heap overflows, use-after-free, type confusion) to demonstrate impact.
+- Reverse engineer closed-source binaries with Ghidra or IDA to find attack surface.
+- Test web and API front ends of client products when they are in scope.
+- Write findings reports with reproduction steps, severity and remediation advice, and present them to client engineers.
+- Contribute tools and techniques back to the team's internal research platform.
+
+Qualifications
+- 2+ years of experience in vulnerability research, penetration testing or exploit development, or equivalent research (CTF competitions, published CVEs, open-source security work).
+- Strong C programming skills and a working understanding of memory safety, the stack and the heap.
+- Experience with at least one coverage-guided fuzzer and with sanitizers such as AddressSanitizer.
+- Experience with a debugger (GDB, WinDbg or LLDB) and a disassembler.
+- Proficiency in Python for tooling and automation.
+- Clear written English; our reports go straight to client engineering teams.
+
+Nice to have
+- Exploitation experience on modern mitigations (ASLR, DEP, stack canaries, CFI).
+- Experience with Linux or Windows kernel internals.
+- OSCP, OSED or equivalent certifications.
+- A history of reporting vulnerabilities upstream and seeing them fixed.
+
+What we offer
+- Base salary of $130,000 - $160,000, plus a research bonus for published findings
+- Fully remote team with two in-person research weeks each year
+- Dedicated research time: 20% of every sprint is yours
+- Health, dental and vision insurance; 401(k) match; home-office stipend
+
+Blackfen Labs is an equal opportunity employer.

@@ -1,0 +1,184 @@
+{
+ "id": "paste-3d814d16",
+ "sha": "3d814d16500690dd",
+ "requirements": [
+  {
+   "name": "ML system evaluation/attack",
+   "tokens": [
+    "evaluating or attacking machine learning systems",
+    "ML evaluation",
+    "red teaming",
+    "attack suites"
+   ],
+   "required": true,
+   "line": 16,
+   "source": "- Experience evaluating or attacking machine learning systems, through work, research or substantial projects."
+  },
+  {
+   "name": "Python",
+   "tokens": [
+    "Python",
+    "experiment pipelines"
+   ],
+   "required": true,
+   "line": 17,
+   "source": "- Strong Python skills and experience building reliable experiment pipelines."
+  },
+  {
+   "name": "Prompt injection & jailbreaks",
+   "tokens": [
+    "prompt injection",
+    "jailbreaks",
+    "indirect prompt injection",
+    "tool misuse"
+   ],
+   "required": true,
+   "line": 18,
+   "source": "- Familiarity with prompt injection, jailbreaks and the OWASP Top 10 for LLM applications."
+  },
+  {
+   "name": "OWASP LLM Top 10",
+   "tokens": [
+    "OWASP Top 10 for LLM applications",
+    "OWASP LLM"
+   ],
+   "required": true,
+   "line": 18,
+   "source": "- Familiarity with prompt injection, jailbreaks and the OWASP Top 10 for LLM applications."
+  },
+  {
+   "name": "Statistics for experiments",
+   "tokens": [
+    "statistics",
+    "sampling",
+    "variance",
+    "confidence intervals",
+    "significance"
+   ],
+   "required": true,
+   "line": 19,
+   "source": "- A solid grounding in statistics for experiments: sampling, variance, confidence intervals and significance."
+  },
+  {
+   "name": "LLM APIs & agent frameworks",
+   "tokens": [
+    "LLM APIs",
+    "agent frameworks",
+    "tool calling"
+   ],
+   "required": true,
+   "line": 20,
+   "source": "- Experience working with LLM APIs and agent frameworks that use tool calling."
+  },
+  {
+   "name": "Evaluation harness development",
+   "tokens": [
+    "evaluation harness",
+    "sandboxed environments",
+    "attack generators",
+    "scoring",
+    "dashboards"
+   ],
+   "required": true,
+   "line": 10,
+   "source": "- Build and maintain our evaluation harness: sandboxed environments, attack generators, scoring and dashboards."
+  },
+  {
+   "name": "LLM-based graders",
+   "tokens": [
+    "LLM-based graders",
+    "LLM judges",
+    "human label agreement"
+   ],
+   "required": true,
+   "line": 12,
+   "source": "- Develop and validate LLM-based graders, and check their agreement with human labels."
+  },
+  {
+   "name": "Defense measurement",
+   "tokens": [
+    "input filtering",
+    "tool permissioning",
+    "model-based classifiers",
+    "false refusals"
+   ],
+   "required": true,
+   "line": 11,
+   "source": "- Measure the effect of defenses such as input filtering, tool permissioning and model-based classifiers, including their cost in false refusals on benign tasks."
+  },
+  {
+   "name": "Adversarial ML research",
+   "tokens": [
+    "adversarial machine learning",
+    "adversarial ML"
+   ],
+   "required": false,
+   "line": 23,
+   "source": "- Research experience in adversarial machine learning, published or not."
+  },
+  {
+   "name": "Model training/fine-tuning",
+   "tokens": [
+    "PyTorch",
+    "fine-tuning",
+    "model training"
+   ],
+   "required": false,
+   "line": 24,
+   "source": "- Experience training or fine-tuning models in PyTorch."
+  },
+  {
+   "name": "Application security/pentesting",
+   "tokens": [
+    "application security",
+    "penetration testing",
+    "pentesting"
+   ],
+   "required": false,
+   "line": 25,
+   "source": "- Background in traditional application security or penetration testing."
+  },
+  {
+   "name": "Containerized sandboxes",
+   "tokens": [
+    "Docker",
+    "gVisor",
+    "Firecracker",
+    "containerized sandboxes"
+   ],
+   "required": false,
+   "line": 26,
+   "source": "- Experience with containerized sandboxes (Docker, gVisor, Firecracker)."
+  }
+ ],
+ "keywords": [
+  "AI security",
+  "LLM evaluation",
+  "prompt injection",
+  "jailbreak",
+  "red teaming",
+  "adversarial machine learning",
+  "Python",
+  "OWASP LLM Top 10",
+  "agent frameworks",
+  "tool calling",
+  "LLM APIs",
+  "evaluation harness",
+  "PyTorch",
+  "Docker",
+  "penetration testing",
+  "confidence intervals",
+  "LLM graders",
+  "sandboxed environments"
+ ],
+ "info": {
+  "reader": "slots-claude-sonnet-4-6-low",
+  "answered_by": "claude-sonnet-4-6",
+  "fallback": null,
+  "attempts": 1,
+  "input_tokens": 1599,
+  "output_tokens": 460,
+  "seconds": 7.8,
+  "dropped": []
+ }
+}

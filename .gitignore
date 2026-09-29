@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+.tmp/
+# The user's own material: the library, the postings read and their saved answers, the privacy guard's
+# fingerprints, the dev server's copy and the output check's baseline. Kept on this machine only.
+/library/
+/data/
+/local/
+/benchmark/
+# What the tools write beside the example data when it is used in place (the README works on a copy in local/).
+examples/data/tracker.sqlite*
+examples/data/pages/
+examples/data/page-modes.json
+examples/benchmark/runs/
+# Tool caches.
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/

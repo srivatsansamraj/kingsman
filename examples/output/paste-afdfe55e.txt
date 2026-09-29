@@ -1,0 +1,35 @@
+================================================================================================
+POSTING: Cloud Security Engineer
+================================================================================================
+18 requirements (14 required), 31 keywords
+mode capabilities, reach 0.78, unmet word demand 20%
+demand:
+    sec.appsec             0.65  ############################
+    sw.practice            0.17  #######
+    sec.detection          0.10  ####
+    sec.offensive          0.08  ###
+
+12 bullets in 4 projects, 28/28 project lines
+  coverage 0.71   emphasis 0.75   standing 0.49   incoherence 0.27   cost 0.07   depth 0.69   score 1.069
+
+  Prompt-Injection Evaluation of Tool-Using LLM Agents, Applied Security Lab
+      Measured three published prompt-injection defenses on the harness; the strongest cut successful attacks from 31% to 9% and failed 4% of benign tasks.
+
+  Kubernetes Lab Platform on AWS for a Security Course, Graduate Research Assistant
+      Gave each of 85 students an isolated lab environment by moving a security course's labs to a Kubernetes cluster on AWS, with network policies that block traffic between tenants.
+      Removed a shared cloud access key from the grading service by giving each of its pods an IAM role scoped to one storage bucket.
+      Kept student code away from grading data and cloud credentials by designing trust boundaries that confine it to unprivileged pods with no network path to either.
+      Kept the platform at 99.5% availability during lab hours across two semesters for 160 students, and took the on-call shifts around assignment deadlines.
+
+  Malware Triage Sandbox, Malware Analysis Course
+      Built a sandbox that runs Windows malware samples in a snapshot-restored virtual machine and collects process, file and network activity into one report per sample.
+      Wrote YARA rules from the sandbox reports for 4 malware families, matching 57 of 60 held-out samples with no hits on 500 clean binaries.
+      Wrote the sandbox's in-guest monitor in C, hooking 14 Windows API calls to log file, registry and process activity while adding under 5% to each sample's run time.
+
+  Product Security Intern, Fernhill Payments
+      Threat-modeled the card-tokenization service with its owning team and filed 14 findings, 11 of them fixed before the service's next release.
+      Closed an authorization gap that let a merchant-support role read any merchant's payout records, adding an ownership check and regression tests across 9 endpoints.
+      Reviewed 40 pull requests to payment services for injection, deserialization and access-control flaws, and wrote Semgrep rules for the 3 flaw patterns found more than once.
+      Triaged 60 scanner and bug-bounty reports against a written severity rubric, closing 38 as duplicates or false positives and assigning the rest to owning teams with fix dates.
+
+  required, not fully met: years of experience, AWS IAM, network security fundamentals, workload identity, EKS hardening, policy-as-code in CI, detections and incident response

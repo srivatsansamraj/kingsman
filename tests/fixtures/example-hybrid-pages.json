@@ -1,0 +1,207 @@
+{
+ "paste-12648881": {
+  "projects_by": "engine",
+  "selected": [
+   "G1.1",
+   "G1.2",
+   "G1.3",
+   "G1.4",
+   "G1.5",
+   "G2.1",
+   "G2.2",
+   "G2.3",
+   "G6.1",
+   "G6.4",
+   "U3.1",
+   "U3.2",
+   "U3.3"
+  ],
+  "page_order": [
+   "G2",
+   "G1",
+   "G6",
+   "U3"
+  ],
+  "coverage": 0.7717391304347826,
+  "engine_match": null
+ },
+ "paste-3d814d16": {
+  "projects_by": "engine",
+  "selected": [
+   "G1.1",
+   "G1.2",
+   "G1.3",
+   "G1.4",
+   "G1.5",
+   "G2.1",
+   "G2.2",
+   "G2.3",
+   "G3.1",
+   "G3.2",
+   "I1.1",
+   "I1.2"
+  ],
+  "page_order": [
+   "G2",
+   "G1",
+   "I1",
+   "G3"
+  ],
+  "coverage": 0.8870967741935484,
+  "engine_match": null
+ },
+ "paste-87b68035": {
+  "projects_by": "engine",
+  "selected": [
+   "G1.2",
+   "G1.4",
+   "G2.1",
+   "G2.3",
+   "G4.1",
+   "G4.2",
+   "G4.3",
+   "I1.2",
+   "I1.3",
+   "I1.5",
+   "U1.1",
+   "U1.2"
+  ],
+  "page_order": [
+   "G2",
+   "G1",
+   "G4",
+   "I1",
+   "U1"
+  ],
+  "coverage": 0.81875,
+  "engine_match": null
+ },
+ "paste-89f5dd84": {
+  "projects_by": "engine",
+  "selected": [
+   "G1.1",
+   "G1.2",
+   "G1.3",
+   "G1.4",
+   "G2.1",
+   "G6.1",
+   "G6.2",
+   "G6.3",
+   "I1.1",
+   "I1.2",
+   "I1.3",
+   "I1.5"
+  ],
+  "page_order": [
+   "G2",
+   "G1",
+   "G6",
+   "I1"
+  ],
+  "coverage": 0.8804347826086957,
+  "engine_match": null
+ },
+ "paste-9725cefb": {
+  "projects_by": "engine",
+  "selected": [
+   "G1.1",
+   "G1.2",
+   "G1.3",
+   "G1.4",
+   "G1.5",
+   "G2.1",
+   "G2.2",
+   "G2.3",
+   "G4.1",
+   "G4.2",
+   "I2.1",
+   "I2.2",
+   "I2.3"
+  ],
+  "page_order": [
+   "G2",
+   "G1",
+   "G4",
+   "I2"
+  ],
+  "coverage": 0.7065217391304348,
+  "engine_match": null
+ },
+ "paste-afdfe55e": {
+  "projects_by": "engine",
+  "selected": [
+   "G1.2",
+   "G4.1",
+   "G4.2",
+   "G4.3",
+   "G6.1",
+   "G6.2",
+   "G6.3",
+   "G6.4",
+   "I1.1",
+   "I1.2",
+   "I1.3",
+   "I1.4"
+  ],
+  "page_order": [
+   "G1",
+   "G6",
+   "G4",
+   "I1"
+  ],
+  "coverage": 0.7119565217391305,
+  "engine_match": null
+ },
+ "paste-f1f45dad": {
+  "projects_by": "model",
+  "selected": [
+   "G1.1",
+   "G1.2",
+   "G1.3",
+   "G1.4",
+   "G1.5",
+   "G2.1",
+   "I1.1",
+   "I1.2",
+   "I1.3",
+   "I1.4",
+   "I2.1",
+   "I2.2",
+   "I2.3"
+  ],
+  "page_order": [
+   "G2",
+   "G1",
+   "I1",
+   "I2"
+  ],
+  "coverage": 0.27906976744186046,
+  "engine_match": 0.27906976744186046
+ },
+ "paste-f945f360": {
+  "projects_by": "engine",
+  "selected": [
+   "G1.1",
+   "G1.2",
+   "G1.3",
+   "G1.4",
+   "G1.5",
+   "G2.1",
+   "G2.2",
+   "G2.3",
+   "I1.1",
+   "I1.2",
+   "I1.3",
+   "I1.4",
+   "O1.2"
+  ],
+  "page_order": [
+   "G2",
+   "G1",
+   "I1",
+   "O1"
+  ],
+  "coverage": 0.7152777777777778,
+  "engine_match": null
+ }
+}

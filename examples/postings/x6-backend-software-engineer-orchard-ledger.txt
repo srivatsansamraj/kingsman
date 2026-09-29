@@ -1,0 +1,38 @@
+Software Engineer, Backend (Platform)
+Orchard Ledger
+Chicago, IL or Remote (US)
+
+About Orchard Ledger
+Orchard Ledger makes accounting and payments software for independent farms and agricultural cooperatives: invoicing, payroll, crop-loan tracking and bank reconciliation. About 14,000 businesses run their books on us. See orchard-ledger.example.com.
+
+About the team
+The Platform team builds the shared backend services every product team depends on: the ledger service, authentication, the job scheduler and our public API. We care about correctness first, because our customers' money moves through these systems, and we are a small team that owns what it builds from design to on-call.
+
+What you'll do
+- Design, build and operate backend services in Python and Go, with PostgreSQL as our main datastore.
+- Evolve our public REST API and internal gRPC interfaces, including versioning, authentication and rate limiting.
+- Design database schemas and migrations that keep financial data correct under concurrent writes.
+- Improve the reliability of our job scheduler and event pipeline (Kafka), including idempotency and retries.
+- Improve our CI/CD pipelines, test suites and deployment tooling.
+- Participate in the on-call rotation for the services the team owns, and lead the follow-up after incidents.
+- Work with our security engineer on secure coding practices, secrets handling and access control in our services.
+
+What we look for
+- 2+ years of professional software engineering experience building backend services, or equivalent experience from substantial projects.
+- Proficiency in Python or Go.
+- Experience designing relational database schemas and writing efficient SQL (PostgreSQL preferred).
+- Experience building and maintaining REST or gRPC APIs.
+- Familiarity with distributed systems concepts: consistency, retries, idempotency, queues.
+- Experience with Docker and a CI/CD system.
+- A habit of writing tests and reviewing code carefully.
+
+Nice to have
+- Experience with Kafka or another event streaming platform.
+- Experience with payments, accounting or other financial systems.
+- Experience running services on Kubernetes or AWS.
+- Interest in application security.
+
+Compensation
+The base salary range is $125,000 - $150,000 per year. We also offer equity, health insurance with 100% of premiums covered for employees, a 401(k) with match, and four weeks of vacation.
+
+Orchard Ledger is an equal opportunity employer.

@@ -1,0 +1,311 @@
+{
+ "requirements": [
+  {
+   "name": "years of experience",
+   "tokens": [
+    "1 to 3 years",
+    "application security",
+    "software engineering"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "1 to 3 years application security or software engineering"
+   ]
+  },
+  {
+   "name": "OWASP Top 10",
+   "tokens": [
+    "OWASP Top 10",
+    "web vulnerability",
+    "API vulnerability"
+   ],
+   "required": true,
+   "capabilities": [
+    "web and API security"
+   ],
+   "capability": "web and API security",
+   "conditions": [
+    "OWASP Top 10"
+   ]
+  },
+  {
+   "name": "threat modeling",
+   "tokens": [
+    "threat modeling",
+    "STRIDE"
+   ],
+   "required": true,
+   "capabilities": [
+    "threat modelling"
+   ],
+   "capability": "threat modelling",
+   "conditions": [
+    "STRIDE"
+   ]
+  },
+  {
+   "name": "code review languages",
+   "tokens": [
+    "code review",
+    "Python",
+    "Java",
+    "Go"
+   ],
+   "required": true,
+   "capabilities": [
+    "code review and security assessment"
+   ],
+   "capability": "code review and security assessment",
+   "conditions": [
+    "Python",
+    "Java",
+    "Go"
+   ]
+  },
+  {
+   "name": "web testing tools",
+   "tokens": [
+    "Burp Suite",
+    "web testing",
+    "penetration testing tools"
+   ],
+   "required": true,
+   "capabilities": [
+    "web and API security"
+   ],
+   "capability": "web and API security",
+   "conditions": [
+    "Burp Suite"
+   ]
+  },
+  {
+   "name": "vulnerability triage",
+   "tokens": [
+    "triage vulnerabilities",
+    "severity",
+    "remediation"
+   ],
+   "required": true,
+   "capabilities": [
+    "vulnerability triage and management"
+   ],
+   "capability": "vulnerability triage and management",
+   "conditions": []
+  },
+  {
+   "name": "degree",
+   "tokens": [
+    "bachelor's degree",
+    "computer science",
+    "cybersecurity"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "bachelor's degree in computer science or cybersecurity"
+   ]
+  },
+  {
+   "name": "threat modeling sessions",
+   "tokens": [
+    "threat modeling",
+    "engineering tickets",
+    "new features"
+   ],
+   "required": true,
+   "capabilities": [
+    "threat modelling"
+   ],
+   "capability": "threat modelling",
+   "conditions": []
+  },
+  {
+   "name": "PR and design review",
+   "tokens": [
+    "pull request review",
+    "design document review",
+    "injection",
+    "authentication",
+    "authorization",
+    "data exposure"
+   ],
+   "required": true,
+   "capabilities": [
+    "code review and security assessment"
+   ],
+   "capability": "code review and security assessment",
+   "conditions": []
+  },
+  {
+   "name": "API security testing",
+   "tokens": [
+    "REST API",
+    "GraphQL",
+    "broken access control",
+    "business-logic"
+   ],
+   "required": true,
+   "capabilities": [
+    "web and API security"
+   ],
+   "capability": "web and API security",
+   "conditions": [
+    "REST",
+    "GraphQL"
+   ]
+  },
+  {
+   "name": "static analysis and dependency scanning",
+   "tokens": [
+    "Semgrep",
+    "static analysis",
+    "dependency scanning",
+    "CI",
+    "custom rules"
+   ],
+   "required": true,
+   "capabilities": [
+    "developer tooling and CI/CD"
+   ],
+   "capability": "developer tooling and CI/CD",
+   "conditions": [
+    "Semgrep"
+   ]
+  },
+  {
+   "name": "bug bounty and pentest triage",
+   "tokens": [
+    "bug bounty",
+    "penetration test",
+    "scanner findings",
+    "severity"
+   ],
+   "required": true,
+   "capabilities": [
+    "vulnerability triage and management"
+   ],
+   "capability": "vulnerability triage and management",
+   "conditions": []
+  },
+  {
+   "name": "secure coding libraries",
+   "tokens": [
+    "secure-by-default",
+    "Python",
+    "Java",
+    "secure libraries"
+   ],
+   "required": true,
+   "capabilities": [
+    "application security"
+   ],
+   "capability": "application security",
+   "conditions": [
+    "Python",
+    "Java"
+   ]
+  },
+  {
+   "name": "AWS security architecture",
+   "tokens": [
+    "AWS",
+    "Amazon Web Services",
+    "security architecture review"
+   ],
+   "required": true,
+   "capabilities": [
+    "secure system architecture"
+   ],
+   "capability": "secure system architecture",
+   "conditions": [
+    "AWS"
+   ]
+  },
+  {
+   "name": "Semgrep or CodeQL rules",
+   "tokens": [
+    "Semgrep rules",
+    "CodeQL rules"
+   ],
+   "required": false,
+   "capabilities": [
+    "code review and security assessment"
+   ],
+   "capability": "code review and security assessment",
+   "conditions": [
+    "Semgrep",
+    "CodeQL"
+   ]
+  },
+  {
+   "name": "AWS cloud security",
+   "tokens": [
+    "AWS",
+    "Amazon Web Services",
+    "IAM",
+    "network controls",
+    "logging",
+    "cloud security"
+   ],
+   "required": false,
+   "capabilities": [
+    "cloud security"
+   ],
+   "capability": "cloud security",
+   "conditions": [
+    "AWS"
+   ]
+  },
+  {
+   "name": "regulated environment",
+   "tokens": [
+    "HIPAA",
+    "PCI DSS",
+    "healthcare",
+    "regulated environment"
+   ],
+   "required": false,
+   "capabilities": [
+    "security frameworks and compliance"
+   ],
+   "capability": "security frameworks and compliance",
+   "conditions": [
+    "HIPAA",
+    "PCI DSS"
+   ]
+  },
+  {
+   "name": "certifications",
+   "tokens": [
+    "OSCP",
+    "GWAPT"
+   ],
+   "required": false,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "OSCP",
+    "GWAPT"
+   ]
+  }
+ ],
+ "valid": true,
+ "errors": [],
+ "first_errors": [],
+ "attempts": 1,
+ "input_tokens": 1125,
+ "output_tokens": 664,
+ "seconds": 25.2,
+ "batch": 5,
+ "title": "Application Security Engineer",
+ "vocabulary_sha256_16": "fce4b8d6fbc868de",
+ "format": 3,
+ "model": "claude-opus-5-5",
+ "answered_by": "claude-opus-5-5",
+ "fallback": null,
+ "made": "2026-09-29T06:36:06",
+ "posting": "paste-89f5dd84"
+}

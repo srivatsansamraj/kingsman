@@ -1,0 +1,25 @@
+{
+ "projects": [
+  "I2",
+  "G4",
+  "G5",
+  "G6",
+  "U1",
+  "G2"
+ ],
+ "why": "Jev: the six projects most likely to belong on the page",
+ "valid": true,
+ "errors": [],
+ "first_errors": [],
+ "attempts": 1,
+ "input_tokens": 3747,
+ "output_tokens": 208,
+ "seconds": 0.32,
+ "projects_sha256_16": "5a3ff692795b2e91",
+ "format": 1,
+ "model": "jev-1.13.0",
+ "answered_by": "jev-1.13.0",
+ "fallback": null,
+ "made": "2026-09-29T06:36:22",
+ "posting": "paste-9725cefb"
+}

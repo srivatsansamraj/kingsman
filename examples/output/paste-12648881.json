@@ -1,0 +1,627 @@
+{
+ "posting": "Software Engineer, Backend (Platform)",
+ "posting_id": "paste-12648881",
+ "mode": "capabilities",
+ "extraction": {
+  "requirements": 18,
+  "required": 14,
+  "keywords": 26
+ },
+ "unmet": 0.22033898305084745,
+ "skill_scores": {
+  "Security Code Review": 0.1087,
+  "OWASP Top 10": 0.1196,
+  "Semgrep": 0.1087,
+  "Incident Response": 0.0652,
+  "AWS": 0.1957,
+  "Kubernetes": 0.1196,
+  "Terraform": 0.1196,
+  "Docker": 0.1522,
+  "Python": 0.1304,
+  "Go": 0.1304,
+  "SQL": 0.0652,
+  "Git": 0.1739
+ },
+ "demand": {
+  "sw.backend": 0.5952380952380952,
+  "sw.practice": 0.23809523809523808,
+  "sec.appsec": 0.16666666666666666
+ },
+ "reach": 0.8695652173913043,
+ "selected": [
+  "G1.1",
+  "G1.2",
+  "G1.3",
+  "G1.4",
+  "G1.5",
+  "G2.1",
+  "G2.2",
+  "G2.3",
+  "G6.1",
+  "G6.4",
+  "U3.1",
+  "U3.2",
+  "U3.3"
+ ],
+ "bullets": 13,
+ "project_lines": 28,
+ "coverage": 0.7717391304347826,
+ "emphasis": 0.29591836734693877,
+ "standing": 0.48159721160427527,
+ "incoherence": 0.4708692404606829,
+ "cost": 0.14769317730581746,
+ "cost_detail": {
+  "liability": 0.367,
+  "redundancy": 0.004
+ },
+ "depth": 0.7375,
+ "score": 0.8362004891273968,
+ "missing_required": [
+  "Backend engineering experience",
+  "Distributed systems concepts",
+  "Testing and code review",
+  "Job scheduler and event pipeline",
+  "Secure coding"
+ ],
+ "requirement_credit": [
+  {
+   "name": "Backend engineering experience",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "U3.3"
+   ]
+  },
+  {
+   "name": "Python or Go",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G1.1",
+    "U3.1",
+    "U3.3"
+   ]
+  },
+  {
+   "name": "Relational database / SQL",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "U3.2"
+   ]
+  },
+  {
+   "name": "REST or gRPC APIs",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "U3.3"
+   ]
+  },
+  {
+   "name": "Distributed systems concepts",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "U3.2",
+    "U3.3"
+   ]
+  },
+  {
+   "name": "Docker and CI/CD",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G2.3"
+   ]
+  },
+  {
+   "name": "Testing and code review",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "G6.1",
+    "U3.3"
+   ]
+  },
+  {
+   "name": "Design backend services",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "U3.3"
+   ]
+  },
+  {
+   "name": "API evolution",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "U3.3"
+   ]
+  },
+  {
+   "name": "Database schema and migrations",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "U3.2"
+   ]
+  },
+  {
+   "name": "Job scheduler and event pipeline",
+   "required": true,
+   "credit": 0.25,
+   "bullets": [
+    "U3.2",
+    "U3.3"
+   ]
+  },
+  {
+   "name": "CI/CD improvement",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G2.3"
+   ]
+  },
+  {
+   "name": "On-call and incident response",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G6.4"
+   ]
+  },
+  {
+   "name": "Secure coding",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "G6.1",
+    "U3.3"
+   ]
+  },
+  {
+   "name": "Kafka or event streaming",
+   "required": false,
+   "credit": 0.25,
+   "bullets": [
+    "U3.2",
+    "U3.3"
+   ]
+  },
+  {
+   "name": "Financial systems",
+   "required": false,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "Kubernetes or AWS",
+   "required": false,
+   "credit": 1.0,
+   "bullets": [
+    "G6.1"
+   ]
+  },
+  {
+   "name": "Application security",
+   "required": false,
+   "credit": 0.5,
+   "bullets": [
+    "G6.1",
+    "U3.3"
+   ]
+  }
+ ],
+ "trace": [
+  [
+   "add",
+   [
+    "U3.3"
+   ],
+   0.671
+  ],
+  [
+   "add",
+   [
+    "U3.2"
+   ],
+   0.858
+  ],
+  [
+   "add",
+   [
+    "G6.4"
+   ],
+   0.955
+  ],
+  [
+   "fill",
+   [
+    "G6.1"
+   ],
+   0.946
+  ],
+  [
+   "fill",
+   [
+    "U3.1"
+   ],
+   0.876
+  ],
+  [
+   "fill",
+   [
+    "G1.5"
+   ],
+   0.891
+  ],
+  [
+   "fill",
+   [
+    "G1.1"
+   ],
+   0.851
+  ],
+  [
+   "fill",
+   [
+    "G1.2"
+   ],
+   0.839
+  ],
+  [
+   "fill",
+   [
+    "G1.3"
+   ],
+   0.835
+  ],
+  [
+   "fill",
+   [
+    "G1.4"
+   ],
+   0.822
+  ],
+  [
+   "fill",
+   [
+    "G2.3"
+   ],
+   0.849
+  ],
+  [
+   "fill",
+   [
+    "G2.1"
+   ],
+   0.863
+  ],
+  [
+   "fill",
+   [
+    "G2.2"
+   ],
+   0.845
+  ]
+ ],
+ "page": [
+  {
+   "group": "G2",
+   "title": "Fuzzing an Open-Source Image-Decoding Library",
+   "bullets": [
+    "Found 5 memory-safety bugs, 3 of them heap buffer overflows, in an open-source image-decoding library by fuzzing it for 30 CPU-days with libFuzzer and AddressSanitizer.",
+    "Wrote fixes for 3 of the bugs, merged upstream with regression tests, and sent minimized reproducers for the other 2 to the maintainers.",
+    "Added the fuzz targets to the library's continuous integration, which now fuzzes each pull request for 10 minutes before merge."
+   ]
+  },
+  {
+   "group": "G1",
+   "title": "Prompt-Injection Evaluation of Tool-Using LLM Agents, Applied Security Lab",
+   "bullets": [
+    "Built a harness that runs 420 prompt-injection attacks against tool-using LLM agents in sandboxed tasks and records whether each attack reached a tool call.",
+    "Measured three published prompt-injection defenses on the harness; the strongest cut successful attacks from 31% to 9% and failed 4% of benign tasks.",
+    "Reported every attack success rate with bootstrap 95% confidence intervals over 5 seeds, which showed 2 of 12 gains claimed in earlier papers were within run-to-run noise.",
+    "Blocked 88% of the attacks that reached a tool call by giving each agent task an allowlist of the tools it needs and denying every other tool.",
+    "Built an LLM judge that labels attack success from transcripts, agreeing with two human labelers on 94% of 300 transcripts."
+   ]
+  },
+  {
+   "group": "G6",
+   "title": "Kubernetes Lab Platform on AWS for a Security Course, Graduate Research Assistant",
+   "bullets": [
+    "Gave each of 85 students an isolated lab environment by moving a security course's labs to a Kubernetes cluster on AWS, with network policies that block traffic between tenants.",
+    "Kept the platform at 99.5% availability during lab hours across two semesters for 160 students, and took the on-call shifts around assignment deadlines."
+   ]
+  },
+  {
+   "group": "U3",
+   "title": "Inventory Web App for a Regional Food Bank, Senior Capstone",
+   "bullets": [
+    "Replaced a food bank's shared spreadsheet with a Django and PostgreSQL web app that 30 volunteers use to log donations and stock.",
+    "Cut the monthly stock count from two days to half a day by designing an inventory schema that tracks each donated lot and its expiry date.",
+    "Added a REST API for the food bank's barcode scanners, with per-device tokens and rate limits."
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "name": "Backend engineering experience",
+   "required": true,
+   "capabilities": [
+    "backend services and APIs"
+   ],
+   "conditions": [
+    "2+ years"
+   ]
+  },
+  {
+   "name": "Python or Go",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "Python",
+    "Go"
+   ]
+  },
+  {
+   "name": "Relational database / SQL",
+   "required": true,
+   "capabilities": [
+    "databases and schema design"
+   ],
+   "conditions": [
+    "SQL",
+    "PostgreSQL"
+   ]
+  },
+  {
+   "name": "REST or gRPC APIs",
+   "required": true,
+   "capabilities": [
+    "backend services and APIs"
+   ],
+   "conditions": [
+    "REST",
+    "gRPC"
+   ]
+  },
+  {
+   "name": "Distributed systems concepts",
+   "required": true,
+   "capabilities": [
+    "distributed systems"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Docker and CI/CD",
+   "required": true,
+   "capabilities": [
+    "developer tooling and CI/CD"
+   ],
+   "conditions": [
+    "Docker"
+   ]
+  },
+  {
+   "name": "Testing and code review",
+   "required": true,
+   "capabilities": [
+    "code review and security assessment"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Design backend services",
+   "required": true,
+   "capabilities": [
+    "backend services and APIs"
+   ],
+   "conditions": [
+    "Python",
+    "Go",
+    "PostgreSQL"
+   ]
+  },
+  {
+   "name": "API evolution",
+   "required": true,
+   "capabilities": [
+    "backend services and APIs"
+   ],
+   "conditions": [
+    "REST",
+    "gRPC"
+   ]
+  },
+  {
+   "name": "Database schema and migrations",
+   "required": true,
+   "capabilities": [
+    "databases and schema design"
+   ],
+   "conditions": [
+    "PostgreSQL"
+   ]
+  },
+  {
+   "name": "Job scheduler and event pipeline",
+   "required": true,
+   "capabilities": [
+    "data pipelines"
+   ],
+   "conditions": [
+    "Kafka"
+   ]
+  },
+  {
+   "name": "CI/CD improvement",
+   "required": true,
+   "capabilities": [
+    "developer tooling and CI/CD"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "On-call and incident response",
+   "required": true,
+   "capabilities": [
+    "production ownership"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Secure coding",
+   "required": true,
+   "capabilities": [
+    "application security"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Kafka or event streaming",
+   "required": false,
+   "capabilities": [
+    "data pipelines"
+   ],
+   "conditions": [
+    "Kafka"
+   ]
+  },
+  {
+   "name": "Financial systems",
+   "required": false,
+   "capabilities": [],
+   "conditions": []
+  },
+  {
+   "name": "Kubernetes or AWS",
+   "required": false,
+   "capabilities": [
+    "containers and cloud infrastructure"
+   ],
+   "conditions": [
+    "Kubernetes",
+    "AWS"
+   ]
+  },
+  {
+   "name": "Application security",
+   "required": false,
+   "capabilities": [
+    "application security"
+   ],
+   "conditions": []
+  }
+ ],
+ "unmapped": [],
+ "skill_rows": [
+  {
+   "row": "appsec",
+   "title": "Secure SDLC",
+   "members": [
+    "OWASP Top 10",
+    "Security Code Review",
+    "Semgrep",
+    "Threat Modeling"
+   ]
+  },
+  {
+   "row": "detect",
+   "title": "Detection and Response",
+   "members": [
+    "Incident Response",
+    "Splunk",
+    "Account Takeover Detection",
+    "Detection Engineering"
+   ]
+  },
+  {
+   "row": "cloud",
+   "title": "Cloud and Kubernetes",
+   "members": [
+    "AWS",
+    "Kubernetes",
+    "Terraform",
+    "AWS IAM"
+   ]
+  },
+  {
+   "row": "offsec",
+   "title": "Offensive Security",
+   "members": [
+    "Burp Suite",
+    "Fuzzing",
+    "Exploit Development",
+    "libFuzzer"
+   ]
+  },
+  {
+   "row": "tools",
+   "title": "Programming",
+   "members": [
+    "Git",
+    "Docker",
+    "Python",
+    "Go",
+    "SQL"
+   ]
+  }
+ ],
+ "coursework": [
+  {
+   "degree": "halvorsen",
+   "courses": [
+    "Software Security",
+    "Cloud Security",
+    "Applied Cryptography",
+    "Privacy Engineering",
+    "Network Security",
+    "Operating Systems Security",
+    "Security Risk Management",
+    "Incident Response and Forensics",
+    "Security Metrics and Measurement",
+    "Malware Analysis",
+    "Reverse Engineering"
+   ]
+  },
+  {
+   "degree": "lakemont",
+   "courses": [
+    "Database Systems",
+    "Software Engineering",
+    "Introduction to Computer Security",
+    "Data Structures and Algorithms",
+    "Web Development",
+    "Discrete Mathematics",
+    "Probability and Statistics",
+    "Computer Networks",
+    "Computer Organization",
+    "Machine Learning",
+    "Mobile Application Development"
+   ]
+  }
+ ],
+ "projects_by": "engine",
+ "choice": {
+  "projects": [
+   "U3",
+   "G6",
+   "I1",
+   "G2",
+   "G1",
+   "I2"
+  ],
+  "why": "Jev: the six projects most likely to belong on the page",
+  "placed": [
+   "U3",
+   "G6",
+   "G2",
+   "G1"
+  ]
+ }
+}

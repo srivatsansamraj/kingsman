@@ -1,0 +1,624 @@
+{
+ "posting": "Detection and Response Engineer",
+ "posting_id": "paste-9725cefb",
+ "mode": "capabilities",
+ "extraction": {
+  "requirements": 18,
+  "required": 14,
+  "keywords": 31
+ },
+ "unmet": 0.5528455284552846,
+ "skill_scores": {
+  "Detection Engineering": 0.5109,
+  "Sigma": 0.5109,
+  "Splunk": 0.5109,
+  "YARA": 0.587,
+  "Incident Response": 0.4891,
+  "Malware Analysis": 0.4022,
+  "Tabletop Exercises": 0.4891,
+  "AWS": 0.0217,
+  "Python": 0.1304,
+  "Git": 0.0217
+ },
+ "demand": {
+  "sec.detection": 1.0
+ },
+ "reach": 0.7065217391304348,
+ "selected": [
+  "G1.1",
+  "G1.2",
+  "G1.3",
+  "G1.4",
+  "G1.5",
+  "G2.1",
+  "G2.2",
+  "G2.3",
+  "G4.1",
+  "G4.2",
+  "I2.1",
+  "I2.2",
+  "I2.3"
+ ],
+ "bullets": 13,
+ "project_lines": 28,
+ "coverage": 0.7065217391304348,
+ "emphasis": 0.2927932667017359,
+ "standing": 0.4808150371189385,
+ "incoherence": 0.34550001209764314,
+ "cost": 0.09899126709057768,
+ "cost_detail": {
+  "liability": 0.245,
+  "redundancy": 0.004
+ },
+ "depth": 0.7375,
+ "score": 0.8499289290312172,
+ "missing_required": [
+  "U.S. citizenship",
+  "Secret clearance",
+  "SOC/IR/detection experience",
+  "MITRE ATT&CK",
+  "GCIH or GCIA or GCFA or CySA+",
+  "MITRE ATT&CK coverage mapping"
+ ],
+ "requirement_credit": [
+  {
+   "name": "U.S. citizenship",
+   "required": true,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "Secret clearance",
+   "required": true,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "SOC/IR/detection experience",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "G4.2",
+    "I2.1",
+    "I2.3"
+   ]
+  },
+  {
+   "name": "Splunk detection content",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G4.2",
+    "I2.1"
+   ]
+  },
+  {
+   "name": "incident response",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "I2.3"
+   ]
+  },
+  {
+   "name": "MITRE ATT&CK",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "G4.2"
+   ]
+  },
+  {
+   "name": "Python or PowerShell scripting",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G1.1",
+    "G4.1",
+    "I2.2"
+   ]
+  },
+  {
+   "name": "GCIH or GCIA or GCFA or CySA+",
+   "required": true,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "detection rule development",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G4.2",
+    "I2.1"
+   ]
+  },
+  {
+   "name": "MITRE ATT&CK coverage mapping",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "G4.2",
+    "I2.1"
+   ]
+  },
+  {
+   "name": "incident lead",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "I2.3"
+   ]
+  },
+  {
+   "name": "host and memory forensics",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G4.1"
+   ]
+  },
+  {
+   "name": "playbooks and SOAR automation",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "I2.3"
+   ]
+  },
+  {
+   "name": "threat intelligence",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G4.2"
+   ]
+  },
+  {
+   "name": "cloud detection",
+   "required": false,
+   "credit": 1.0,
+   "bullets": [
+    "G4.2",
+    "I2.1"
+   ]
+  },
+  {
+   "name": "malware analysis and YARA",
+   "required": false,
+   "credit": 1.0,
+   "bullets": [
+    "G4.1"
+   ]
+  },
+  {
+   "name": "detection-as-code",
+   "required": false,
+   "credit": 1.0,
+   "bullets": [
+    "G4.2",
+    "I2.1"
+   ]
+  },
+  {
+   "name": "bachelor's degree",
+   "required": false,
+   "credit": 1.0,
+   "bullets": []
+  }
+ ],
+ "trace": [
+  [
+   "add",
+   [
+    "G4.2"
+   ],
+   1.062
+  ],
+  [
+   "fill",
+   [
+    "G4.1"
+   ],
+   0.971
+  ],
+  [
+   "fill",
+   [
+    "I2.1"
+   ],
+   1.003
+  ],
+  [
+   "fill",
+   [
+    "I2.3"
+   ],
+   1.029
+  ],
+  [
+   "fill",
+   [
+    "I2.2"
+   ],
+   1.013
+  ],
+  [
+   "fill",
+   [
+    "G1.2"
+   ],
+   0.986
+  ],
+  [
+   "fill",
+   [
+    "G1.4"
+   ],
+   0.982
+  ],
+  [
+   "fill",
+   [
+    "G1.1"
+   ],
+   0.965
+  ],
+  [
+   "fill",
+   [
+    "G1.3"
+   ],
+   0.932
+  ],
+  [
+   "fill",
+   [
+    "G1.5"
+   ],
+   0.918
+  ],
+  [
+   "fill",
+   [
+    "G2.1"
+   ],
+   0.905
+  ],
+  [
+   "fill",
+   [
+    "G2.3"
+   ],
+   0.892
+  ],
+  [
+   "fill",
+   [
+    "G2.2"
+   ],
+   0.873
+  ]
+ ],
+ "page": [
+  {
+   "group": "G2",
+   "title": "Fuzzing an Open-Source Image-Decoding Library",
+   "bullets": [
+    "Found 5 memory-safety bugs, 3 of them heap buffer overflows, in an open-source image-decoding library by fuzzing it for 30 CPU-days with libFuzzer and AddressSanitizer.",
+    "Wrote fixes for 3 of the bugs, merged upstream with regression tests, and sent minimized reproducers for the other 2 to the maintainers.",
+    "Added the fuzz targets to the library's continuous integration, which now fuzzes each pull request for 10 minutes before merge."
+   ]
+  },
+  {
+   "group": "G1",
+   "title": "Prompt-Injection Evaluation of Tool-Using LLM Agents, Applied Security Lab",
+   "bullets": [
+    "Built a harness that runs 420 prompt-injection attacks against tool-using LLM agents in sandboxed tasks and records whether each attack reached a tool call.",
+    "Measured three published prompt-injection defenses on the harness; the strongest cut successful attacks from 31% to 9% and failed 4% of benign tasks.",
+    "Reported every attack success rate with bootstrap 95% confidence intervals over 5 seeds, which showed 2 of 12 gains claimed in earlier papers were within run-to-run noise.",
+    "Blocked 88% of the attacks that reached a tool call by giving each agent task an allowlist of the tools it needs and denying every other tool.",
+    "Built an LLM judge that labels attack success from transcripts, agreeing with two human labelers on 94% of 300 transcripts."
+   ]
+  },
+  {
+   "group": "G4",
+   "title": "Malware Triage Sandbox, Malware Analysis Course",
+   "bullets": [
+    "Built a sandbox that runs Windows malware samples in a snapshot-restored virtual machine and collects process, file and network activity into one report per sample.",
+    "Wrote YARA rules from the sandbox reports for 4 malware families, matching 57 of 60 held-out samples with no hits on 500 clean binaries."
+   ]
+  },
+  {
+   "group": "I2",
+   "title": "Detection Engineering Intern, Quarrystone Freight",
+   "bullets": [
+    "Wrote 18 Sigma detections for credential abuse in identity-provider logs, each tested against replayed attack data before release to the security operations team.",
+    "Found 4 compromised contractor accounts within a month of launching a Python and SQL job that scores sign-ins for impossible travel and token reuse.",
+    "Wrote response runbooks for the 6 highest-volume alerts and ran a tabletop exercise with the on-call team to test them."
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "name": "U.S. citizenship",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "U.S. citizenship"
+   ]
+  },
+  {
+   "name": "Secret clearance",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "Secret clearance"
+   ]
+  },
+  {
+   "name": "SOC/IR/detection experience",
+   "required": true,
+   "capabilities": [
+    "incident response",
+    "detection engineering"
+   ],
+   "conditions": [
+    "5+ years"
+   ]
+  },
+  {
+   "name": "Splunk detection content",
+   "required": true,
+   "capabilities": [
+    "detection engineering"
+   ],
+   "conditions": [
+    "Splunk",
+    "SPL"
+   ]
+  },
+  {
+   "name": "incident response",
+   "required": true,
+   "capabilities": [
+    "incident response"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "MITRE ATT&CK",
+   "required": true,
+   "capabilities": [
+    "threat intelligence"
+   ],
+   "conditions": [
+    "MITRE ATT&CK"
+   ]
+  },
+  {
+   "name": "Python or PowerShell scripting",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "Python",
+    "PowerShell"
+   ]
+  },
+  {
+   "name": "GCIH or GCIA or GCFA or CySA+",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "GCIH",
+    "GCIA",
+    "GCFA",
+    "CySA+"
+   ]
+  },
+  {
+   "name": "detection rule development",
+   "required": true,
+   "capabilities": [
+    "detection engineering"
+   ],
+   "conditions": [
+    "Splunk",
+    "Sigma"
+   ]
+  },
+  {
+   "name": "MITRE ATT&CK coverage mapping",
+   "required": true,
+   "capabilities": [
+    "detection engineering"
+   ],
+   "conditions": [
+    "MITRE ATT&CK"
+   ]
+  },
+  {
+   "name": "incident lead",
+   "required": true,
+   "capabilities": [
+    "incident response"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "host and memory forensics",
+   "required": true,
+   "capabilities": [
+    "digital forensics"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "playbooks and SOAR automation",
+   "required": true,
+   "capabilities": [
+    "incident response"
+   ],
+   "conditions": [
+    "SOAR",
+    "Python"
+   ]
+  },
+  {
+   "name": "threat intelligence",
+   "required": true,
+   "capabilities": [
+    "threat intelligence"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "cloud detection",
+   "required": false,
+   "capabilities": [
+    "detection engineering"
+   ],
+   "conditions": [
+    "AWS",
+    "Azure",
+    "AWS CloudTrail",
+    "Azure AD"
+   ]
+  },
+  {
+   "name": "malware analysis and YARA",
+   "required": false,
+   "capabilities": [
+    "digital forensics"
+   ],
+   "conditions": [
+    "YARA"
+   ]
+  },
+  {
+   "name": "detection-as-code",
+   "required": false,
+   "capabilities": [
+    "detection engineering"
+   ],
+   "conditions": [
+    "Git"
+   ]
+  },
+  {
+   "name": "bachelor's degree",
+   "required": false,
+   "capabilities": [],
+   "conditions": [
+    "bachelor's degree in cybersecurity or computer science"
+   ]
+  }
+ ],
+ "unmapped": [],
+ "skill_rows": [
+  {
+   "row": "detect",
+   "title": "Detection and Response",
+   "members": [
+    "YARA",
+    "Detection Engineering",
+    "Sigma",
+    "Splunk",
+    "Incident Response",
+    "Tabletop Exercises",
+    "Malware Analysis"
+   ]
+  },
+  {
+   "row": "appsec",
+   "title": "Secure SDLC",
+   "members": [
+    "Threat Modeling",
+    "Vulnerability Management",
+    "API Security",
+    "Authorization Testing"
+   ]
+  },
+  {
+   "row": "cloud",
+   "title": "Cloud and Kubernetes",
+   "members": [
+    "AWS",
+    "Terraform",
+    "Docker",
+    "Kubernetes"
+   ]
+  },
+  {
+   "row": "offsec",
+   "title": "Offensive Security",
+   "members": [
+    "AddressSanitizer",
+    "Burp Suite",
+    "Exploit Development",
+    "Fuzzing"
+   ]
+  },
+  {
+   "row": "tools",
+   "title": "Programming",
+   "members": [
+    "Python",
+    "Git",
+    "Go",
+    "Java"
+   ]
+  }
+ ],
+ "coursework": [
+  {
+   "degree": "halvorsen",
+   "courses": [
+    "Incident Response and Forensics",
+    "Malware Analysis",
+    "Security Metrics and Measurement",
+    "Security Risk Management",
+    "Privacy Engineering",
+    "Applied Cryptography",
+    "Cloud Security",
+    "Large Language Model Security",
+    "Machine Learning Security",
+    "Network Security",
+    "Operating Systems Security"
+   ]
+  },
+  {
+   "degree": "lakemont",
+   "courses": [
+    "Introduction to Computer Security",
+    "Data Structures and Algorithms",
+    "Discrete Mathematics",
+    "Probability and Statistics",
+    "Software Engineering",
+    "Web Development",
+    "Computer Networks",
+    "Computer Organization",
+    "Database Systems",
+    "Machine Learning",
+    "Mobile Application Development"
+   ]
+  }
+ ],
+ "projects_by": "engine",
+ "choice": {
+  "projects": [
+   "I2",
+   "G4",
+   "G5",
+   "G6",
+   "U1",
+   "G2"
+  ],
+  "why": "Jev: the six projects most likely to belong on the page",
+  "placed": [
+   "I2",
+   "G4",
+   "G2"
+  ]
+ }
+}

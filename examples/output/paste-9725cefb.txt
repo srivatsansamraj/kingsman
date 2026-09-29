@@ -1,0 +1,33 @@
+================================================================================================
+POSTING: Detection and Response Engineer
+================================================================================================
+18 requirements (14 required), 31 keywords
+mode capabilities, reach 0.71, unmet word demand 55%
+demand:
+    sec.detection          1.00  ############################################
+
+13 bullets in 4 projects, 28/28 project lines
+  coverage 0.71   emphasis 0.29   standing 0.48   incoherence 0.35   cost 0.10   depth 0.74   score 0.850
+
+  Fuzzing an Open-Source Image-Decoding Library
+      Found 5 memory-safety bugs, 3 of them heap buffer overflows, in an open-source image-decoding library by fuzzing it for 30 CPU-days with libFuzzer and AddressSanitizer.
+      Wrote fixes for 3 of the bugs, merged upstream with regression tests, and sent minimized reproducers for the other 2 to the maintainers.
+      Added the fuzz targets to the library's continuous integration, which now fuzzes each pull request for 10 minutes before merge.
+
+  Prompt-Injection Evaluation of Tool-Using LLM Agents, Applied Security Lab
+      Built a harness that runs 420 prompt-injection attacks against tool-using LLM agents in sandboxed tasks and records whether each attack reached a tool call.
+      Measured three published prompt-injection defenses on the harness; the strongest cut successful attacks from 31% to 9% and failed 4% of benign tasks.
+      Reported every attack success rate with bootstrap 95% confidence intervals over 5 seeds, which showed 2 of 12 gains claimed in earlier papers were within run-to-run noise.
+      Blocked 88% of the attacks that reached a tool call by giving each agent task an allowlist of the tools it needs and denying every other tool.
+      Built an LLM judge that labels attack success from transcripts, agreeing with two human labelers on 94% of 300 transcripts.
+
+  Malware Triage Sandbox, Malware Analysis Course
+      Built a sandbox that runs Windows malware samples in a snapshot-restored virtual machine and collects process, file and network activity into one report per sample.
+      Wrote YARA rules from the sandbox reports for 4 malware families, matching 57 of 60 held-out samples with no hits on 500 clean binaries.
+
+  Detection Engineering Intern, Quarrystone Freight
+      Wrote 18 Sigma detections for credential abuse in identity-provider logs, each tested against replayed attack data before release to the security operations team.
+      Found 4 compromised contractor accounts within a month of launching a Python and SQL job that scores sign-ins for impossible travel and token reuse.
+      Wrote response runbooks for the 6 highest-volume alerts and ran a tabletop exercise with the on-call team to test them.
+
+  required, not fully met: U.S. citizenship, Secret clearance, SOC/IR/detection experience, MITRE ATT&CK, GCIH or GCIA or GCFA or CySA+, MITRE ATT&CK coverage mapping

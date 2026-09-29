@@ -1,0 +1,273 @@
+{
+ "id": "paste-9725cefb",
+ "sha": "9725cefb85922a82",
+ "requirements": [
+  {
+   "name": "U.S. citizenship",
+   "tokens": [
+    "U.S. citizenship",
+    "citizen"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "Secret clearance",
+   "tokens": [
+    "Secret security clearance",
+    "active Secret",
+    "Top Secret",
+    "TS",
+    "security clearance"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "SOC/IR/detection experience",
+   "tokens": [
+    "5+ years",
+    "SOC",
+    "incident response",
+    "detection engineering",
+    "security operations center"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "Splunk detection content",
+   "tokens": [
+    "Splunk",
+    "SPL",
+    "SIEM",
+    "detection rules",
+    "detection content"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "incident response",
+   "tokens": [
+    "incident response",
+    "forensic analysis",
+    "Windows forensics",
+    "IR"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "MITRE ATT&CK",
+   "tokens": [
+    "MITRE ATT&CK",
+    "ATT&CK framework",
+    "TTP mapping"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "Python or PowerShell scripting",
+   "tokens": [
+    "Python",
+    "PowerShell",
+    "scripting"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "GCIH or GCIA or GCFA or CySA+",
+   "tokens": [
+    "GCIH",
+    "GCIA",
+    "GCFA",
+    "CySA+",
+    "DoD 8570",
+    "IAT Level II"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "detection rule development",
+   "tokens": [
+    "detection rules",
+    "Splunk",
+    "Sigma",
+    "identity telemetry",
+    "endpoint telemetry",
+    "cloud telemetry",
+    "EDR",
+    "AWS CloudTrail",
+    "Azure AD"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "MITRE ATT&CK coverage mapping",
+   "tokens": [
+    "MITRE ATT&CK",
+    "coverage mapping",
+    "gap analysis"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "incident lead",
+   "tokens": [
+    "incident lead",
+    "scoping",
+    "containment",
+    "evidence collection",
+    "incident reporting"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "host and memory forensics",
+   "tokens": [
+    "host forensics",
+    "memory forensics",
+    "Windows forensics",
+    "Linux forensics",
+    "digital forensics"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "playbooks and SOAR automation",
+   "tokens": [
+    "response playbooks",
+    "SOAR",
+    "automation",
+    "Python"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "threat intelligence",
+   "tokens": [
+    "threat intelligence",
+    "campaign analysis",
+    "federal networks"
+   ],
+   "required": true,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "cloud detection",
+   "tokens": [
+    "cloud control plane",
+    "AWS",
+    "Amazon Web Services",
+    "Azure",
+    "AWS CloudTrail",
+    "Azure AD"
+   ],
+   "required": false,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "malware analysis and YARA",
+   "tokens": [
+    "malware analysis",
+    "YARA",
+    "YARA rules"
+   ],
+   "required": false,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "detection-as-code",
+   "tokens": [
+    "detection-as-code",
+    "version control",
+    "CI",
+    "continuous integration",
+    "testing detections",
+    "Git"
+   ],
+   "required": false,
+   "line": null,
+   "source": null
+  },
+  {
+   "name": "bachelor's degree",
+   "tokens": [
+    "bachelor's degree",
+    "cybersecurity",
+    "computer science"
+   ],
+   "required": false,
+   "line": null,
+   "source": null
+  }
+ ],
+ "keywords": [
+  "Detection Engineering",
+  "Splunk",
+  "SPL",
+  "Sigma",
+  "SIEM",
+  "MITRE ATT&CK",
+  "Incident Response",
+  "SOC",
+  "Security Operations Center",
+  "EDR",
+  "AWS CloudTrail",
+  "Azure AD",
+  "Amazon Web Services",
+  "Python",
+  "PowerShell",
+  "SOAR",
+  "Host Forensics",
+  "Memory Forensics",
+  "Windows Forensics",
+  "Linux Forensics",
+  "Threat Intelligence",
+  "YARA",
+  "Malware Analysis",
+  "GCIH",
+  "GCIA",
+  "GCFA",
+  "CySA+",
+  "DoD 8570",
+  "Secret Clearance",
+  "Detection-as-Code",
+  "Cloud Security"
+ ],
+ "info": {
+  "reader": "slots-claude-sonnet-4-6-low",
+  "answered_by": "claude-sonnet-4-6",
+  "fallback": null,
+  "attempts": 1,
+  "input_tokens": 1622,
+  "output_tokens": 718,
+  "seconds": 11.4,
+  "dropped": []
+ }
+}

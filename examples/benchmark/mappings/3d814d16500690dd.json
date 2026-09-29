@@ -1,0 +1,218 @@
+{
+ "requirements": [
+  {
+   "name": "ML system evaluation/attack",
+   "tokens": [
+    "evaluating or attacking machine learning systems",
+    "ML evaluation",
+    "red teaming",
+    "attack suites"
+   ],
+   "required": true,
+   "capabilities": [
+    "LLM red teaming",
+    "model and judge evaluation"
+   ],
+   "capability": "LLM red teaming",
+   "conditions": []
+  },
+  {
+   "name": "Python",
+   "tokens": [
+    "Python",
+    "experiment pipelines"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "Python"
+   ]
+  },
+  {
+   "name": "Prompt injection & jailbreaks",
+   "tokens": [
+    "prompt injection",
+    "jailbreaks",
+    "indirect prompt injection",
+    "tool misuse"
+   ],
+   "required": true,
+   "capabilities": [
+    "LLM red teaming"
+   ],
+   "capability": "LLM red teaming",
+   "conditions": []
+  },
+  {
+   "name": "OWASP LLM Top 10",
+   "tokens": [
+    "OWASP Top 10 for LLM applications",
+    "OWASP LLM"
+   ],
+   "required": true,
+   "capabilities": [
+    "prompt injection defence"
+   ],
+   "capability": "prompt injection defence",
+   "conditions": [
+    "OWASP Top 10 for LLM Applications"
+   ]
+  },
+  {
+   "name": "Statistics for experiments",
+   "tokens": [
+    "statistics",
+    "sampling",
+    "variance",
+    "confidence intervals",
+    "significance"
+   ],
+   "required": true,
+   "capabilities": [
+    "measurement and statistics"
+   ],
+   "capability": "measurement and statistics",
+   "conditions": []
+  },
+  {
+   "name": "LLM APIs & agent frameworks",
+   "tokens": [
+    "LLM APIs",
+    "agent frameworks",
+    "tool calling"
+   ],
+   "required": true,
+   "capabilities": [
+    "agent and LLM system design"
+   ],
+   "capability": "agent and LLM system design",
+   "conditions": []
+  },
+  {
+   "name": "Evaluation harness development",
+   "tokens": [
+    "evaluation harness",
+    "sandboxed environments",
+    "attack generators",
+    "scoring",
+    "dashboards"
+   ],
+   "required": true,
+   "capabilities": [
+    "evaluation and benchmark design"
+   ],
+   "capability": "evaluation and benchmark design",
+   "conditions": []
+  },
+  {
+   "name": "LLM-based graders",
+   "tokens": [
+    "LLM-based graders",
+    "LLM judges",
+    "human label agreement"
+   ],
+   "required": true,
+   "capabilities": [
+    "model and judge evaluation"
+   ],
+   "capability": "model and judge evaluation",
+   "conditions": []
+  },
+  {
+   "name": "Defense measurement",
+   "tokens": [
+    "input filtering",
+    "tool permissioning",
+    "model-based classifiers",
+    "false refusals"
+   ],
+   "required": true,
+   "capabilities": [
+    "AI safeguard testing"
+   ],
+   "capability": "AI safeguard testing",
+   "conditions": []
+  },
+  {
+   "name": "Adversarial ML research",
+   "tokens": [
+    "adversarial machine learning",
+    "adversarial ML"
+   ],
+   "required": false,
+   "capabilities": [
+    "adversarial machine learning"
+   ],
+   "capability": "adversarial machine learning",
+   "conditions": []
+  },
+  {
+   "name": "Model training/fine-tuning",
+   "tokens": [
+    "PyTorch",
+    "fine-tuning",
+    "model training"
+   ],
+   "required": false,
+   "capabilities": [
+    "LLM training and fine-tuning",
+    "model training"
+   ],
+   "capability": "LLM training and fine-tuning",
+   "conditions": [
+    "PyTorch"
+   ]
+  },
+  {
+   "name": "Application security/pentesting",
+   "tokens": [
+    "application security",
+    "penetration testing",
+    "pentesting"
+   ],
+   "required": false,
+   "capabilities": [
+    "application security",
+    "infrastructure and network penetration testing"
+   ],
+   "capability": "application security",
+   "conditions": []
+  },
+  {
+   "name": "Containerized sandboxes",
+   "tokens": [
+    "Docker",
+    "gVisor",
+    "Firecracker",
+    "containerized sandboxes"
+   ],
+   "required": false,
+   "capabilities": [
+    "agent containment and permissions"
+   ],
+   "capability": "agent containment and permissions",
+   "conditions": [
+    "Docker",
+    "gVisor",
+    "Firecracker"
+   ]
+  }
+ ],
+ "valid": true,
+ "errors": [],
+ "first_errors": [],
+ "attempts": 1,
+ "input_tokens": 1125,
+ "output_tokens": 664,
+ "seconds": 25.2,
+ "batch": 5,
+ "title": "AI Security Evaluation Engineer",
+ "vocabulary_sha256_16": "fce4b8d6fbc868de",
+ "format": 3,
+ "model": "claude-opus-5-5",
+ "answered_by": "claude-opus-5-5",
+ "fallback": null,
+ "made": "2026-09-29T06:36:06",
+ "posting": "paste-3d814d16"
+}

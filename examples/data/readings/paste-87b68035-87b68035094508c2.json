@@ -1,0 +1,238 @@
+{
+ "id": "paste-87b68035",
+ "sha": "87b68035094508c2",
+ "requirements": [
+  {
+   "name": "vulnerability research experience",
+   "tokens": [
+    "vulnerability research",
+    "penetration testing",
+    "exploit development",
+    "CTF competitions",
+    "published CVEs",
+    "open-source security work",
+    "2+ years"
+   ],
+   "required": true,
+   "line": 16,
+   "source": "- 2+ years of experience in vulnerability research, penetration testing or exploit development, or equivalent research (CTF competitions, published CVEs, open-source security work)."
+  },
+  {
+   "name": "C programming",
+   "tokens": [
+    "C programming",
+    "memory safety",
+    "stack",
+    "heap"
+   ],
+   "required": true,
+   "line": 17,
+   "source": "- Strong C programming skills and a working understanding of memory safety, the stack and the heap."
+  },
+  {
+   "name": "coverage-guided fuzzing",
+   "tokens": [
+    "coverage-guided fuzzer",
+    "libFuzzer",
+    "AFL++",
+    "AddressSanitizer",
+    "sanitizers",
+    "fuzzing"
+   ],
+   "required": true,
+   "line": 18,
+   "source": "- Experience with at least one coverage-guided fuzzer and with sanitizers such as AddressSanitizer."
+  },
+  {
+   "name": "debugger proficiency",
+   "tokens": [
+    "debugger",
+    "GDB",
+    "WinDbg",
+    "LLDB"
+   ],
+   "required": true,
+   "line": 19,
+   "source": "- Experience with a debugger (GDB, WinDbg or LLDB) and a disassembler."
+  },
+  {
+   "name": "disassembler proficiency",
+   "tokens": [
+    "disassembler",
+    "Ghidra",
+    "IDA"
+   ],
+   "required": true,
+   "line": 19,
+   "source": "- Experience with a debugger (GDB, WinDbg or LLDB) and a disassembler."
+  },
+  {
+   "name": "Python scripting",
+   "tokens": [
+    "Python",
+    "tooling",
+    "automation"
+   ],
+   "required": true,
+   "line": 20,
+   "source": "- Proficiency in Python for tooling and automation."
+  },
+  {
+   "name": "fuzzing harness development",
+   "tokens": [
+    "fuzzing harnesses",
+    "parsers",
+    "network services",
+    "libFuzzer",
+    "AFL++",
+    "custom tooling"
+   ],
+   "required": true,
+   "line": 8,
+   "source": "- Build fuzzing harnesses for parsers and network services using libFuzzer, AFL++ or custom tooling, and keep them running at scale."
+  },
+  {
+   "name": "crash triage",
+   "tokens": [
+    "triage crashes",
+    "root cause analysis",
+    "exploitability"
+   ],
+   "required": true,
+   "line": 9,
+   "source": "- Triage crashes, identify root causes and determine exploitability."
+  },
+  {
+   "name": "proof-of-concept exploit development",
+   "tokens": [
+    "proof-of-concept exploits",
+    "memory corruption",
+    "heap overflow",
+    "use-after-free",
+    "type confusion"
+   ],
+   "required": true,
+   "line": 10,
+   "source": "- Develop proof-of-concept exploits for memory corruption bugs (heap overflows, use-after-free, type confusion) to demonstrate impact."
+  },
+  {
+   "name": "reverse engineering",
+   "tokens": [
+    "reverse engineer",
+    "closed-source binaries",
+    "Ghidra",
+    "IDA",
+    "attack surface"
+   ],
+   "required": true,
+   "line": 11,
+   "source": "- Reverse engineer closed-source binaries with Ghidra or IDA to find attack surface."
+  },
+  {
+   "name": "web and API testing",
+   "tokens": [
+    "web testing",
+    "API testing"
+   ],
+   "required": true,
+   "line": 12,
+   "source": "- Test web and API front ends of client products when they are in scope."
+  },
+  {
+   "name": "findings report writing",
+   "tokens": [
+    "findings reports",
+    "reproduction steps",
+    "severity",
+    "remediation advice"
+   ],
+   "required": true,
+   "line": 13,
+   "source": "- Write findings reports with reproduction steps, severity and remediation advice, and present them to client engineers."
+  },
+  {
+   "name": "modern exploit mitigations",
+   "tokens": [
+    "ASLR",
+    "DEP",
+    "stack canaries",
+    "CFI",
+    "modern mitigations",
+    "exploitation"
+   ],
+   "required": false,
+   "line": 23,
+   "source": "- Exploitation experience on modern mitigations (ASLR, DEP, stack canaries, CFI)."
+  },
+  {
+   "name": "kernel internals",
+   "tokens": [
+    "Linux kernel internals",
+    "Windows kernel internals"
+   ],
+   "required": false,
+   "line": 24,
+   "source": "- Experience with Linux or Windows kernel internals."
+  },
+  {
+   "name": "security certifications",
+   "tokens": [
+    "OSCP",
+    "OSED"
+   ],
+   "required": false,
+   "line": 25,
+   "source": "- OSCP, OSED or equivalent certifications."
+  },
+  {
+   "name": "upstream vulnerability disclosure",
+   "tokens": [
+    "reporting vulnerabilities upstream",
+    "CVE",
+    "responsible disclosure"
+   ],
+   "required": false,
+   "line": 26,
+   "source": "- A history of reporting vulnerabilities upstream and seeing them fixed."
+  }
+ ],
+ "keywords": [
+  "vulnerability research",
+  "exploit development",
+  "fuzzing",
+  "libFuzzer",
+  "AFL++",
+  "reverse engineering",
+  "Ghidra",
+  "IDA Pro",
+  "memory corruption",
+  "heap overflow",
+  "use-after-free",
+  "type confusion",
+  "AddressSanitizer",
+  "GDB",
+  "WinDbg",
+  "LLDB",
+  "C programming",
+  "Python",
+  "penetration testing",
+  "OSCP",
+  "OSED",
+  "proof-of-concept",
+  "CVE",
+  "kernel internals",
+  "ASLR",
+  "DEP",
+  "CFI"
+ ],
+ "info": {
+  "reader": "slots-claude-sonnet-4-6-low",
+  "answered_by": "claude-sonnet-4-6",
+  "fallback": null,
+  "attempts": 1,
+  "input_tokens": 1579,
+  "output_tokens": 562,
+  "seconds": 8.6,
+  "dropped": []
+ }
+}

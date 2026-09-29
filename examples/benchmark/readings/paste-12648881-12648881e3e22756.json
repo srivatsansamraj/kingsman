@@ -1,0 +1,267 @@
+{
+ "id": "paste-12648881",
+ "sha": "12648881e3e22756",
+ "requirements": [
+  {
+   "name": "Backend engineering experience",
+   "tokens": [
+    "backend services",
+    "software engineering",
+    "2+ years"
+   ],
+   "required": true,
+   "line": 16,
+   "source": "- 2+ years of professional software engineering experience building backend services, or equivalent experience from substantial projects."
+  },
+  {
+   "name": "Python or Go",
+   "tokens": [
+    "Python",
+    "Go",
+    "Golang"
+   ],
+   "required": true,
+   "line": 17,
+   "source": "- Proficiency in Python or Go."
+  },
+  {
+   "name": "Relational database / SQL",
+   "tokens": [
+    "relational database schemas",
+    "SQL",
+    "PostgreSQL",
+    "database design"
+   ],
+   "required": true,
+   "line": 18,
+   "source": "- Experience designing relational database schemas and writing efficient SQL (PostgreSQL preferred)."
+  },
+  {
+   "name": "REST or gRPC APIs",
+   "tokens": [
+    "REST API",
+    "gRPC",
+    "API design",
+    "versioning",
+    "rate limiting"
+   ],
+   "required": true,
+   "line": 19,
+   "source": "- Experience building and maintaining REST or gRPC APIs."
+  },
+  {
+   "name": "Distributed systems concepts",
+   "tokens": [
+    "distributed systems",
+    "consistency",
+    "retries",
+    "idempotency",
+    "queues",
+    "message queues"
+   ],
+   "required": true,
+   "line": 20,
+   "source": "- Familiarity with distributed systems concepts: consistency, retries, idempotency, queues."
+  },
+  {
+   "name": "Docker and CI/CD",
+   "tokens": [
+    "Docker",
+    "CI/CD",
+    "continuous integration",
+    "continuous delivery",
+    "deployment pipelines"
+   ],
+   "required": true,
+   "line": 21,
+   "source": "- Experience with Docker and a CI/CD system."
+  },
+  {
+   "name": "Testing and code review",
+   "tokens": [
+    "unit tests",
+    "integration tests",
+    "test suites",
+    "code review"
+   ],
+   "required": true,
+   "line": 22,
+   "source": "- A habit of writing tests and reviewing code carefully."
+  },
+  {
+   "name": "Design backend services",
+   "tokens": [
+    "design",
+    "build",
+    "operate backend services",
+    "Python",
+    "Go",
+    "PostgreSQL"
+   ],
+   "required": true,
+   "line": 8,
+   "source": "- Design, build and operate backend services in Python and Go, with PostgreSQL as our main datastore."
+  },
+  {
+   "name": "API evolution",
+   "tokens": [
+    "REST API",
+    "gRPC",
+    "versioning",
+    "authentication",
+    "rate limiting"
+   ],
+   "required": true,
+   "line": 9,
+   "source": "- Evolve our public REST API and internal gRPC interfaces, including versioning, authentication and rate limiting."
+  },
+  {
+   "name": "Database schema and migrations",
+   "tokens": [
+    "database schema design",
+    "migrations",
+    "concurrent writes",
+    "financial data",
+    "PostgreSQL"
+   ],
+   "required": true,
+   "line": 10,
+   "source": "- Design database schemas and migrations that keep financial data correct under concurrent writes."
+  },
+  {
+   "name": "Job scheduler and event pipeline",
+   "tokens": [
+    "job scheduler",
+    "Kafka",
+    "idempotency",
+    "retries",
+    "event pipeline"
+   ],
+   "required": true,
+   "line": 11,
+   "source": "- Improve the reliability of our job scheduler and event pipeline (Kafka), including idempotency and retries."
+  },
+  {
+   "name": "CI/CD improvement",
+   "tokens": [
+    "CI/CD pipelines",
+    "test suites",
+    "deployment tooling"
+   ],
+   "required": true,
+   "line": 12,
+   "source": "- Improve our CI/CD pipelines, test suites and deployment tooling."
+  },
+  {
+   "name": "On-call and incident response",
+   "tokens": [
+    "on-call",
+    "incident response",
+    "incident follow-up"
+   ],
+   "required": true,
+   "line": 13,
+   "source": "- Participate in the on-call rotation for the services the team owns, and lead the follow-up after incidents."
+  },
+  {
+   "name": "Secure coding",
+   "tokens": [
+    "secure coding",
+    "secrets management",
+    "access control",
+    "security"
+   ],
+   "required": true,
+   "line": 14,
+   "source": "- Work with our security engineer on secure coding practices, secrets handling and access control in our services."
+  },
+  {
+   "name": "Kafka or event streaming",
+   "tokens": [
+    "Kafka",
+    "event streaming",
+    "message streaming",
+    "Apache Kafka"
+   ],
+   "required": false,
+   "line": 24,
+   "source": "- Experience with Kafka or another event streaming platform."
+  },
+  {
+   "name": "Financial systems",
+   "tokens": [
+    "payments",
+    "accounting",
+    "financial systems",
+    "fintech",
+    "crop-loan",
+    "bank reconciliation"
+   ],
+   "required": false,
+   "line": 25,
+   "source": "- Experience with payments, accounting or other financial systems."
+  },
+  {
+   "name": "Kubernetes or AWS",
+   "tokens": [
+    "Kubernetes",
+    "K8s",
+    "Amazon Web Services",
+    "AWS",
+    "container orchestration"
+   ],
+   "required": false,
+   "line": 26,
+   "source": "- Experience running services on Kubernetes or AWS."
+  },
+  {
+   "name": "Application security",
+   "tokens": [
+    "application security",
+    "AppSec",
+    "secure coding"
+   ],
+   "required": false,
+   "line": 27,
+   "source": "- Interest in application security."
+  }
+ ],
+ "keywords": [
+  "Python",
+  "Go",
+  "Golang",
+  "PostgreSQL",
+  "REST API",
+  "gRPC",
+  "Kafka",
+  "Docker",
+  "Kubernetes",
+  "K8s",
+  "Amazon Web Services",
+  "AWS",
+  "CI/CD",
+  "backend services",
+  "distributed systems",
+  "idempotency",
+  "job scheduler",
+  "event streaming",
+  "database schema design",
+  "SQL",
+  "financial systems",
+  "payments",
+  "accounting",
+  "application security",
+  "on-call",
+  "incident response"
+ ],
+ "info": {
+  "reader": "slots-claude-sonnet-4-6-low",
+  "answered_by": "claude-sonnet-4-6",
+  "fallback": null,
+  "attempts": 1,
+  "input_tokens": 1497,
+  "output_tokens": 570,
+  "seconds": 9.7,
+  "dropped": []
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "id": "paste-f945f360",
+ "sha": "f945f360778b4231",
+ "requirements": [
+  {
+   "name": "SQL proficiency",
+   "tokens": [
+    "SQL",
+    "SQL queries",
+    "data warehouse"
+   ],
+   "required": true,
+   "line": 8,
+   "source": "- Write SQL queries against our data warehouse to answer questions about sales, stock levels, shrink and supplier performance."
+  },
+  {
+   "name": "Tableau dashboards",
+   "tokens": [
+    "Tableau",
+    "dashboard",
+    "build and maintain dashboards"
+   ],
+   "required": true,
+   "line": 9,
+   "source": "- Build and maintain Tableau dashboards for buyers and distribution center managers."
+  },
+  {
+   "name": "Demand forecasting",
+   "tokens": [
+    "demand forecast",
+    "forecast accuracy",
+    "forecasting"
+   ],
+   "required": true,
+   "line": 10,
+   "source": "- Support weekly demand forecasts by category and store, and measure forecast accuracy over time."
+  },
+  {
+   "name": "Out-of-stock and spoilage analysis",
+   "tokens": [
+    "out-of-stock",
+    "spoilage",
+    "order quantities",
+    "delivery schedules"
+   ],
+   "required": true,
+   "line": 11,
+   "source": "- Analyze out-of-stock and spoilage trends, and recommend changes to order quantities and delivery schedules."
+  },
+  {
+   "name": "Supplier performance reporting",
+   "tokens": [
+    "supplier fill rates",
+    "on-time delivery",
+    "supplier performance"
+   ],
+   "required": true,
+   "line": 12,
+   "source": "- Prepare monthly reports on supplier fill rates and on-time delivery."
+  },
+  {
+   "name": "Data cleaning and reconciliation",
+   "tokens": [
+    "clean and reconcile data",
+    "point-of-sale",
+    "warehouse management",
+    "supplier systems"
+   ],
+   "required": true,
+   "line": 13,
+   "source": "- Clean and reconcile data from our point-of-sale, warehouse management and supplier systems."
+  },
+  {
+   "name": "Ad hoc analysis",
+   "tokens": [
+    "ad hoc analysis",
+    "merchandising",
+    "store operations"
+   ],
+   "required": true,
+   "line": 14,
+   "source": "- Respond to ad hoc analysis requests from merchandising and store operations."
+  },
+  {
+   "name": "Bachelor's degree",
+   "tokens": [
+    "Bachelor's degree",
+    "statistics",
+    "economics",
+    "business analytics",
+    "supply chain",
+    "computer science"
+   ],
+   "required": true,
+   "line": 16,
+   "source": "- Bachelor's degree in statistics, economics, business analytics, supply chain, computer science or a related field."
+  },
+  {
+   "name": "Years of experience",
+   "tokens": [
+    "1 to 3 years",
+    "data analyst",
+    "business analyst"
+   ],
+   "required": true,
+   "line": 17,
+   "source": "- 1 to 3 years of experience in a data analyst or business analyst role."
+  },
+  {
+   "name": "Excel skills",
+   "tokens": [
+    "Excel",
+    "pivot tables",
+    "lookups",
+    "advanced Excel"
+   ],
+   "required": true,
+   "line": 20,
+   "source": "- Advanced Excel skills, including pivot tables and lookups."
+  },
+  {
+   "name": "Forecasting methods and statistics",
+   "tokens": [
+    "forecasting methods",
+    "statistics",
+    "basic forecasting"
+   ],
+   "required": true,
+   "line": 21,
+   "source": "- Familiarity with basic forecasting methods and statistics."
+  },
+  {
+   "name": "Retail or supply chain analytics experience",
+   "tokens": [
+    "retail",
+    "grocery",
+    "supply chain analytics"
+   ],
+   "required": false,
+   "line": 24,
+   "source": "- Experience in retail, grocery or supply chain analytics."
+  },
+  {
+   "name": "Python or R",
+   "tokens": [
+    "Python",
+    "R",
+    "pandas",
+    "tidyverse",
+    "data analysis"
+   ],
+   "required": false,
+   "line": 25,
+   "source": "- Experience with Python or R for data analysis (pandas, tidyverse)."
+  },
+  {
+   "name": "Cloud data warehouse",
+   "tokens": [
+    "Snowflake",
+    "cloud data warehouse"
+   ],
+   "required": false,
+   "line": 26,
+   "source": "- Experience with Snowflake or another cloud data warehouse."
+  }
+ ],
+ "keywords": [
+  "SQL",
+  "Tableau",
+  "Power BI",
+  "data analyst",
+  "supply chain analytics",
+  "demand forecasting",
+  "inventory analysis",
+  "Excel",
+  "pivot tables",
+  "Snowflake",
+  "Python",
+  "pandas",
+  "R",
+  "tidyverse",
+  "grocery",
+  "retail",
+  "warehouse management",
+  "supplier performance",
+  "out-of-stock analysis",
+  "business analyst",
+  "forecast accuracy"
+ ],
+ "info": {
+  "reader": "slots-claude-sonnet-4-6-low",
+  "answered_by": "claude-sonnet-4-6",
+  "fallback": null,
+  "attempts": 1,
+  "input_tokens": 1473,
+  "output_tokens": 427,
+  "seconds": 7.5,
+  "dropped": []
+ }
+}

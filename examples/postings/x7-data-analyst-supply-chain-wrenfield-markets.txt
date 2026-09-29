@@ -1,0 +1,37 @@
+Data Analyst, Supply Chain
+Wrenfield Markets
+Minneapolis, MN (Hybrid)
+
+About Wrenfield Markets
+Wrenfield Markets is a regional grocery chain with 64 stores and two distribution centers across the Upper Midwest. Our supply chain team keeps shelves stocked while keeping waste low, and it relies on data to do both. Learn about us at wrenfield-markets.example.com.
+
+About the role
+We are looking for a Data Analyst to join our Supply Chain Analytics team. You will turn sales, inventory and shipment data into reports and forecasts that buyers, distribution center managers and store operations use every week. You will work closely with the demand planning team and present your findings to managers who are not data specialists.
+
+Responsibilities
+- Write SQL queries against our data warehouse to answer questions about sales, stock levels, shrink and supplier performance.
+- Build and maintain Tableau dashboards for buyers and distribution center managers.
+- Support weekly demand forecasts by category and store, and measure forecast accuracy over time.
+- Analyze out-of-stock and spoilage trends, and recommend changes to order quantities and delivery schedules.
+- Prepare monthly reports on supplier fill rates and on-time delivery.
+- Clean and reconcile data from our point-of-sale, warehouse management and supplier systems.
+- Respond to ad hoc analysis requests from merchandising and store operations.
+
+Qualifications
+- Bachelor's degree in statistics, economics, business analytics, supply chain, computer science or a related field.
+- 1 to 3 years of experience in a data analyst or business analyst role.
+- Strong SQL skills.
+- Experience building dashboards in Tableau or Power BI.
+- Advanced Excel skills, including pivot tables and lookups.
+- Familiarity with basic forecasting methods and statistics.
+- The ability to explain findings clearly to non-technical audiences.
+
+Preferred qualifications
+- Experience in retail, grocery or supply chain analytics.
+- Experience with Python or R for data analysis (pandas, tidyverse).
+- Experience with Snowflake or another cloud data warehouse.
+
+Compensation and benefits
+The pay range for this position is $68,000 - $82,000 per year. Benefits include medical, dental and vision insurance, a 401(k) with company match, a 15% employee discount and paid time off.
+
+Wrenfield Markets is an equal opportunity employer.

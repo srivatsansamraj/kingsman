@@ -1,0 +1,171 @@
+# Capability vocabulary for matching requirements to bullets: domains with their capabilities, each
+# domain's topic tag, and the family or families it sits in.
+
+about = '''
+Domains are broad fields of work, and each holds capabilities: specific things a person can show they
+have done. Model call 2 labels each requirement of a posting with capabilities from this
+list, and each bullet in `projects.toml` lists the capabilities it demonstrates; a requirement counts as
+met once a bullet on the page demonstrates a capability it was labelled with. Capabilities that no bullet
+demonstrates are the library's gaps and count as unmet.
+
+Saved posting mappings are tied to a hash of the (capability, domain) pairs. Renaming a capability or
+moving it to another domain changes the hash, and each saved mapping is then redone the next time its
+posting is read. Changing only the notes leaves the hash alone.'''
+domains_notes = '''
+Conditions are kept apart from capabilities. A language, tool, platform, degree or years of experience
+("in Go", "Kubernetes", "Bachelor's degree", "5+ years") is a condition checked on its own, never a way
+to satisfy the capability it qualifies.'''
+families_notes = '''
+Families are the coarsest grouping: Security, AI and data, Software, Systems and Professional. Each domain
+belongs to one family, except AI security, which belongs to both Security and AI and data. On a given
+posting, a project whose capabilities fall mostly in the families that posting wants receives a small
+multiplier on its standing.'''
+
+[[domain]]
+name = "Offensive security"
+tag = "sec.offensive"
+families = ["Security"]
+capabilities = [
+  "vulnerability research", "exploit development", "web and API security",
+  "infrastructure and network penetration testing", "OS and endpoint security", "smart contract security",
+  "red team operations", "security test automation",
+]
+
+[[domain]]
+name = "Detection and response"
+tag = "sec.detection"
+families = ["Security"]
+capabilities = [
+  "detection engineering", "incident response", "threat intelligence", "digital forensics",
+  "abuse and fraud detection",
+]
+
+[[domain]]
+name = "Application and platform security"
+tag = "sec.appsec"
+families = ["Security"]
+capabilities = [
+  "secure system architecture", "application security", "threat modelling",
+  "code review and security assessment", "vulnerability triage and management", "authentication and IAM",
+  "authorization and least privilege", "workload and service identity", "applied cryptography",
+  "cloud security", "software supply chain security",
+]
+
+[[domain]]
+name = "Risk and compliance"
+tag = "sec.risk"
+families = ["Security"]
+capabilities = [
+  "risk assessment", "security frameworks and compliance", "financial and audit controls",
+  "security documentation", "licence and dependency compliance",
+]
+
+[[domain]]
+name = "AI security"
+tag = "ai.security"
+families = ["Security", "AI and data"]
+capabilities = [
+  "LLM red teaming", "prompt injection defence", "agent containment and permissions",
+  "adversarial machine learning", "AI safeguard testing",
+]
+
+[[domain]]
+name = "AI evaluation"
+tag = "ai.evaluation"
+families = ["AI and data"]
+capabilities = ["evaluation and benchmark design", "measurement and statistics", "model and judge evaluation"]
+
+[[domain]]
+name = "Machine learning"
+tag = "ai.ml"
+families = ["AI and data"]
+capabilities = [
+  "model training", "LLM training and fine-tuning", "computer vision", "model optimisation and deployment",
+  "ML research literacy", "model serving cost and efficiency", "agent and LLM system design",
+]
+
+[[domain]]
+name = "Backend and data systems"
+tag = "sw.backend"
+families = ["Software"]
+capabilities = [
+  "backend services and APIs", "distributed systems", "databases and schema design", "data pipelines",
+  "offline-first sync", "file format and document engineering",
+]
+
+[[domain]]
+name = "App development"
+tag = "sw.app"
+families = ["Software"]
+capabilities = ["Android development", "UI and design systems", "accessibility", "on-device performance"]
+
+[[domain]]
+name = "Web"
+tag = "sw.web"
+families = ["Software"]
+capabilities = ["full-stack web", "web front end"]
+
+[[domain]]
+name = "Systems"
+tag = "sys.systems"
+families = ["Systems"]
+capabilities = ["formal verification", "systems programming", "filesystems and OS internals"]
+
+[[domain]]
+name = "IoT and embedded"
+tag = "sys.iot"
+families = ["Systems"]
+capabilities = ["microcontrollers and sensors", "device security"]
+
+[[domain]]
+name = "AR, VR and 3D"
+tag = "sw.xr"
+families = ["Software"]
+capabilities = ["augmented reality apps", "virtual environments and digital twins", "3D reconstruction"]
+
+[[domain]]
+name = "Data and geospatial"
+tag = "ai.data"
+families = ["AI and data"]
+capabilities = ["data analysis", "geospatial analysis and GIS", "dashboards and visualisation"]
+
+[[domain]]
+name = "Research and open source"
+tag = "pro.research"
+families = ["Professional"]
+capabilities = ["published research", "upstream open-source contribution"]
+
+[[domain]]
+name = "Engineering practice"
+tag = "sw.practice"
+families = ["Software"]
+capabilities = [
+  "developer tooling and CI/CD", "containers and cloud infrastructure", "production ownership",
+  "debugging and defect diagnosis",
+]
+
+[[domain]]
+name = "Leadership"
+tag = "pro.leadership"
+families = ["Professional"]
+capabilities = ["team leadership", "shipping to real users", "mentoring and teaching"]
+
+[[domain_adjacency]]
+a = "ai.security"
+b = "sec.appsec"
+
+[[domain_adjacency]]
+a = "ai.security"
+b = "sec.detection"
+
+[[domain_adjacency]]
+a = "ai.security"
+b = "sec.offensive"
+
+[[domain_adjacency]]
+a = "ai.security"
+b = "sec.risk"
+
+[[domain_adjacency]]
+a = "sec.appsec"
+b = "sys.systems"

@@ -1,0 +1,35 @@
+================================================================================================
+POSTING: Software Engineer, Backend (Platform)
+================================================================================================
+18 requirements (14 required), 26 keywords
+mode capabilities, reach 0.87, unmet word demand 22%
+demand:
+    sw.backend             0.60  ##########################
+    sw.practice            0.24  ##########
+    sec.appsec             0.17  #######
+
+13 bullets in 4 projects, 28/28 project lines
+  coverage 0.77   emphasis 0.30   standing 0.48   incoherence 0.47   cost 0.15   depth 0.74   score 0.836
+
+  Fuzzing an Open-Source Image-Decoding Library
+      Found 5 memory-safety bugs, 3 of them heap buffer overflows, in an open-source image-decoding library by fuzzing it for 30 CPU-days with libFuzzer and AddressSanitizer.
+      Wrote fixes for 3 of the bugs, merged upstream with regression tests, and sent minimized reproducers for the other 2 to the maintainers.
+      Added the fuzz targets to the library's continuous integration, which now fuzzes each pull request for 10 minutes before merge.
+
+  Prompt-Injection Evaluation of Tool-Using LLM Agents, Applied Security Lab
+      Built a harness that runs 420 prompt-injection attacks against tool-using LLM agents in sandboxed tasks and records whether each attack reached a tool call.
+      Measured three published prompt-injection defenses on the harness; the strongest cut successful attacks from 31% to 9% and failed 4% of benign tasks.
+      Reported every attack success rate with bootstrap 95% confidence intervals over 5 seeds, which showed 2 of 12 gains claimed in earlier papers were within run-to-run noise.
+      Blocked 88% of the attacks that reached a tool call by giving each agent task an allowlist of the tools it needs and denying every other tool.
+      Built an LLM judge that labels attack success from transcripts, agreeing with two human labelers on 94% of 300 transcripts.
+
+  Kubernetes Lab Platform on AWS for a Security Course, Graduate Research Assistant
+      Gave each of 85 students an isolated lab environment by moving a security course's labs to a Kubernetes cluster on AWS, with network policies that block traffic between tenants.
+      Kept the platform at 99.5% availability during lab hours across two semesters for 160 students, and took the on-call shifts around assignment deadlines.
+
+  Inventory Web App for a Regional Food Bank, Senior Capstone
+      Replaced a food bank's shared spreadsheet with a Django and PostgreSQL web app that 30 volunteers use to log donations and stock.
+      Cut the monthly stock count from two days to half a day by designing an inventory schema that tracks each donated lot and its expiry date.
+      Added a REST API for the food bank's barcode scanners, with per-device tokens and rate limits.
+
+  required, not fully met: Backend engineering experience, Distributed systems concepts, Testing and code review, Job scheduler and event pipeline, Secure coding

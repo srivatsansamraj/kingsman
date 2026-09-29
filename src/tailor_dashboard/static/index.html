@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kingsman</title>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<div class="app" id="app" data-open="false" data-mode="add">
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true"></span>Kingsman</div>
+    <nav class="pages" id="pages" aria-label="Pages">
+      <span class="pages-indicator still" aria-hidden="true"></span>
+      <button type="button" class="page-card" data-page="jobs" aria-current="page">Jobs</button>
+      <button type="button" class="page-card" data-page="profile" aria-current="false">Profile</button>
+      <button type="button" class="page-card" data-page="stats" aria-current="false">Stats</button>
+    </nav>
+    <span class="spacer"></span>
+    <div class="top-actions">
+      <div class="page-modes-menu">
+        <button type="button" class="sort-btn page-modes-btn" id="page-modes-button" aria-haspopup="true" aria-expanded="false" aria-controls="page-modes-panel" aria-label="How pages are built: Hybrid">
+          <svg class="sort-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></svg>
+          <span class="sort-value" id="page-modes-value">Hybrid</span>
+          <svg class="sort-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="menu-panel page-modes-panel" id="page-modes-panel" role="menu" aria-label="How pages are built" hidden>
+          <div class="menu-heading" role="presentation">Projects</div>
+          <button type="button" class="menu-item" role="menuitemradio" data-pages="hybrid" aria-checked="true"><span class="item-text"><span>Hybrid</span><small>The model picks the projects where the match is under 60%</small></span><svg class="check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></button>
+          <button type="button" class="menu-item" role="menuitemradio" data-pages="legacy" aria-checked="false"><span class="item-text"><span>Legacy</span><small>The engine picks every page's projects</small></span><svg class="check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></button>
+          <div class="menu-heading" role="presentation">Matching</div>
+          <button type="button" class="menu-item" role="menuitemradio" data-call2="opus" aria-checked="true"><span class="item-text"><span>Accuracy</span><small>Requirements matched to your capabilities by the more accurate model</small></span><svg class="check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></button>
+          <button type="button" class="menu-item" role="menuitemradio" data-call2="jev" aria-checked="false"><span class="item-text"><span>Speed</span><small>Requirements matched by a faster, less accurate model, in about 1.5 s a posting</small></span><svg class="check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></button>
+        </div>
+      </div>
+      <button type="button" class="icon-btn" id="stats-button" aria-label="Stats" aria-pressed="false">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 19v-5M12 19V5M18 19v-9"/></svg>
+      </button>
+      <button type="button" class="icon-btn" id="theme-toggle" aria-label="Switch light or dark">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="workspace" id="jobs-view">
+    <section class="list-pane" aria-label="Jobs">
+      <div class="pane-head">
+        <h1>Jobs</h1>
+        <div class="pane-sub"><span id="head-count"></span></div>
+      </div>
+      <div class="pane-body">
+        <form class="add-bar" id="add-form" autocomplete="off">
+          <span class="bar-field" id="bar-field">
+            <span class="bar-icon" aria-hidden="true">
+              <svg class="bar-icon-add" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+              <svg class="bar-icon-search" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            </span>
+            <input id="add-input" type="text" aria-label="Job URL or posting text">
+            <span class="bar-hint hint-add" aria-hidden="true">Paste a job URL or the posting's text</span>
+            <span class="bar-hint hint-search" aria-hidden="true">Search by role or company</span>
+            <button type="button" class="bar-clear" id="bar-clear" aria-label="Clear search" tabindex="-1">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+            </button>
+          </span>
+          <button class="btn btn-primary add-btn" type="submit" aria-label="Add">
+            <span class="add-label">Add</span>
+            <svg class="add-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </form>
+        <div class="toolbar mode-row">
+          <div class="modes" role="tablist" aria-label="What the bar does">
+            <span class="modes-indicator still" aria-hidden="true"></span>
+            <button type="button" class="mode-chip" role="tab" data-mode="add" aria-selected="true" aria-controls="add-form">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+              <span class="mode-label">Add</span>
+            </button>
+            <button type="button" class="mode-chip" role="tab" data-mode="search" aria-selected="false" aria-controls="add-form">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <span class="mode-label">Search</span>
+              <span class="mode-dot" id="search-dot" hidden></span>
+            </button>
+          </div>
+          <span class="mode-gap"></span>
+          <div class="mode-tools" id="tools-add">
+            <button type="button" class="read-chip" id="unread-note" hidden>
+              <span class="chip-icon" aria-hidden="true">
+                <svg class="icon-spark" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0C12 6.63 17.37 12 24 12C17.37 12 12 17.37 12 24C12 17.37 6.63 12 0 12C6.63 12 12 6.63 12 0Z"/></svg>
+                <span class="spin-wrap"><svg class="spin-ring" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 3a9 9 0 1 0 9 9"/></svg></span>
+                <svg class="icon-done" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>
+              </span>
+              <span class="chip-text" id="chip-text">Read all</span>
+              <span class="chip-count" id="chip-count"></span>
+              <span class="cost" id="chip-cost"></span>
+            </button>
+          </div>
+          <div class="mode-tools" id="tools-search" hidden>
+            <div class="filter-menu">
+              <button type="button" class="filter-btn" id="filter-button" aria-label="Filters" aria-haspopup="true" aria-expanded="false" aria-controls="filter-panel">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16l-6 7.5V19l-4-2v-4.5z"/></svg>
+                <span class="filter-label">Filters</span>
+                <span class="filter-count" id="filter-count" hidden></span>
+              </button>
+              <div class="menu-panel" id="filter-panel" role="group" aria-label="Filters" hidden>
+                <label class="switch-row" for="filter-sponsor"><span>Sponsors visas</span><input type="checkbox" class="switch" id="filter-sponsor"></label>
+                <label class="switch-row" for="filter-remote"><span>Remote only</span><input type="checkbox" class="switch" id="filter-remote"></label>
+              </div>
+            </div>
+            <div class="sort-menu">
+              <button type="button" class="sort-btn" id="sort-button" aria-haspopup="true" aria-expanded="false" aria-controls="sort-panel" aria-label="Sort by: Best match">
+                <svg class="sort-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4v16M4 17l3 3 3-3M17 20V4M14 7l3-3 3 3"/></svg>
+                <span class="sort-prefix">Sort by</span>
+                <span class="sort-value" id="sort-value">Best match</span>
+                <svg class="sort-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+              </button>
+              <div class="menu-panel sort-panel" id="sort-panel" role="menu" aria-label="Sort by" hidden>
+                <button type="button" class="menu-item" role="menuitemradio" data-sort="match" aria-checked="true"><span>Best match</span><svg class="check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></button>
+                <button type="button" class="menu-item" role="menuitemradio" data-sort="date" aria-checked="false"><span>Newest</span><svg class="check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="status-strip" id="status-strip" role="group" aria-label="Filter by status"></div>
+        <div class="list" id="list"></div>
+      </div>
+    </section>
+
+    <section class="detail-pane" id="detail-pane" aria-label="Job"></section>
+  </main>
+
+  <section class="profile-view" id="profile-view" aria-label="Profile" hidden>
+    <div class="pane-head">
+      <h1>Profile</h1>
+      <div class="pane-sub" id="profile-sub"></div>
+    </div>
+    <div class="sections" role="tablist" aria-label="Library sections">
+      <span class="sections-indicator still" aria-hidden="true"></span>
+      <button type="button" class="section-tab" role="tab" id="section-tab-projects" aria-controls="profile-body" data-section="projects" aria-selected="true">Projects</button>
+      <button type="button" class="section-tab" role="tab" id="section-tab-skills" aria-controls="profile-body" data-section="skills" aria-selected="false">Skills</button>
+      <button type="button" class="section-tab" role="tab" id="section-tab-education" aria-controls="profile-body" data-section="education" aria-selected="false">Education</button>
+      <button type="button" class="section-tab" role="tab" id="section-tab-coverage" aria-controls="profile-body" data-section="coverage" aria-selected="false">Coverage</button>
+    </div>
+    <div class="profile-body" id="profile-body" role="tabpanel" aria-labelledby="section-tab-projects"></div>
+  </section>
+
+  <section class="stats-view" id="stats-view" aria-label="Stats" hidden>
+    <div class="pane-head">
+      <h1>Stats</h1>
+      <div class="pane-sub" id="stats-sub"></div>
+    </div>
+    <div class="stats-body" id="stats-body"></div>
+  </section>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</div>
+<script type="module" src="/static/app.js"></script>
+</body>
+</html>

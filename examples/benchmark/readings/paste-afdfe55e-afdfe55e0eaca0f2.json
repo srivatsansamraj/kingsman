@@ -1,0 +1,261 @@
+{
+ "id": "paste-afdfe55e",
+ "sha": "afdfe55e0eaca0f2",
+ "requirements": [
+  {
+   "name": "years of experience",
+   "tokens": [
+    "3+ years",
+    "cloud security",
+    "infrastructure engineering",
+    "platform engineering"
+   ],
+   "required": true,
+   "line": 16,
+   "source": "- 3+ years of experience in cloud security, infrastructure or platform engineering."
+  },
+  {
+   "name": "AWS IAM",
+   "tokens": [
+    "AWS",
+    "Amazon Web Services",
+    "IAM",
+    "IAM policy design",
+    "identity and access management"
+   ],
+   "required": true,
+   "line": 17,
+   "source": "- Hands-on experience securing AWS, including IAM policy design."
+  },
+  {
+   "name": "Kubernetes in production",
+   "tokens": [
+    "Kubernetes",
+    "EKS",
+    "Amazon Elastic Kubernetes Service",
+    "securing workloads"
+   ],
+   "required": true,
+   "line": 18,
+   "source": "- Experience operating Kubernetes in production and securing workloads on it."
+  },
+  {
+   "name": "infrastructure as code",
+   "tokens": [
+    "infrastructure as code",
+    "IaC",
+    "Terraform"
+   ],
+   "required": true,
+   "line": 19,
+   "source": "- Experience with infrastructure as code, preferably Terraform."
+  },
+  {
+   "name": "programming in Go or Python",
+   "tokens": [
+    "Go",
+    "Python",
+    "programming"
+   ],
+   "required": true,
+   "line": 20,
+   "source": "- Programming experience in Go or Python."
+  },
+  {
+   "name": "network security fundamentals",
+   "tokens": [
+    "network security",
+    "VPC",
+    "security groups",
+    "private connectivity"
+   ],
+   "required": true,
+   "line": 21,
+   "source": "- An understanding of network security fundamentals in the cloud (VPCs, security groups, private connectivity)."
+  },
+  {
+   "name": "bachelor's degree",
+   "tokens": [
+    "bachelor's degree",
+    "computer science",
+    "related field",
+    "equivalent experience"
+   ],
+   "required": true,
+   "line": 22,
+   "source": "- Bachelor's degree in computer science or a related field, or equivalent experience."
+  },
+  {
+   "name": "AWS IAM account structure",
+   "tokens": [
+    "account structure",
+    "permission boundaries",
+    "service control policies",
+    "SCPs",
+    "least-privilege roles"
+   ],
+   "required": true,
+   "line": 8,
+   "source": "- Design and maintain IAM for our AWS organization: account structure, permission boundaries, service control policies and least-privilege roles for people and workloads."
+  },
+  {
+   "name": "workload identity",
+   "tokens": [
+    "workload identity",
+    "IAM Roles for Service Accounts",
+    "IRSA",
+    "short-lived tokens"
+   ],
+   "required": true,
+   "line": 9,
+   "source": "- Move services from long-lived credentials to workload identity (IAM Roles for Service Accounts and short-lived tokens)."
+  },
+  {
+   "name": "EKS hardening",
+   "tokens": [
+    "EKS hardening",
+    "pod security standards",
+    "network policies",
+    "admission control",
+    "runtime monitoring"
+   ],
+   "required": true,
+   "line": 10,
+   "source": "- Harden our EKS clusters: pod security standards, network policies, admission control and runtime monitoring."
+  },
+  {
+   "name": "policy-as-code in CI",
+   "tokens": [
+    "policy-as-code",
+    "Terraform security review",
+    "CI security checks"
+   ],
+   "required": true,
+   "line": 11,
+   "source": "- Review Terraform changes for security issues and build policy-as-code checks into CI."
+  },
+  {
+   "name": "detections and incident response",
+   "tokens": [
+    "CloudTrail",
+    "VPC flow logs",
+    "Kubernetes audit logs",
+    "incident response",
+    "detection engineering"
+   ],
+   "required": true,
+   "line": 12,
+   "source": "- Build detections on CloudTrail, VPC flow logs and Kubernetes audit logs, and take part in the incident response rotation."
+  },
+  {
+   "name": "security architecture reviews",
+   "tokens": [
+    "security architecture review",
+    "trust boundaries",
+    "data flows"
+   ],
+   "required": true,
+   "line": 13,
+   "source": "- Run security architecture reviews for new services and data flows, and document the trust boundaries."
+  },
+  {
+   "name": "security tooling development",
+   "tokens": [
+    "Go",
+    "Python",
+    "internal tools",
+    "automate security checks"
+   ],
+   "required": true,
+   "line": 14,
+   "source": "- Write internal tools in Go or Python that automate our security checks."
+  },
+  {
+   "name": "AWS security certification",
+   "tokens": [
+    "AWS Certified Security Specialty",
+    "cloud security certification"
+   ],
+   "required": false,
+   "line": 24,
+   "source": "- AWS Certified Security - Specialty or similar certification."
+  },
+  {
+   "name": "policy engines",
+   "tokens": [
+    "Open Policy Agent",
+    "OPA",
+    "Kyverno",
+    "policy engines"
+   ],
+   "required": false,
+   "line": 25,
+   "source": "- Experience with Open Policy Agent, Kyverno or similar policy engines."
+  },
+  {
+   "name": "secrets and key management",
+   "tokens": [
+    "secrets management",
+    "key management",
+    "AWS KMS",
+    "AWS Key Management Service"
+   ],
+   "required": false,
+   "line": 26,
+   "source": "- Experience with secrets management and key management (AWS KMS)."
+  },
+  {
+   "name": "application security or detection engineering",
+   "tokens": [
+    "application security",
+    "detection engineering"
+   ],
+   "required": false,
+   "line": 27,
+   "source": "- Background in application security or detection engineering."
+  }
+ ],
+ "keywords": [
+  "Cloud Security Engineer",
+  "AWS",
+  "Amazon Web Services",
+  "IAM",
+  "IAM policy design",
+  "Kubernetes",
+  "EKS",
+  "Terraform",
+  "infrastructure as code",
+  "Go",
+  "Python",
+  "pod security standards",
+  "network policies",
+  "admission control",
+  "runtime monitoring",
+  "CloudTrail",
+  "VPC flow logs",
+  "Kubernetes audit logs",
+  "incident response",
+  "policy-as-code",
+  "Open Policy Agent",
+  "OPA",
+  "Kyverno",
+  "AWS KMS",
+  "workload identity",
+  "IRSA",
+  "service control policies",
+  "permission boundaries",
+  "detection engineering",
+  "application security",
+  "AWS Certified Security Specialty"
+ ],
+ "info": {
+  "reader": "slots-claude-sonnet-4-6-low",
+  "answered_by": "claude-sonnet-4-6",
+  "fallback": null,
+  "attempts": 1,
+  "input_tokens": 1530,
+  "output_tokens": 611,
+  "seconds": 9.8,
+  "dropped": []
+ }
+}

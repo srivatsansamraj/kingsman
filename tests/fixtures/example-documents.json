@@ -1,0 +1,688 @@
+{
+ "paste-12648881": {
+  "skills": [
+   [
+    "Secure SDLC",
+    [
+     "OWASP Top 10",
+     "Security Code Review",
+     "Semgrep",
+     "Threat Modeling"
+    ]
+   ],
+   [
+    "Detection and Response",
+    [
+     "Incident Response",
+     "Splunk",
+     "Account Takeover Detection",
+     "Detection Engineering"
+    ]
+   ],
+   [
+    "Cloud and Kubernetes",
+    [
+     "AWS",
+     "Kubernetes",
+     "Terraform",
+     "AWS IAM"
+    ]
+   ],
+   [
+    "Offensive Security",
+    [
+     "Burp Suite",
+     "Fuzzing",
+     "Exploit Development",
+     "libFuzzer"
+    ]
+   ],
+   [
+    "Programming",
+    [
+     "Git",
+     "Docker",
+     "Python",
+     "Go",
+     "SQL"
+    ]
+   ]
+  ],
+  "coursework": [
+   [
+    "halvorsen",
+    [
+     "Software Security",
+     "Cloud Security",
+     "Applied Cryptography",
+     "Privacy Engineering",
+     "Network Security",
+     "Operating Systems Security",
+     "Security Risk Management",
+     "Incident Response and Forensics",
+     "Security Metrics and Measurement",
+     "Malware Analysis",
+     "Reverse Engineering"
+    ]
+   ],
+   [
+    "lakemont",
+    [
+     "Database Systems",
+     "Software Engineering",
+     "Introduction to Computer Security",
+     "Data Structures and Algorithms",
+     "Web Development",
+     "Discrete Mathematics",
+     "Probability and Statistics",
+     "Computer Networks",
+     "Computer Organization",
+     "Machine Learning",
+     "Mobile Application Development"
+    ]
+   ]
+  ]
+ },
+ "paste-3d814d16": {
+  "skills": [
+   [
+    "AI Security",
+    [
+     "Prompt Injection",
+     "LLM Red Teaming",
+     "LLM-as-Judge",
+     "Guardrail Evaluation",
+     "Agent Tool Permissions",
+     "Evaluation Harnesses",
+     "Adversarial Patches",
+     "Adversarial Training"
+    ]
+   ],
+   [
+    "Machine Learning",
+    [
+     "Bootstrap Confidence Intervals",
+     "PyTorch",
+     "Model Fine-Tuning",
+     "Image Classification"
+    ]
+   ],
+   [
+    "Application Security",
+    [
+     "OWASP Top 10",
+     "Threat Modeling",
+     "Security Code Review",
+     "Authorization Testing"
+    ]
+   ],
+   [
+    "Offensive Security",
+    [
+     "Fuzzing",
+     "libFuzzer",
+     "AddressSanitizer",
+     "Exploit Development"
+    ]
+   ],
+   [
+    "Programming",
+    [
+     "Python",
+     "Docker",
+     "Git",
+     "Go"
+    ]
+   ]
+  ],
+  "coursework": [
+   [
+    "halvorsen",
+    [
+     "Large Language Model Security",
+     "Machine Learning Security",
+     "Security Metrics and Measurement",
+     "Software Security",
+     "Network Security",
+     "Applied Cryptography",
+     "Cloud Security",
+     "Operating Systems Security",
+     "Reverse Engineering",
+     "Privacy Engineering",
+     "Incident Response and Forensics"
+    ]
+   ],
+   [
+    "lakemont",
+    [
+     "Probability and Statistics",
+     "Machine Learning",
+     "Introduction to Computer Security",
+     "Discrete Mathematics",
+     "Data Structures and Algorithms",
+     "Software Engineering",
+     "Web Development",
+     "Computer Networks",
+     "Computer Organization",
+     "Database Systems",
+     "Mobile Application Development"
+    ]
+   ]
+  ]
+ },
+ "paste-87b68035": {
+  "skills": [
+   [
+    "Offensive Security",
+    [
+     "Ghidra",
+     "Fuzzing",
+     "libFuzzer",
+     "AddressSanitizer",
+     "Exploit Development",
+     "Return-Oriented Programming",
+     "pwntools",
+     "Burp Suite"
+    ]
+   ],
+   [
+    "Application Security",
+    [
+     "Authorization Testing",
+     "API Security",
+     "Vulnerability Management",
+     "Threat Modeling"
+    ]
+   ],
+   [
+    "Infrastructure Security",
+    [
+     "AWS",
+     "AWS IAM",
+     "Kubernetes",
+     "Network Policies"
+    ]
+   ],
+   [
+    "Detection and Response",
+    [
+     "Tabletop Exercises",
+     "Malware Analysis",
+     "YARA",
+     "Account Takeover Detection"
+    ]
+   ],
+   [
+    "Languages and Tools",
+    [
+     "Python",
+     "C",
+     "Git",
+     "Docker"
+    ]
+   ]
+  ],
+  "coursework": [
+   [
+    "halvorsen",
+    [
+     "Software Security",
+     "Reverse Engineering",
+     "Operating Systems Security",
+     "Network Security",
+     "Applied Cryptography",
+     "Cloud Security",
+     "Privacy Engineering",
+     "Security Risk Management",
+     "Malware Analysis",
+     "Incident Response and Forensics",
+     "Large Language Model Security"
+    ]
+   ],
+   [
+    "lakemont",
+    [
+     "Computer Organization",
+     "Operating Systems",
+     "Introduction to Computer Security",
+     "Software Engineering",
+     "Computer Networks",
+     "Data Structures and Algorithms",
+     "Database Systems",
+     "Discrete Mathematics",
+     "Machine Learning",
+     "Mobile Application Development",
+     "Probability and Statistics"
+    ]
+   ]
+  ]
+ },
+ "paste-89f5dd84": {
+  "skills": [
+   [
+    "Application Security",
+    [
+     "Authorization Testing",
+     "Semgrep",
+     "OWASP Top 10",
+     "Security Code Review",
+     "Threat Modeling",
+     "Vulnerability Management",
+     "API Security",
+     "Burp Suite"
+    ]
+   ],
+   [
+    "Cloud Security",
+    [
+     "AWS",
+     "Security Architecture",
+     "Network Policies",
+     "AWS IAM"
+    ]
+   ],
+   [
+    "Security Operations",
+    [
+     "Tabletop Exercises",
+     "Incident Response",
+     "Account Takeover Detection",
+     "Detection Engineering"
+    ]
+   ],
+   [
+    "Offensive Security",
+    [
+     "Fuzzing",
+     "libFuzzer",
+     "AddressSanitizer",
+     "Exploit Development"
+    ]
+   ],
+   [
+    "Programming",
+    [
+     "Python",
+     "Java",
+     "Go",
+     "Git"
+    ]
+   ]
+  ],
+  "coursework": [
+   [
+    "halvorsen",
+    [
+     "Software Security",
+     "Cloud Security",
+     "Applied Cryptography",
+     "Network Security",
+     "Operating Systems Security",
+     "Reverse Engineering",
+     "Privacy Engineering",
+     "Security Risk Management",
+     "Security Metrics and Measurement",
+     "Incident Response and Forensics",
+     "Large Language Model Security"
+    ]
+   ],
+   [
+    "lakemont",
+    [
+     "Introduction to Computer Security",
+     "Software Engineering",
+     "Data Structures and Algorithms",
+     "Web Development",
+     "Discrete Mathematics",
+     "Probability and Statistics",
+     "Computer Networks",
+     "Computer Organization",
+     "Database Systems",
+     "Machine Learning",
+     "Mobile Application Development"
+    ]
+   ]
+  ]
+ },
+ "paste-9725cefb": {
+  "skills": [
+   [
+    "Detection and Response",
+    [
+     "YARA",
+     "Detection Engineering",
+     "Sigma",
+     "Splunk",
+     "Incident Response",
+     "Tabletop Exercises",
+     "Malware Analysis"
+    ]
+   ],
+   [
+    "Secure SDLC",
+    [
+     "Threat Modeling",
+     "Vulnerability Management",
+     "API Security",
+     "Authorization Testing"
+    ]
+   ],
+   [
+    "Cloud and Kubernetes",
+    [
+     "AWS",
+     "Terraform",
+     "Docker",
+     "Kubernetes"
+    ]
+   ],
+   [
+    "Offensive Security",
+    [
+     "AddressSanitizer",
+     "Burp Suite",
+     "Exploit Development",
+     "Fuzzing"
+    ]
+   ],
+   [
+    "Programming",
+    [
+     "Python",
+     "Git",
+     "Go",
+     "Java"
+    ]
+   ]
+  ],
+  "coursework": [
+   [
+    "halvorsen",
+    [
+     "Incident Response and Forensics",
+     "Malware Analysis",
+     "Security Metrics and Measurement",
+     "Security Risk Management",
+     "Privacy Engineering",
+     "Applied Cryptography",
+     "Cloud Security",
+     "Large Language Model Security",
+     "Machine Learning Security",
+     "Network Security",
+     "Operating Systems Security"
+    ]
+   ],
+   [
+    "lakemont",
+    [
+     "Introduction to Computer Security",
+     "Data Structures and Algorithms",
+     "Discrete Mathematics",
+     "Probability and Statistics",
+     "Software Engineering",
+     "Web Development",
+     "Computer Networks",
+     "Computer Organization",
+     "Database Systems",
+     "Machine Learning",
+     "Mobile Application Development"
+    ]
+   ]
+  ]
+ },
+ "paste-afdfe55e": {
+  "skills": [
+   [
+    "Cloud Security",
+    [
+     "AWS",
+     "Network Policies",
+     "AWS IAM",
+     "Least-Privilege Access",
+     "Security Architecture",
+     "Kubernetes",
+     "Terraform",
+     "Docker"
+    ]
+   ],
+   [
+    "Detection and Response",
+    [
+     "Detection Engineering",
+     "Sigma",
+     "Splunk",
+     "YARA",
+     "Incident Response",
+     "Tabletop Exercises"
+    ]
+   ],
+   [
+    "Application Security",
+    [
+     "Authorization Testing",
+     "OWASP Top 10",
+     "Threat Modeling",
+     "Security Code Review"
+    ]
+   ],
+   [
+    "Offensive Security",
+    [
+     "Fuzzing",
+     "libFuzzer",
+     "AddressSanitizer",
+     "Exploit Development"
+    ]
+   ],
+   [
+    "Programming",
+    [
+     "Python",
+     "Go",
+     "Git",
+     "Java"
+    ]
+   ]
+  ],
+  "coursework": [
+   [
+    "halvorsen",
+    [
+     "Cloud Security",
+     "Software Security",
+     "Applied Cryptography",
+     "Incident Response and Forensics",
+     "Malware Analysis",
+     "Network Security",
+     "Operating Systems Security",
+     "Reverse Engineering",
+     "Privacy Engineering",
+     "Security Metrics and Measurement",
+     "Large Language Model Security"
+    ]
+   ],
+   [
+    "lakemont",
+    [
+     "Introduction to Computer Security",
+     "Software Engineering",
+     "Data Structures and Algorithms",
+     "Web Development",
+     "Computer Networks",
+     "Computer Organization",
+     "Discrete Mathematics",
+     "Operating Systems",
+     "Probability and Statistics",
+     "Database Systems",
+     "Machine Learning"
+    ]
+   ]
+  ]
+ },
+ "paste-f1f45dad": {
+  "skills": [
+   [
+    "Application Security",
+    [
+     "API Security",
+     "Authorization Testing",
+     "Burp Suite",
+     "OWASP Top 10"
+    ]
+   ],
+   [
+    "Cloud Security",
+    [
+     "AWS",
+     "AWS IAM",
+     "Kubernetes",
+     "Least-Privilege Access"
+    ]
+   ],
+   [
+    "Detection and Response",
+    [
+     "Tabletop Exercises",
+     "Account Takeover Detection",
+     "Detection Engineering",
+     "Incident Response"
+    ]
+   ],
+   [
+    "Offensive Security",
+    [
+     "AddressSanitizer",
+     "Exploit Development",
+     "Fuzzing",
+     "GDB"
+    ]
+   ],
+   [
+    "Languages and Tools",
+    [
+     "Bash",
+     "C",
+     "Docker",
+     "Git"
+    ]
+   ]
+  ],
+  "coursework": [
+   [
+    "halvorsen",
+    [
+     "Privacy Engineering",
+     "Security Risk Management",
+     "Applied Cryptography",
+     "Cloud Security",
+     "Incident Response and Forensics",
+     "Large Language Model Security",
+     "Machine Learning Security",
+     "Malware Analysis",
+     "Network Security",
+     "Operating Systems Security",
+     "Reverse Engineering"
+    ]
+   ],
+   [
+    "lakemont",
+    [
+     "Computer Networks",
+     "Computer Organization",
+     "Data Structures and Algorithms",
+     "Database Systems",
+     "Discrete Mathematics",
+     "Introduction to Computer Security",
+     "Machine Learning",
+     "Mobile Application Development",
+     "Operating Systems",
+     "Probability and Statistics",
+     "Software Engineering"
+    ]
+   ]
+  ]
+ },
+ "paste-f945f360": {
+  "skills": [
+   [
+    "Machine Learning and Statistics",
+    [
+     "pandas",
+     "Bootstrap Confidence Intervals",
+     "Jupyter",
+     "Image Classification"
+    ]
+   ],
+   [
+    "Application Security",
+    [
+     "API Security",
+     "Authorization Testing",
+     "Burp Suite",
+     "OWASP Top 10"
+    ]
+   ],
+   [
+    "Detection and Response",
+    [
+     "Splunk",
+     "Account Takeover Detection",
+     "Detection Engineering",
+     "Incident Response"
+    ]
+   ],
+   [
+    "Offensive Security",
+    [
+     "AddressSanitizer",
+     "Exploit Development",
+     "Fuzzing",
+     "GDB"
+    ]
+   ],
+   [
+    "Languages and Tools",
+    [
+     "SQL",
+     "Python",
+     "Bash",
+     "C"
+    ]
+   ]
+  ],
+  "coursework": [
+   [
+    "halvorsen",
+    [
+     "Security Metrics and Measurement",
+     "Applied Cryptography",
+     "Privacy Engineering",
+     "Software Security",
+     "Cloud Security",
+     "Security Risk Management",
+     "Incident Response and Forensics",
+     "Network Security",
+     "Operating Systems Security",
+     "Malware Analysis",
+     "Reverse Engineering"
+    ]
+   ],
+   [
+    "lakemont",
+    [
+     "Probability and Statistics",
+     "Database Systems",
+     "Discrete Mathematics",
+     "Data Structures and Algorithms",
+     "Computer Networks",
+     "Computer Organization",
+     "Introduction to Computer Security",
+     "Machine Learning",
+     "Mobile Application Development",
+     "Operating Systems",
+     "Software Engineering"
+    ]
+   ]
+  ]
+ }
+}

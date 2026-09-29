@@ -1,0 +1,142 @@
+# Topic tags for every bullet, skill and course, and the cross-family pairs treated as neighbours.
+
+about = '''
+The fixed set of topic tags. Bullets, skills, skill-row titles and courses are tagged only from this set,
+with each entry's weights adding up to 1. Tags record what a piece of work is about. The engine uses them
+to judge the balance of themes on a page and to order skill-row titles and courses. Meeting requirements
+is left to capabilities (`capabilities.toml`).
+
+The text before the dot in a tag name is its family, so `security.appsec` and `security.offensive` count as
+neighbours. The tag `research` must exist, because it is attached to every degree. Renaming or deleting a
+tag requires retagging every entry that carries it.'''
+adjacency_notes = '''
+Tag pairs from different families that are still treated as neighbours when topics are compared (distance
+1 rather than 2).'''
+
+[[tag]]
+name = "security.offensive"
+covers = "exploitation, vulnerability research, red teaming, pentest"
+
+[[tag]]
+name = "security.appsec"
+covers = "application and web security, secure coding, remediation"
+
+[[tag]]
+name = "security.forensics"
+covers = "forensics, incident response, detection, security operations"
+
+[[tag]]
+name = "security.grc"
+covers = "risk, compliance, frameworks, threat modelling"
+
+[[tag]]
+name = "ai.security"
+covers = "security **of** AI systems: prompt injection, agent safety, LLM red teaming"
+
+[[tag]]
+name = "ai.adversarial"
+covers = "adversarial ML, evasion, robustness"
+
+[[tag]]
+name = "ai.agents"
+covers = "agent systems, orchestration, tool use, routing"
+
+[[tag]]
+name = "ai.ml"
+covers = "model training, evaluation, deep learning generally"
+
+[[tag]]
+name = "ai.cv"
+covers = "computer vision, image models"
+
+[[tag]]
+name = "verification"
+covers = "formal verification, proof harnesses, static reasoning"
+
+[[tag]]
+name = "systems.os"
+covers = "operating systems, low-level runtime"
+
+[[tag]]
+name = "systems.fs"
+covers = "filesystems, storage"
+
+[[tag]]
+name = "systems.embedded"
+covers = "embedded, IoT, hardware-adjacent"
+
+[[tag]]
+name = "systems.networking"
+covers = "networking, protocols, packet analysis"
+
+[[tag]]
+name = "reverse-engineering"
+covers = "disassembly, binary analysis, anti-RE"
+
+[[tag]]
+name = "software.backend"
+covers = "backend, APIs, services"
+
+[[tag]]
+name = "software.frontend"
+covers = "frontend, UI"
+
+[[tag]]
+name = "software.mobile"
+covers = "Android and mobile"
+
+[[tag]]
+name = "databases"
+covers = "database design, queries, sync"
+
+[[tag]]
+name = "geospatial"
+covers = "GIS, maps, location data"
+
+[[tag]]
+name = "arvr"
+covers = "AR, VR, 3D, game engines"
+
+[[tag]]
+name = "performance"
+covers = "latency, token cost, memory, frame budget, battery"
+
+[[tag]]
+name = "research"
+covers = "independent research, publication, method design"
+
+[[tag]]
+name = "teaching"
+covers = "teaching, mentoring, explaining"
+
+[[tag]]
+name = "leadership"
+covers = "leading a team, owning delivery, negotiation"
+
+[[adjacency]]
+a = "ai.security"
+b = "security.appsec"
+
+[[adjacency]]
+a = "verification"
+b = "security.appsec"
+
+[[adjacency]]
+a = "reverse-engineering"
+b = "security.offensive"
+
+[[adjacency]]
+a = "systems.fs"
+b = "security.forensics"
+
+[[adjacency]]
+a = "ai.cv"
+b = "ai.adversarial"
+
+[[adjacency]]
+a = "geospatial"
+b = "ai.cv"
+
+[[adjacency]]
+a = "systems.embedded"
+b = "systems.os"

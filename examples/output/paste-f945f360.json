@@ -1,0 +1,510 @@
+{
+ "posting": "Data Analyst, Supply Chain",
+ "posting_id": "paste-f945f360",
+ "mode": "capabilities",
+ "extraction": {
+  "requirements": 14,
+  "required": 11,
+  "keywords": 21
+ },
+ "unmet": 0.7526881720430108,
+ "skill_scores": {
+  "Bootstrap Confidence Intervals": 0.0833,
+  "pandas": 0.4861,
+  "Python": 0.0278,
+  "SQL": 0.0833
+ },
+ "demand": {
+  "ai.data": 0.8636363636363636,
+  "ai.evaluation": 0.13636363636363635
+ },
+ "reach": 0.7152777777777778,
+ "selected": [
+  "G1.1",
+  "G1.2",
+  "G1.3",
+  "G1.4",
+  "G1.5",
+  "G2.1",
+  "G2.2",
+  "G2.3",
+  "I1.1",
+  "I1.2",
+  "I1.3",
+  "I1.4",
+  "O1.2"
+ ],
+ "bullets": 13,
+ "project_lines": 28,
+ "coverage": 0.7152777777777778,
+ "emphasis": 0.1971883786316776,
+ "standing": 0.5174431127257411,
+ "incoherence": 0.2801340447316757,
+ "cost": 0.14117638621272274,
+ "cost_detail": {
+  "liability": 0.35,
+  "redundancy": 0.006
+ },
+ "depth": 0.705,
+ "score": 0.8425502484334008,
+ "missing_required": [
+  "Tableau dashboards",
+  "Years of experience",
+  "Excel skills"
+ ],
+ "requirement_credit": [
+  {
+   "name": "SQL proficiency",
+   "required": true,
+   "credit": 1.0,
+   "bullets": []
+  },
+  {
+   "name": "Tableau dashboards",
+   "required": true,
+   "credit": 0.25,
+   "bullets": [
+    "O1.2"
+   ]
+  },
+  {
+   "name": "Demand forecasting",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "O1.2"
+   ]
+  },
+  {
+   "name": "Out-of-stock and spoilage analysis",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "O1.2"
+   ]
+  },
+  {
+   "name": "Supplier performance reporting",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "O1.2"
+   ]
+  },
+  {
+   "name": "Data cleaning and reconciliation",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "O1.2"
+   ]
+  },
+  {
+   "name": "Ad hoc analysis",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "O1.2"
+   ]
+  },
+  {
+   "name": "Bachelor's degree",
+   "required": true,
+   "credit": 1.0,
+   "bullets": []
+  },
+  {
+   "name": "Years of experience",
+   "required": true,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "Excel skills",
+   "required": true,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "Forecasting methods and statistics",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G1.3"
+   ]
+  },
+  {
+   "name": "Retail or supply chain analytics experience",
+   "required": false,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "Python or R",
+   "required": false,
+   "credit": 1.0,
+   "bullets": [
+    "O1.2"
+   ]
+  },
+  {
+   "name": "Cloud data warehouse",
+   "required": false,
+   "credit": 0.0,
+   "bullets": []
+  }
+ ],
+ "trace": [
+  [
+   "add",
+   [
+    "O1.2"
+   ],
+   0.849
+  ],
+  [
+   "add",
+   [
+    "G1.5"
+   ],
+   0.939
+  ],
+  [
+   "add",
+   [
+    "G1.3"
+   ],
+   0.956
+  ],
+  [
+   "fill",
+   [
+    "G1.1"
+   ],
+   0.943
+  ],
+  [
+   "fill",
+   [
+    "G1.2"
+   ],
+   0.926
+  ],
+  [
+   "fill",
+   [
+    "G1.4"
+   ],
+   0.921
+  ],
+  [
+   "fill",
+   [
+    "G2.1"
+   ],
+   0.901
+  ],
+  [
+   "fill",
+   [
+    "G2.2"
+   ],
+   0.857
+  ],
+  [
+   "fill",
+   [
+    "G2.3"
+   ],
+   0.861
+  ],
+  [
+   "fill",
+   [
+    "I1.1"
+   ],
+   0.86
+  ],
+  [
+   "fill",
+   [
+    "I1.2"
+   ],
+   0.85
+  ],
+  [
+   "fill",
+   [
+    "I1.3"
+   ],
+   0.852
+  ],
+  [
+   "fill",
+   [
+    "I1.4"
+   ],
+   0.86
+  ]
+ ],
+ "page": [
+  {
+   "group": "G2",
+   "title": "Fuzzing an Open-Source Image-Decoding Library",
+   "bullets": [
+    "Found 5 memory-safety bugs, 3 of them heap buffer overflows, in an open-source image-decoding library by fuzzing it for 30 CPU-days with libFuzzer and AddressSanitizer.",
+    "Wrote fixes for 3 of the bugs, merged upstream with regression tests, and sent minimized reproducers for the other 2 to the maintainers.",
+    "Added the fuzz targets to the library's continuous integration, which now fuzzes each pull request for 10 minutes before merge."
+   ]
+  },
+  {
+   "group": "G1",
+   "title": "Prompt-Injection Evaluation of Tool-Using LLM Agents, Applied Security Lab",
+   "bullets": [
+    "Built a harness that runs 420 prompt-injection attacks against tool-using LLM agents in sandboxed tasks and records whether each attack reached a tool call.",
+    "Measured three published prompt-injection defenses on the harness; the strongest cut successful attacks from 31% to 9% and failed 4% of benign tasks.",
+    "Reported every attack success rate with bootstrap 95% confidence intervals over 5 seeds, which showed 2 of 12 gains claimed in earlier papers were within run-to-run noise.",
+    "Blocked 88% of the attacks that reached a tool call by giving each agent task an allowlist of the tools it needs and denying every other tool.",
+    "Built an LLM judge that labels attack success from transcripts, agreeing with two human labelers on 94% of 300 transcripts."
+   ]
+  },
+  {
+   "group": "I1",
+   "title": "Product Security Intern, Fernhill Payments",
+   "bullets": [
+    "Threat-modeled the card-tokenization service with its owning team and filed 14 findings, 11 of them fixed before the service's next release.",
+    "Closed an authorization gap that let a merchant-support role read any merchant's payout records, adding an ownership check and regression tests across 9 endpoints.",
+    "Reviewed 40 pull requests to payment services for injection, deserialization and access-control flaws, and wrote Semgrep rules for the 3 flaw patterns found more than once.",
+    "Triaged 60 scanner and bug-bounty reports against a written severity rubric, closing 38 as duplicates or false positives and assigning the rest to owning teams with fix dates."
+   ]
+  },
+  {
+   "group": "O1",
+   "title": "Campus Bus Arrival Board, First-Year Hackathon Project",
+   "bullets": [
+    "Compared scheduled and actual arrivals over 8 weeks and showed that 2 routes ran a median 6 minutes late at rush hour."
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "name": "SQL proficiency",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "SQL"
+   ]
+  },
+  {
+   "name": "Tableau dashboards",
+   "required": true,
+   "capabilities": [
+    "dashboards and visualisation"
+   ],
+   "conditions": [
+    "Tableau"
+   ]
+  },
+  {
+   "name": "Demand forecasting",
+   "required": true,
+   "capabilities": [
+    "data analysis"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Out-of-stock and spoilage analysis",
+   "required": true,
+   "capabilities": [
+    "data analysis"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Supplier performance reporting",
+   "required": true,
+   "capabilities": [
+    "data analysis"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Data cleaning and reconciliation",
+   "required": true,
+   "capabilities": [
+    "data analysis"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Ad hoc analysis",
+   "required": true,
+   "capabilities": [
+    "data analysis"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Bachelor's degree",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "Bachelor's degree"
+   ]
+  },
+  {
+   "name": "Years of experience",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "1 to 3 years"
+   ]
+  },
+  {
+   "name": "Excel skills",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "Excel"
+   ]
+  },
+  {
+   "name": "Forecasting methods and statistics",
+   "required": true,
+   "capabilities": [
+    "measurement and statistics"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Retail or supply chain analytics experience",
+   "required": false,
+   "capabilities": [],
+   "conditions": []
+  },
+  {
+   "name": "Python or R",
+   "required": false,
+   "capabilities": [
+    "data analysis"
+   ],
+   "conditions": [
+    "Python",
+    "R"
+   ]
+  },
+  {
+   "name": "Cloud data warehouse",
+   "required": false,
+   "capabilities": [],
+   "conditions": [
+    "Snowflake"
+   ]
+  }
+ ],
+ "unmapped": [],
+ "skill_rows": [
+  {
+   "row": "ml",
+   "title": "Machine Learning and Statistics",
+   "members": [
+    "pandas",
+    "Bootstrap Confidence Intervals",
+    "Jupyter",
+    "Image Classification"
+   ]
+  },
+  {
+   "row": "appsec",
+   "title": "Application Security",
+   "members": [
+    "API Security",
+    "Authorization Testing",
+    "Burp Suite",
+    "OWASP Top 10"
+   ]
+  },
+  {
+   "row": "detect",
+   "title": "Detection and Response",
+   "members": [
+    "Splunk",
+    "Account Takeover Detection",
+    "Detection Engineering",
+    "Incident Response"
+   ]
+  },
+  {
+   "row": "offsec",
+   "title": "Offensive Security",
+   "members": [
+    "AddressSanitizer",
+    "Exploit Development",
+    "Fuzzing",
+    "GDB"
+   ]
+  },
+  {
+   "row": "tools",
+   "title": "Languages and Tools",
+   "members": [
+    "SQL",
+    "Python",
+    "Bash",
+    "C"
+   ]
+  }
+ ],
+ "coursework": [
+  {
+   "degree": "halvorsen",
+   "courses": [
+    "Security Metrics and Measurement",
+    "Applied Cryptography",
+    "Privacy Engineering",
+    "Software Security",
+    "Cloud Security",
+    "Security Risk Management",
+    "Incident Response and Forensics",
+    "Network Security",
+    "Operating Systems Security",
+    "Malware Analysis",
+    "Reverse Engineering"
+   ]
+  },
+  {
+   "degree": "lakemont",
+   "courses": [
+    "Probability and Statistics",
+    "Database Systems",
+    "Discrete Mathematics",
+    "Data Structures and Algorithms",
+    "Computer Networks",
+    "Computer Organization",
+    "Introduction to Computer Security",
+    "Machine Learning",
+    "Mobile Application Development",
+    "Operating Systems",
+    "Software Engineering"
+   ]
+  }
+ ],
+ "projects_by": "engine",
+ "choice": {
+  "projects": [
+   "U3",
+   "O1",
+   "G5",
+   "G1",
+   "G2",
+   "G6"
+  ],
+  "why": "Jev: the six projects most likely to belong on the page",
+  "placed": [
+   "O1",
+   "G1",
+   "G2"
+  ]
+ }
+}

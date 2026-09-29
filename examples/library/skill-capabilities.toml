@@ -1,0 +1,116 @@
+# Capability names (as spelled in capabilities.toml) demonstrated by every skill and course; the engine
+# matches a posting's requirements against these entries.
+
+about = '''
+List one capability per entry where possible, the most representative first. For a given requirement, a
+skill counts fully if the requirement names it outright ("Python", "Burp Suite") or wants a capability
+listed for it, and partly if the requirement wants a different capability from the same domain. Plain
+languages and tools that postings only ever request by name get an empty list and are matched on their
+names. Courses work likewise; a course also counts fully when its title states a condition the requirement
+names.
+
+Missing entries fall back to matching by name, and loading the library prints a warning for each. The fixed
+certifications row is printed unchanged and needs no entry. Skills that appear in two rows are listed
+once.'''
+
+[skills]
+# appsec row
+"Threat Modeling" = ["threat modelling"]
+"Security Code Review" = ["code review and security assessment"]
+"Authorization Testing" = ["authorization and least privilege", "web and API security"]
+"API Security" = ["web and API security"]
+"Vulnerability Management" = ["vulnerability triage and management"]
+"OWASP Top 10" = ["application security"]
+"Semgrep" = ["code review and security assessment"]
+"Burp Suite" = ["web and API security"]
+
+# offsec row
+"Fuzzing" = ["vulnerability research", "security test automation"]
+"libFuzzer" = ["vulnerability research"]
+"AddressSanitizer" = ["vulnerability research"]
+"Exploit Development" = ["exploit development"]
+"Return-Oriented Programming" = ["exploit development"]
+"pwntools" = ["exploit development"]
+"Ghidra" = ["vulnerability research"]
+"GDB" = []
+
+# detect row
+"Detection Engineering" = ["detection engineering"]
+"Sigma" = ["detection engineering"]
+"Splunk" = ["detection engineering"]
+"YARA" = ["detection engineering", "threat intelligence"]
+"Incident Response" = ["incident response"]
+"Malware Analysis" = ["digital forensics"]
+"Account Takeover Detection" = ["abuse and fraud detection"]
+"Tabletop Exercises" = ["incident response", "risk assessment"]
+
+# cloud row
+"AWS" = ["containers and cloud infrastructure", "cloud security"]
+"AWS IAM" = ["authorization and least privilege", "workload and service identity"]
+"Kubernetes" = ["containers and cloud infrastructure"]
+"Network Policies" = ["cloud security"]
+"Terraform" = ["containers and cloud infrastructure"]
+"Docker" = ["containers and cloud infrastructure"]
+"Least-Privilege Access" = ["authorization and least privilege"]
+"Security Architecture" = ["secure system architecture"]
+
+# ai-sec row
+"LLM Red Teaming" = ["LLM red teaming"]
+"Prompt Injection" = ["prompt injection defence", "LLM red teaming"]
+"Agent Tool Permissions" = ["agent containment and permissions"]
+"Guardrail Evaluation" = ["AI safeguard testing"]
+"Evaluation Harnesses" = ["evaluation and benchmark design"]
+"LLM-as-Judge" = ["model and judge evaluation"]
+"Adversarial Patches" = ["adversarial machine learning"]
+"Adversarial Training" = ["adversarial machine learning"]
+
+# ml row
+"PyTorch" = ["model training"]
+"Model Fine-Tuning" = ["model training"]
+"Image Classification" = ["computer vision"]
+"ResNet" = ["computer vision"]
+"Bootstrap Confidence Intervals" = ["measurement and statistics"]
+"pandas" = ["data analysis"]
+"Jupyter" = []
+
+# tools row
+"Python" = []
+"Go" = []
+"C" = []
+"Java" = []
+"SQL" = []
+"JavaScript" = []
+"Kotlin" = []
+"Bash" = []
+"Linux" = []
+"Git" = ["developer tooling and CI/CD"]
+
+[courses]
+# Halvorsen Institute of Technology, Master of Science in Cybersecurity
+"Software Security" = ["application security", "vulnerability research"]
+"Machine Learning Security" = ["adversarial machine learning"]
+"Large Language Model Security" = ["LLM red teaming", "prompt injection defence"]
+"Cloud Security" = ["cloud security"]
+"Applied Cryptography" = ["applied cryptography"]
+"Network Security" = ["infrastructure and network penetration testing"]
+"Malware Analysis" = ["digital forensics"]
+"Reverse Engineering" = ["vulnerability research"]
+"Incident Response and Forensics" = ["incident response", "digital forensics"]
+"Operating Systems Security" = ["OS and endpoint security"]
+"Security Risk Management" = ["risk assessment"]
+"Privacy Engineering" = ["security frameworks and compliance"]
+"Security Metrics and Measurement" = ["measurement and statistics"]
+
+# Lakemont State University, Bachelor of Science in Computer Science
+"Introduction to Computer Security" = ["application security"]
+"Data Structures and Algorithms" = []
+"Computer Organization" = ["systems programming"]
+"Operating Systems" = ["filesystems and OS internals"]
+"Computer Networks" = []
+"Database Systems" = ["databases and schema design"]
+"Software Engineering" = ["developer tooling and CI/CD"]
+"Web Development" = ["full-stack web"]
+"Mobile Application Development" = ["Android development"]
+"Machine Learning" = ["model training"]
+"Probability and Statistics" = ["measurement and statistics"]
+"Discrete Mathematics" = []

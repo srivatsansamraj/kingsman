@@ -1,0 +1,42 @@
+Detection and Response Engineer
+Carrowmere Federal Systems
+Arlington, VA (On-site)
+
+Who we are
+Carrowmere Federal Systems provides managed security operations to civilian federal agencies. Our 24x7 Security Operations Center monitors more than 200,000 endpoints and the cloud environments of eleven agency customers. Visit carrowmere-federal.example.com to learn more.
+
+Position summary
+The Detection and Response Engineer builds and maintains the detections our analysts rely on and leads the technical response when those detections fire. You will own detection content for identity, endpoint and cloud telemetry, work incidents from first alert to closure, and improve the automation that keeps our analysts focused on real threats.
+
+Key responsibilities
+- Develop, test and tune detection rules in Splunk and Sigma for identity, endpoint (EDR) and cloud (AWS CloudTrail, Azure AD) log sources.
+- Map detection coverage to MITRE ATT&CK and close the gaps that matter most to our customers.
+- Serve as incident lead for escalated incidents: scoping, containment, evidence collection and reporting to agency customers.
+- Perform host and memory forensics on Windows and Linux systems.
+- Write and maintain response playbooks and automate repetitive analyst tasks with Python and our SOAR platform.
+- Produce threat intelligence summaries on campaigns targeting federal networks.
+- Mentor junior analysts in the SOC.
+
+Required qualifications
+- U.S. citizenship is required.
+- An active Secret security clearance, with the ability to obtain Top Secret.
+- 5+ years of experience in a SOC, incident response or detection engineering role.
+- Experience writing detection content in Splunk (SPL) or a comparable SIEM.
+- Hands-on incident response experience, including forensic analysis of Windows systems.
+- Working knowledge of MITRE ATT&CK.
+- Scripting ability in Python or PowerShell.
+- One of the following certifications, or the ability to obtain it within six months of hire: GCIH, GCIA, GCFA or CySA+ (DoD 8570 IAT Level II or higher).
+
+Preferred qualifications
+- Experience detecting attacks against cloud control planes in AWS or Azure.
+- Malware analysis and YARA rule writing.
+- Experience with detection-as-code workflows (version control, testing, CI for detections).
+- Bachelor's degree in cybersecurity, computer science or a related field.
+
+Compensation and benefits
+The salary range for this position is $135,000 - $165,000 per year, depending on experience and clearance level. Benefits include medical, dental and vision coverage, a 6% 401(k) match, tuition assistance and paid certification exams.
+
+Additional information
+This position requires on-site work at our Arlington, VA operations center, including a rotating on-call schedule. We do not sponsor visas for this position.
+
+Carrowmere Federal Systems is an equal opportunity employer, including disability and protected veterans.

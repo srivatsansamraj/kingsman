@@ -1,0 +1,527 @@
+{
+ "posting": "AI Security Evaluation Engineer",
+ "posting_id": "paste-3d814d16",
+ "mode": "capabilities",
+ "extraction": {
+  "requirements": 13,
+  "required": 9,
+  "keywords": 18
+ },
+ "unmet": 0.3375,
+ "skill_scores": {
+  "OWASP Top 10": 0.0323,
+  "Docker": 0.0323,
+  "LLM Red Teaming": 0.3226,
+  "Prompt Injection": 0.371,
+  "Agent Tool Permissions": 0.2419,
+  "Guardrail Evaluation": 0.2742,
+  "Evaluation Harnesses": 0.2419,
+  "LLM-as-Judge": 0.2903,
+  "Adversarial Patches": 0.2419,
+  "Adversarial Training": 0.2419,
+  "PyTorch": 0.0806,
+  "Model Fine-Tuning": 0.0806,
+  "Bootstrap Confidence Intervals": 0.2419,
+  "Python": 0.0968
+ },
+ "demand": {
+  "ai.security": 0.44642857142857145,
+  "ai.evaluation": 0.375,
+  "ai.ml": 0.14285714285714285,
+  "sec.appsec": 0.017857142857142856,
+  "sec.offensive": 0.017857142857142856
+ },
+ "reach": 0.9032258064516129,
+ "selected": [
+  "G1.1",
+  "G1.2",
+  "G1.3",
+  "G1.4",
+  "G1.5",
+  "G2.1",
+  "G2.2",
+  "G2.3",
+  "G3.1",
+  "G3.2",
+  "I1.1",
+  "I1.2"
+ ],
+ "bullets": 12,
+ "project_lines": 27,
+ "coverage": 0.8870967741935484,
+ "emphasis": 0.626800636689216,
+ "standing": 0.515484526579968,
+ "incoherence": 0.4019222127311679,
+ "cost": 0.0640880525303182,
+ "cost_detail": {
+  "liability": 0.158,
+  "redundancy": 0.005
+ },
+ "depth": 0.6625,
+ "score": 1.100185005592831,
+ "missing_required": [
+  "OWASP LLM Top 10",
+  "LLM APIs & agent frameworks"
+ ],
+ "requirement_credit": [
+  {
+   "name": "ML system evaluation/attack",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G1.1",
+    "G1.5"
+   ]
+  },
+  {
+   "name": "Python",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G1.1",
+    "G3.2"
+   ]
+  },
+  {
+   "name": "Prompt injection & jailbreaks",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G1.1"
+   ]
+  },
+  {
+   "name": "OWASP LLM Top 10",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "G1.2"
+   ]
+  },
+  {
+   "name": "Statistics for experiments",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G1.3"
+   ]
+  },
+  {
+   "name": "LLM APIs & agent frameworks",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "G3.2"
+   ]
+  },
+  {
+   "name": "Evaluation harness development",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G1.1"
+   ]
+  },
+  {
+   "name": "LLM-based graders",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G1.5"
+   ]
+  },
+  {
+   "name": "Defense measurement",
+   "required": true,
+   "credit": 1.0,
+   "bullets": [
+    "G1.2"
+   ]
+  },
+  {
+   "name": "Adversarial ML research",
+   "required": false,
+   "credit": 1.0,
+   "bullets": [
+    "G3.1"
+   ]
+  },
+  {
+   "name": "Model training/fine-tuning",
+   "required": false,
+   "credit": 1.0,
+   "bullets": [
+    "G3.2"
+   ]
+  },
+  {
+   "name": "Application security/pentesting",
+   "required": false,
+   "credit": 0.5,
+   "bullets": [
+    "G2.1",
+    "G2.3",
+    "I1.1",
+    "I1.2"
+   ]
+  },
+  {
+   "name": "Containerized sandboxes",
+   "required": false,
+   "credit": 1.0,
+   "bullets": [
+    "G1.4"
+   ]
+  }
+ ],
+ "trace": [
+  [
+   "add",
+   [
+    "G1.5"
+   ],
+   0.853
+  ],
+  [
+   "add",
+   [
+    "G1.1"
+   ],
+   1.082
+  ],
+  [
+   "add",
+   [
+    "G1.2"
+   ],
+   1.186
+  ],
+  [
+   "add",
+   [
+    "G1.4"
+   ],
+   1.233
+  ],
+  [
+   "add",
+   [
+    "G3.2"
+   ],
+   1.256
+  ],
+  [
+   "add",
+   [
+    "G1.3"
+   ],
+   1.316
+  ],
+  [
+   "fill",
+   [
+    "G3.1"
+   ],
+   1.246
+  ],
+  [
+   "fill",
+   [
+    "G2.1"
+   ],
+   1.248
+  ],
+  [
+   "fill",
+   [
+    "G2.3"
+   ],
+   1.207
+  ],
+  [
+   "fill",
+   [
+    "G2.2"
+   ],
+   1.159
+  ],
+  [
+   "fill",
+   [
+    "I1.1"
+   ],
+   1.155
+  ],
+  [
+   "fill",
+   [
+    "I1.2"
+   ],
+   1.127
+  ]
+ ],
+ "page": [
+  {
+   "group": "G2",
+   "title": "Fuzzing an Open-Source Image-Decoding Library",
+   "bullets": [
+    "Found 5 memory-safety bugs, 3 of them heap buffer overflows, in an open-source image-decoding library by fuzzing it for 30 CPU-days with libFuzzer and AddressSanitizer.",
+    "Wrote fixes for 3 of the bugs, merged upstream with regression tests, and sent minimized reproducers for the other 2 to the maintainers.",
+    "Added the fuzz targets to the library's continuous integration, which now fuzzes each pull request for 10 minutes before merge."
+   ]
+  },
+  {
+   "group": "G1",
+   "title": "Prompt-Injection Evaluation of Tool-Using LLM Agents, Applied Security Lab",
+   "bullets": [
+    "Built a harness that runs 420 prompt-injection attacks against tool-using LLM agents in sandboxed tasks and records whether each attack reached a tool call.",
+    "Measured three published prompt-injection defenses on the harness; the strongest cut successful attacks from 31% to 9% and failed 4% of benign tasks.",
+    "Reported every attack success rate with bootstrap 95% confidence intervals over 5 seeds, which showed 2 of 12 gains claimed in earlier papers were within run-to-run noise.",
+    "Blocked 88% of the attacks that reached a tool call by giving each agent task an allowlist of the tools it needs and denying every other tool.",
+    "Built an LLM judge that labels attack success from transcripts, agreeing with two human labelers on 94% of 300 transcripts."
+   ]
+  },
+  {
+   "group": "I1",
+   "title": "Product Security Intern, Fernhill Payments",
+   "bullets": [
+    "Threat-modeled the card-tokenization service with its owning team and filed 14 findings, 11 of them fixed before the service's next release.",
+    "Closed an authorization gap that let a merchant-support role read any merchant's payout records, adding an ownership check and regression tests across 9 endpoints."
+   ]
+  },
+  {
+   "group": "G3",
+   "title": "Adversarial Patches on a Traffic-Sign Classifier, Machine Learning Security Course",
+   "bullets": [
+    "Trained printable adversarial patches that made a traffic-sign classifier misread stop signs in 72% of held-out photos, against 3% for random patches of the same size.",
+    "Fine-tuned a ResNet-18 sign classifier to 97% test accuracy as the target, then retrained it on adversarial examples, which lowered patch success to 41%."
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "name": "ML system evaluation/attack",
+   "required": true,
+   "capabilities": [
+    "LLM red teaming",
+    "model and judge evaluation"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Python",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "Python"
+   ]
+  },
+  {
+   "name": "Prompt injection & jailbreaks",
+   "required": true,
+   "capabilities": [
+    "LLM red teaming"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "OWASP LLM Top 10",
+   "required": true,
+   "capabilities": [
+    "prompt injection defence"
+   ],
+   "conditions": [
+    "OWASP Top 10 for LLM Applications"
+   ]
+  },
+  {
+   "name": "Statistics for experiments",
+   "required": true,
+   "capabilities": [
+    "measurement and statistics"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "LLM APIs & agent frameworks",
+   "required": true,
+   "capabilities": [
+    "agent and LLM system design"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Evaluation harness development",
+   "required": true,
+   "capabilities": [
+    "evaluation and benchmark design"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "LLM-based graders",
+   "required": true,
+   "capabilities": [
+    "model and judge evaluation"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Defense measurement",
+   "required": true,
+   "capabilities": [
+    "AI safeguard testing"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Adversarial ML research",
+   "required": false,
+   "capabilities": [
+    "adversarial machine learning"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Model training/fine-tuning",
+   "required": false,
+   "capabilities": [
+    "LLM training and fine-tuning",
+    "model training"
+   ],
+   "conditions": [
+    "PyTorch"
+   ]
+  },
+  {
+   "name": "Application security/pentesting",
+   "required": false,
+   "capabilities": [
+    "application security",
+    "infrastructure and network penetration testing"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Containerized sandboxes",
+   "required": false,
+   "capabilities": [
+    "agent containment and permissions"
+   ],
+   "conditions": [
+    "Docker",
+    "gVisor",
+    "Firecracker"
+   ]
+  }
+ ],
+ "unmapped": [],
+ "skill_rows": [
+  {
+   "row": "ai-sec",
+   "title": "AI Security",
+   "members": [
+    "Prompt Injection",
+    "LLM Red Teaming",
+    "LLM-as-Judge",
+    "Guardrail Evaluation",
+    "Agent Tool Permissions",
+    "Evaluation Harnesses",
+    "Adversarial Patches",
+    "Adversarial Training"
+   ]
+  },
+  {
+   "row": "ml",
+   "title": "Machine Learning",
+   "members": [
+    "Bootstrap Confidence Intervals",
+    "PyTorch",
+    "Model Fine-Tuning",
+    "Image Classification"
+   ]
+  },
+  {
+   "row": "appsec",
+   "title": "Application Security",
+   "members": [
+    "OWASP Top 10",
+    "Threat Modeling",
+    "Security Code Review",
+    "Authorization Testing"
+   ]
+  },
+  {
+   "row": "offsec",
+   "title": "Offensive Security",
+   "members": [
+    "Fuzzing",
+    "libFuzzer",
+    "AddressSanitizer",
+    "Exploit Development"
+   ]
+  },
+  {
+   "row": "tools",
+   "title": "Programming",
+   "members": [
+    "Python",
+    "Docker",
+    "Git",
+    "Go"
+   ]
+  }
+ ],
+ "coursework": [
+  {
+   "degree": "halvorsen",
+   "courses": [
+    "Large Language Model Security",
+    "Machine Learning Security",
+    "Security Metrics and Measurement",
+    "Software Security",
+    "Network Security",
+    "Applied Cryptography",
+    "Cloud Security",
+    "Operating Systems Security",
+    "Reverse Engineering",
+    "Privacy Engineering",
+    "Incident Response and Forensics"
+   ]
+  },
+  {
+   "degree": "lakemont",
+   "courses": [
+    "Probability and Statistics",
+    "Machine Learning",
+    "Introduction to Computer Security",
+    "Discrete Mathematics",
+    "Data Structures and Algorithms",
+    "Software Engineering",
+    "Web Development",
+    "Computer Networks",
+    "Computer Organization",
+    "Database Systems",
+    "Mobile Application Development"
+   ]
+  }
+ ],
+ "projects_by": "engine",
+ "choice": {
+  "projects": [
+   "G1",
+   "G6",
+   "G2",
+   "G3",
+   "I1",
+   "G4"
+  ],
+  "why": "Jev: the six projects most likely to belong on the page",
+  "placed": [
+   "G1",
+   "G2",
+   "G3",
+   "I1"
+  ]
+ }
+}

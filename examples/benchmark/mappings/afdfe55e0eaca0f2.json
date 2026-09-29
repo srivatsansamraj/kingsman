@@ -1,0 +1,319 @@
+{
+ "requirements": [
+  {
+   "name": "years of experience",
+   "tokens": [
+    "3+ years",
+    "cloud security",
+    "infrastructure engineering",
+    "platform engineering"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "3+ years cloud security, infrastructure or platform engineering"
+   ]
+  },
+  {
+   "name": "AWS IAM",
+   "tokens": [
+    "AWS",
+    "Amazon Web Services",
+    "IAM",
+    "IAM policy design",
+    "identity and access management"
+   ],
+   "required": true,
+   "capabilities": [
+    "authentication and IAM"
+   ],
+   "capability": "authentication and IAM",
+   "conditions": [
+    "AWS IAM"
+   ]
+  },
+  {
+   "name": "Kubernetes in production",
+   "tokens": [
+    "Kubernetes",
+    "EKS",
+    "Amazon Elastic Kubernetes Service",
+    "securing workloads"
+   ],
+   "required": true,
+   "capabilities": [
+    "cloud security"
+   ],
+   "capability": "cloud security",
+   "conditions": [
+    "Kubernetes",
+    "EKS"
+   ]
+  },
+  {
+   "name": "infrastructure as code",
+   "tokens": [
+    "infrastructure as code",
+    "IaC",
+    "Terraform"
+   ],
+   "required": true,
+   "capabilities": [
+    "containers and cloud infrastructure"
+   ],
+   "capability": "containers and cloud infrastructure",
+   "conditions": [
+    "Terraform"
+   ]
+  },
+  {
+   "name": "programming in Go or Python",
+   "tokens": [
+    "Go",
+    "Python",
+    "programming"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "Go",
+    "Python"
+   ]
+  },
+  {
+   "name": "network security fundamentals",
+   "tokens": [
+    "network security",
+    "VPC",
+    "security groups",
+    "private connectivity"
+   ],
+   "required": true,
+   "capabilities": [
+    "cloud security"
+   ],
+   "capability": "cloud security",
+   "conditions": [
+    "VPC"
+   ]
+  },
+  {
+   "name": "bachelor's degree",
+   "tokens": [
+    "bachelor's degree",
+    "computer science",
+    "related field",
+    "equivalent experience"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "bachelor's degree in computer science or related field, or equivalent experience"
+   ]
+  },
+  {
+   "name": "AWS IAM account structure",
+   "tokens": [
+    "account structure",
+    "permission boundaries",
+    "service control policies",
+    "SCPs",
+    "least-privilege roles"
+   ],
+   "required": true,
+   "capabilities": [
+    "authorization and least privilege"
+   ],
+   "capability": "authorization and least privilege",
+   "conditions": [
+    "AWS IAM",
+    "SCPs"
+   ]
+  },
+  {
+   "name": "workload identity",
+   "tokens": [
+    "workload identity",
+    "IAM Roles for Service Accounts",
+    "IRSA",
+    "short-lived tokens"
+   ],
+   "required": true,
+   "capabilities": [
+    "workload and service identity"
+   ],
+   "capability": "workload and service identity",
+   "conditions": [
+    "IRSA"
+   ]
+  },
+  {
+   "name": "EKS hardening",
+   "tokens": [
+    "EKS hardening",
+    "pod security standards",
+    "network policies",
+    "admission control",
+    "runtime monitoring"
+   ],
+   "required": true,
+   "capabilities": [
+    "cloud security"
+   ],
+   "capability": "cloud security",
+   "conditions": [
+    "EKS"
+   ]
+  },
+  {
+   "name": "policy-as-code in CI",
+   "tokens": [
+    "policy-as-code",
+    "Terraform security review",
+    "CI security checks"
+   ],
+   "required": true,
+   "capabilities": [
+    "developer tooling and CI/CD"
+   ],
+   "capability": "developer tooling and CI/CD",
+   "conditions": [
+    "Terraform"
+   ]
+  },
+  {
+   "name": "detections and incident response",
+   "tokens": [
+    "CloudTrail",
+    "VPC flow logs",
+    "Kubernetes audit logs",
+    "incident response",
+    "detection engineering"
+   ],
+   "required": true,
+   "capabilities": [
+    "detection engineering",
+    "incident response"
+   ],
+   "capability": "detection engineering",
+   "conditions": [
+    "CloudTrail",
+    "VPC flow logs",
+    "Kubernetes audit logs"
+   ]
+  },
+  {
+   "name": "security architecture reviews",
+   "tokens": [
+    "security architecture review",
+    "trust boundaries",
+    "data flows"
+   ],
+   "required": true,
+   "capabilities": [
+    "secure system architecture"
+   ],
+   "capability": "secure system architecture",
+   "conditions": []
+  },
+  {
+   "name": "security tooling development",
+   "tokens": [
+    "Go",
+    "Python",
+    "internal tools",
+    "automate security checks"
+   ],
+   "required": true,
+   "capabilities": [
+    "security test automation"
+   ],
+   "capability": "security test automation",
+   "conditions": [
+    "Go",
+    "Python"
+   ]
+  },
+  {
+   "name": "AWS security certification",
+   "tokens": [
+    "AWS Certified Security Specialty",
+    "cloud security certification"
+   ],
+   "required": false,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "AWS Certified Security Specialty"
+   ]
+  },
+  {
+   "name": "policy engines",
+   "tokens": [
+    "Open Policy Agent",
+    "OPA",
+    "Kyverno",
+    "policy engines"
+   ],
+   "required": false,
+   "capabilities": [
+    "cloud security"
+   ],
+   "capability": "cloud security",
+   "conditions": [
+    "OPA",
+    "Kyverno"
+   ]
+  },
+  {
+   "name": "secrets and key management",
+   "tokens": [
+    "secrets management",
+    "key management",
+    "AWS KMS",
+    "AWS Key Management Service"
+   ],
+   "required": false,
+   "capabilities": [
+    "applied cryptography"
+   ],
+   "capability": "applied cryptography",
+   "conditions": [
+    "AWS KMS"
+   ]
+  },
+  {
+   "name": "application security or detection engineering",
+   "tokens": [
+    "application security",
+    "detection engineering"
+   ],
+   "required": false,
+   "capabilities": [
+    "application security",
+    "detection engineering"
+   ],
+   "capability": "application security",
+   "conditions": []
+  }
+ ],
+ "valid": true,
+ "errors": [],
+ "first_errors": [],
+ "attempts": 1,
+ "input_tokens": 1125,
+ "output_tokens": 664,
+ "seconds": 25.2,
+ "batch": 5,
+ "title": "Cloud Security Engineer",
+ "vocabulary_sha256_16": "fce4b8d6fbc868de",
+ "format": 3,
+ "model": "claude-opus-5-5",
+ "answered_by": "claude-opus-5-5",
+ "fallback": null,
+ "made": "2026-09-29T06:36:06",
+ "posting": "paste-afdfe55e"
+}

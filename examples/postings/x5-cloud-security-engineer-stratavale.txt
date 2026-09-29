@@ -1,0 +1,41 @@
+Cloud Security Engineer
+Stratavale
+Remote (US) | Full-time
+
+About Stratavale
+Stratavale runs a data platform that logistics companies use to track shipments, forecast demand and share data with their partners. We run on AWS across three regions, with most services on Kubernetes (EKS), and we manage everything through Terraform. More at stratavale.example.com.
+
+The team
+Our Cloud Security team is four engineers who own the security of our AWS organization, our Kubernetes clusters and the pipelines that deploy to them. We build guardrails into the platform so that product teams get secure defaults without filing tickets.
+
+What you'll do
+- Design and maintain IAM for our AWS organization: account structure, permission boundaries, service control policies and least-privilege roles for people and workloads.
+- Move services from long-lived credentials to workload identity (IAM Roles for Service Accounts and short-lived tokens).
+- Harden our EKS clusters: pod security standards, network policies, admission control and runtime monitoring.
+- Review Terraform changes for security issues and build policy-as-code checks into CI.
+- Build detections on CloudTrail, VPC flow logs and Kubernetes audit logs, and take part in the incident response rotation.
+- Run security architecture reviews for new services and data flows, and document the trust boundaries.
+- Write internal tools in Go or Python that automate our security checks.
+
+What we're looking for
+- 3+ years of experience in cloud security, infrastructure or platform engineering.
+- Hands-on experience securing AWS, including IAM policy design.
+- Experience operating Kubernetes in production and securing workloads on it.
+- Experience with infrastructure as code, preferably Terraform.
+- Programming experience in Go or Python.
+- An understanding of network security fundamentals in the cloud (VPCs, security groups, private connectivity).
+- Bachelor's degree in computer science or a related field, or equivalent experience.
+
+Bonus points
+- AWS Certified Security - Specialty or similar certification.
+- Experience with Open Policy Agent, Kyverno or similar policy engines.
+- Experience with secrets management and key management (AWS KMS).
+- Background in application security or detection engineering.
+
+Pay and benefits
+- Base salary: $140,000 - $170,000 per year, plus stock options
+- Fully remote within the US, with a quarterly team week
+- Health, dental and vision insurance; 401(k) with match
+- Flexible time off and a home-office budget
+
+Stratavale is an equal opportunity employer and values diversity in all its forms.

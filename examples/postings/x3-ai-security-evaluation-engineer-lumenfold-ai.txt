@@ -1,0 +1,37 @@
+AI Security Evaluation Engineer
+Lumenfold AI
+San Francisco, CA (Hybrid) or Remote in the US
+
+About Lumenfold
+Lumenfold builds language-model agents that operate business software on behalf of their users: they read email, file tickets, update records and call internal APIs. Because our agents take actions, a successful attack on one can do real damage. Our Safeguards team measures how our agents fail under attack and decides whether a release is ready to ship. More at lumenfold.example.com.
+
+About the role
+As an AI Security Evaluation Engineer you will design and run the evaluations that tell us how robust our agents are to prompt injection, jailbreaks and tool misuse. You will build attack suites, turn one-off red-team findings into repeatable tests, and report results that product and research leads use to make release decisions. You will work closely with researchers training our models and with the engineers building agent tooling.
+
+What you'll do
+- Design evaluations that measure how often attacks succeed against our agents, including indirect prompt injection through documents, web pages and tool outputs.
+- Red team new agent capabilities before launch, and turn what you find into automated test cases.
+- Build and maintain our evaluation harness: sandboxed environments, attack generators, scoring and dashboards.
+- Measure the effect of defenses such as input filtering, tool permissioning and model-based classifiers, including their cost in false refusals on benign tasks.
+- Develop and validate LLM-based graders, and check their agreement with human labels.
+- Report results with appropriate statistical care: confidence intervals, multiple runs and clear baselines.
+- Write up findings for internal audiences and, where appropriate, for publication.
+
+What you bring
+- Experience evaluating or attacking machine learning systems, through work, research or substantial projects.
+- Strong Python skills and experience building reliable experiment pipelines.
+- Familiarity with prompt injection, jailbreaks and the OWASP Top 10 for LLM applications.
+- A solid grounding in statistics for experiments: sampling, variance, confidence intervals and significance.
+- Experience working with LLM APIs and agent frameworks that use tool calling.
+- Clear written communication about uncertain results.
+
+Nice to have
+- Research experience in adversarial machine learning, published or not.
+- Experience training or fine-tuning models in PyTorch.
+- Background in traditional application security or penetration testing.
+- Experience with containerized sandboxes (Docker, gVisor, Firecracker).
+
+Compensation and benefits
+The expected base salary for this role is $150,000 - $185,000 per year, plus equity. We offer comprehensive health coverage, a 401(k), generous parental leave and a yearly conference budget. Visa sponsorship is available for this role.
+
+Lumenfold is an equal opportunity employer and considers all qualified applicants without regard to race, sex, age, disability, veteran status or any other protected characteristic.

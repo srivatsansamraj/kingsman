@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kingsman"
+version = "0.1.0"
+description = "Chooses resume content for a job posting from an authored library; writes no resume text."
+requires-python = ">=3.11"
+authors = [{ name = "Srivatsan Samraj" }]
+license = { file = "LICENSE" }
+dependencies = ["lxml>=5.0"]
+
+[project.optional-dependencies]
+# Reading a new posting: job-board APIs over HTTP, and model calls through the signed-in Claude Code command
+# line. Building pages from saved readings needs neither. The SDK bundles the command line; 0.2.159 bundles one that
+# runs the models the engine names (claude-opus-5-5 among them); it is the version the model calls were made
+# with, so it is pinned. keyring reads the user's Jev key from the
+# system's credential store when a call goes to TypeSafe's Jev.
+read = ["httpx>=0.27", "claude-agent-sdk==0.2.159", "keyring>=25"]
+# The dashboard (`python -m tailor_dashboard`): a local web server; adding and reading jobs from it needs `read`.
+dashboard = ["kingsman[read]", "fastapi>=0.115", "uvicorn>=0.30"]
+# The tests: the strict type check (tests/test_types.py), the formatter and linter (tests/test_style.py), and
+# httpx, which the reading tests stand in for; the dashboard's packages, which the type check and its tests import.
+dev = ["kingsman[dashboard]", "mypy==2.3.1", "ruff==0.16.8", "httpx>=0.27"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tailor_dashboard = ["static/*", "static/fonts/*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests", "tools"]
+
+[tool.ruff.lint]
+# pycodestyle errors, pyflakes, import order, modern syntax, likely bugs; the form of docstrings (PEP 257),
+# naming (PEP 8), complexity, argument and branch counts, simpler forms, returns, unused arguments.
+select = ["E", "F", "I", "UP", "B", "D", "N", "PLR", "C901", "SIM", "RET", "ARG"]
+ignore = [
+    # A docstring is written for each function with real logic, not for every public name: on a trivial
+    # accessor it only restates the code (this project's docstring style).
+    "D1",
+    # Docstrings state what a function gives ("The page for a posting."), not a command.
+    "D401",
+    # Every argument a function needs is kept; past the fifth they are keyword-only (PLR0917), so a call
+    # cannot swap two of the same type.
+    "PLR0913",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "pep257"
+
+[tool.ruff.lint.mccabe]
+# Flat lists of checks (an answer check, a file's field checks) read clearly past the default of 10.
+max-complexity = 12
+
+[tool.ruff.lint.per-file-ignores]
+# Call 1's prompt is sent to the model exactly as written; rewrapping it would change what the model reads.
+"src/tailor_engine/reading/requirements.py" = ["E501"]
+# Tests: stand-ins keep the signatures of what they replace, and expected values are written as literals.
+"tests/*" = ["ARG", "PLR2004"]
+# The dev server's stand-ins keep the signatures of the model calls they replace.
+"tools/dev_server.py" = ["ARG"]
+
+[tool.mypy]
+files = ["src", "tests", "tools"]
+strict = true
+# Outside libraries with no types (lxml, the Word writer's XML library) or that may not be installed (the
+# Claude Agent SDK, needed only to read new postings).
+[[tool.mypy.overrides]]
+module = ["lxml", "lxml.*", "claude_agent_sdk", "claude_agent_sdk.*"]
+ignore_missing_imports = true

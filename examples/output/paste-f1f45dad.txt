@@ -1,0 +1,36 @@
+================================================================================================
+POSTING: Senior Accountant, Revenue
+================================================================================================
+17 requirements (13 required), 20 keywords
+mode capabilities, reach 0.28, unmet word demand 100%
+demand:
+    sec.risk               1.00  ############################################
+
+13 bullets in 4 projects, 28/28 project lines
+  coverage 0.28   emphasis 0.02   standing 0.51   incoherence 0.23   cost 0.11   depth 0.70   score 0.530
+
+  Fuzzing an Open-Source Image-Decoding Library
+      Found 5 memory-safety bugs, 3 of them heap buffer overflows, in an open-source image-decoding library by fuzzing it for 30 CPU-days with libFuzzer and AddressSanitizer.
+
+  Prompt-Injection Evaluation of Tool-Using LLM Agents, Applied Security Lab
+      Built a harness that runs 420 prompt-injection attacks against tool-using LLM agents in sandboxed tasks and records whether each attack reached a tool call.
+      Measured three published prompt-injection defenses on the harness; the strongest cut successful attacks from 31% to 9% and failed 4% of benign tasks.
+      Reported every attack success rate with bootstrap 95% confidence intervals over 5 seeds, which showed 2 of 12 gains claimed in earlier papers were within run-to-run noise.
+      Blocked 88% of the attacks that reached a tool call by giving each agent task an allowlist of the tools it needs and denying every other tool.
+      Built an LLM judge that labels attack success from transcripts, agreeing with two human labelers on 94% of 300 transcripts.
+
+  Product Security Intern, Fernhill Payments
+      Threat-modeled the card-tokenization service with its owning team and filed 14 findings, 11 of them fixed before the service's next release.
+      Closed an authorization gap that let a merchant-support role read any merchant's payout records, adding an ownership check and regression tests across 9 endpoints.
+      Reviewed 40 pull requests to payment services for injection, deserialization and access-control flaws, and wrote Semgrep rules for the 3 flaw patterns found more than once.
+      Triaged 60 scanner and bug-bounty reports against a written severity rubric, closing 38 as duplicates or false positives and assigning the rest to owning teams with fix dates.
+
+  Detection Engineering Intern, Quarrystone Freight
+      Wrote 18 Sigma detections for credential abuse in identity-provider logs, each tested against replayed attack data before release to the security operations team.
+      Found 4 compromised contractor accounts within a month of launching a Python and SQL job that scores sign-ins for impossible travel and token reuse.
+      Wrote response runbooks for the 6 highest-volume alerts and ran a tabletop exercise with the on-call team to test them.
+
+  required, not fully met: Revenue close ownership, ASC 606 application, E-commerce and POS reconciliation, Revenue flux analysis, SOX internal controls, Audit support, NetSuite process improvement, CPA license or in progress, 4+ years accounting experience, US GAAP knowledge, NetSuite or ERP experience, Advanced Excel
+
+  projects chosen by call 3 (the engine's match was 0.28):
+  Jev: the six projects most likely to belong on the page

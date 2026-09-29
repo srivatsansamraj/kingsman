@@ -1,0 +1,36 @@
+================================================================================================
+POSTING: AI Security Evaluation Engineer
+================================================================================================
+13 requirements (9 required), 18 keywords
+mode capabilities, reach 0.90, unmet word demand 34%
+demand:
+    ai.security            0.45  ###################
+    ai.evaluation          0.38  ################
+    ai.ml                  0.14  ######
+    sec.appsec             0.02  
+    sec.offensive          0.02  
+
+12 bullets in 4 projects, 27/28 project lines
+  coverage 0.89   emphasis 0.63   standing 0.52   incoherence 0.40   cost 0.06   depth 0.66   score 1.100
+
+  Fuzzing an Open-Source Image-Decoding Library
+      Found 5 memory-safety bugs, 3 of them heap buffer overflows, in an open-source image-decoding library by fuzzing it for 30 CPU-days with libFuzzer and AddressSanitizer.
+      Wrote fixes for 3 of the bugs, merged upstream with regression tests, and sent minimized reproducers for the other 2 to the maintainers.
+      Added the fuzz targets to the library's continuous integration, which now fuzzes each pull request for 10 minutes before merge.
+
+  Prompt-Injection Evaluation of Tool-Using LLM Agents, Applied Security Lab
+      Built a harness that runs 420 prompt-injection attacks against tool-using LLM agents in sandboxed tasks and records whether each attack reached a tool call.
+      Measured three published prompt-injection defenses on the harness; the strongest cut successful attacks from 31% to 9% and failed 4% of benign tasks.
+      Reported every attack success rate with bootstrap 95% confidence intervals over 5 seeds, which showed 2 of 12 gains claimed in earlier papers were within run-to-run noise.
+      Blocked 88% of the attacks that reached a tool call by giving each agent task an allowlist of the tools it needs and denying every other tool.
+      Built an LLM judge that labels attack success from transcripts, agreeing with two human labelers on 94% of 300 transcripts.
+
+  Product Security Intern, Fernhill Payments
+      Threat-modeled the card-tokenization service with its owning team and filed 14 findings, 11 of them fixed before the service's next release.
+      Closed an authorization gap that let a merchant-support role read any merchant's payout records, adding an ownership check and regression tests across 9 endpoints.
+
+  Adversarial Patches on a Traffic-Sign Classifier, Machine Learning Security Course
+      Trained printable adversarial patches that made a traffic-sign classifier misread stop signs in 72% of held-out photos, against 3% for random patches of the same size.
+      Fine-tuned a ResNet-18 sign classifier to 97% test accuracy as the target, then retrained it on adversarial examples, which lowered patch success to 41%.
+
+  required, not fully met: OWASP LLM Top 10, LLM APIs & agent frameworks

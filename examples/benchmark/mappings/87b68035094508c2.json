@@ -1,0 +1,288 @@
+{
+ "requirements": [
+  {
+   "name": "vulnerability research experience",
+   "tokens": [
+    "vulnerability research",
+    "penetration testing",
+    "exploit development",
+    "CTF competitions",
+    "published CVEs",
+    "open-source security work",
+    "2+ years"
+   ],
+   "required": true,
+   "capabilities": [
+    "vulnerability research"
+   ],
+   "capability": "vulnerability research",
+   "conditions": [
+    "2+ years"
+   ]
+  },
+  {
+   "name": "C programming",
+   "tokens": [
+    "C programming",
+    "memory safety",
+    "stack",
+    "heap"
+   ],
+   "required": true,
+   "capabilities": [
+    "systems programming"
+   ],
+   "capability": "systems programming",
+   "conditions": [
+    "C"
+   ]
+  },
+  {
+   "name": "coverage-guided fuzzing",
+   "tokens": [
+    "coverage-guided fuzzer",
+    "libFuzzer",
+    "AFL++",
+    "AddressSanitizer",
+    "sanitizers",
+    "fuzzing"
+   ],
+   "required": true,
+   "capabilities": [
+    "vulnerability research"
+   ],
+   "capability": "vulnerability research",
+   "conditions": [
+    "libFuzzer",
+    "AFL++",
+    "AddressSanitizer"
+   ]
+  },
+  {
+   "name": "debugger proficiency",
+   "tokens": [
+    "debugger",
+    "GDB",
+    "WinDbg",
+    "LLDB"
+   ],
+   "required": true,
+   "capabilities": [
+    "debugging and defect diagnosis"
+   ],
+   "capability": "debugging and defect diagnosis",
+   "conditions": [
+    "GDB",
+    "WinDbg",
+    "LLDB"
+   ]
+  },
+  {
+   "name": "disassembler proficiency",
+   "tokens": [
+    "disassembler",
+    "Ghidra",
+    "IDA"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "Ghidra",
+    "IDA"
+   ]
+  },
+  {
+   "name": "Python scripting",
+   "tokens": [
+    "Python",
+    "tooling",
+    "automation"
+   ],
+   "required": true,
+   "capabilities": [
+    "security test automation"
+   ],
+   "capability": "security test automation",
+   "conditions": [
+    "Python"
+   ]
+  },
+  {
+   "name": "fuzzing harness development",
+   "tokens": [
+    "fuzzing harnesses",
+    "parsers",
+    "network services",
+    "libFuzzer",
+    "AFL++",
+    "custom tooling"
+   ],
+   "required": true,
+   "capabilities": [
+    "vulnerability research"
+   ],
+   "capability": "vulnerability research",
+   "conditions": [
+    "libFuzzer",
+    "AFL++"
+   ]
+  },
+  {
+   "name": "crash triage",
+   "tokens": [
+    "triage crashes",
+    "root cause analysis",
+    "exploitability"
+   ],
+   "required": true,
+   "capabilities": [
+    "vulnerability triage and management"
+   ],
+   "capability": "vulnerability triage and management",
+   "conditions": []
+  },
+  {
+   "name": "proof-of-concept exploit development",
+   "tokens": [
+    "proof-of-concept exploits",
+    "memory corruption",
+    "heap overflow",
+    "use-after-free",
+    "type confusion"
+   ],
+   "required": true,
+   "capabilities": [
+    "exploit development"
+   ],
+   "capability": "exploit development",
+   "conditions": []
+  },
+  {
+   "name": "reverse engineering",
+   "tokens": [
+    "reverse engineer",
+    "closed-source binaries",
+    "Ghidra",
+    "IDA",
+    "attack surface"
+   ],
+   "required": true,
+   "capabilities": [
+    "vulnerability research"
+   ],
+   "capability": "vulnerability research",
+   "conditions": [
+    "Ghidra",
+    "IDA"
+   ]
+  },
+  {
+   "name": "web and API testing",
+   "tokens": [
+    "web testing",
+    "API testing"
+   ],
+   "required": true,
+   "capabilities": [
+    "web and API security"
+   ],
+   "capability": "web and API security",
+   "conditions": []
+  },
+  {
+   "name": "findings report writing",
+   "tokens": [
+    "findings reports",
+    "reproduction steps",
+    "severity",
+    "remediation advice"
+   ],
+   "required": true,
+   "capabilities": [
+    "security documentation"
+   ],
+   "capability": "security documentation",
+   "conditions": []
+  },
+  {
+   "name": "modern exploit mitigations",
+   "tokens": [
+    "ASLR",
+    "DEP",
+    "stack canaries",
+    "CFI",
+    "modern mitigations",
+    "exploitation"
+   ],
+   "required": false,
+   "capabilities": [
+    "exploit development"
+   ],
+   "capability": "exploit development",
+   "conditions": []
+  },
+  {
+   "name": "kernel internals",
+   "tokens": [
+    "Linux kernel internals",
+    "Windows kernel internals"
+   ],
+   "required": false,
+   "capabilities": [
+    "filesystems and OS internals"
+   ],
+   "capability": "filesystems and OS internals",
+   "conditions": [
+    "Linux kernel",
+    "Windows kernel"
+   ]
+  },
+  {
+   "name": "security certifications",
+   "tokens": [
+    "OSCP",
+    "OSED"
+   ],
+   "required": false,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "OSCP",
+    "OSED"
+   ]
+  },
+  {
+   "name": "upstream vulnerability disclosure",
+   "tokens": [
+    "reporting vulnerabilities upstream",
+    "CVE",
+    "responsible disclosure"
+   ],
+   "required": false,
+   "capabilities": [
+    "vulnerability research"
+   ],
+   "capability": "vulnerability research",
+   "conditions": [
+    "CVE"
+   ]
+  }
+ ],
+ "valid": true,
+ "errors": [],
+ "first_errors": [],
+ "attempts": 1,
+ "input_tokens": 1125,
+ "output_tokens": 664,
+ "seconds": 25.2,
+ "batch": 5,
+ "title": "Offensive Security Engineer, Vulnerability Research",
+ "vocabulary_sha256_16": "fce4b8d6fbc868de",
+ "format": 3,
+ "model": "claude-opus-5-5",
+ "answered_by": "claude-opus-5-5",
+ "fallback": null,
+ "made": "2026-09-29T06:36:06",
+ "posting": "paste-87b68035"
+}

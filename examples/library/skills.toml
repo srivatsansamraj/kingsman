@@ -1,0 +1,163 @@
+# Candidate skill rows for the skills section, each with alternative titles and a pool of skills.
+
+about = '''
+The page has five chosen skill rows plus the certifications line. Seven rows here compete for those five
+slots; for each posting the engine decides which rows win, the title each row is printed under, and up to
+eight skills per row, drawing only on what is written below.
+
+Burp Suite and Docker sit in two rows each. Whichever row is printed frames the skill; no skill is printed
+twice. `prior`, between 0 and 1, is a row's value independent of the posting: it settles ties, and it
+chooses rows when nothing in the posting points at any of them. When the `tools` row is chosen it is
+printed last.
+
+Each skill here is demonstrated by some bullet in `projects.toml`, and each skill in a competing row is
+listed in `skill-capabilities.toml`. The `certs` row is printed by the Word template as fixed text, so its
+wording has to match the template's certifications line exactly.'''
+
+[[row]]  # appsec: product and application security
+id = "appsec"
+prior = 0.6
+titles = [
+  { text = "Application Security", tags = { "security.appsec" = 1.0 } },
+  { text = "Product Security", tags = { "security.appsec" = 0.8, "software.backend" = 0.2 } },
+  { text = "Secure SDLC", tags = { "security.appsec" = 0.7, "software.backend" = 0.3 } },
+]
+members = [
+  { text = "Threat Modeling", tags = { "security.appsec" = 0.5, "security.grc" = 0.5 } },
+  { text = "Security Code Review", tags = { "security.appsec" = 1.0 } },
+  { text = "Authorization Testing", tags = { "security.appsec" = 0.8, "security.offensive" = 0.2 } },
+  { text = "API Security", tags = { "security.appsec" = 0.7, "software.backend" = 0.3 } },
+  { text = "Vulnerability Management", tags = { "security.appsec" = 0.6, "security.grc" = 0.4 } },
+  { text = "OWASP Top 10", tags = { "security.appsec" = 1.0 } },
+  { text = "Semgrep", tags = { "security.appsec" = 1.0 } },
+  { text = "Burp Suite", tags = { "security.appsec" = 0.6, "security.offensive" = 0.4 } },
+]
+
+[[row]]  # offsec: fuzzing, exploitation, reverse engineering
+id = "offsec"
+prior = 0.6
+titles = [
+  { text = "Offensive Security", tags = { "security.offensive" = 1.0 } },
+  { text = "Vulnerability Research", tags = { "security.offensive" = 0.6, "reverse-engineering" = 0.4 } },
+  { text = "Exploitation and Fuzzing", tags = { "security.offensive" = 0.8, "reverse-engineering" = 0.2 } },
+]
+members = [
+  { text = "Fuzzing", tags = { "security.offensive" = 0.8, "security.appsec" = 0.2 } },
+  { text = "libFuzzer", tags = { "security.offensive" = 1.0 } },
+  { text = "AddressSanitizer", tags = { "security.offensive" = 0.6, "systems.os" = 0.4 } },
+  { text = "Exploit Development", tags = { "security.offensive" = 1.0 } },
+  { text = "Return-Oriented Programming", tags = { "security.offensive" = 0.6, "reverse-engineering" = 0.4 } },
+  { text = "pwntools", tags = { "security.offensive" = 1.0 } },
+  { text = "Ghidra", tags = { "reverse-engineering" = 1.0 } },
+  { text = "GDB", tags = { "reverse-engineering" = 0.6, "systems.os" = 0.4 } },
+  { text = "Burp Suite", tags = { "security.appsec" = 0.6, "security.offensive" = 0.4 } },
+]
+
+[[row]]  # detect: detections, response, malware triage
+id = "detect"
+prior = 0.5
+titles = [
+  { text = "Detection and Response", tags = { "security.forensics" = 1.0 } },
+  { text = "Threat Detection", tags = { "security.forensics" = 0.8, "systems.networking" = 0.2 } },
+  { text = "Security Operations", tags = { "security.forensics" = 0.7, "security.grc" = 0.3 } },
+]
+members = [
+  { text = "Detection Engineering", tags = { "security.forensics" = 1.0 } },
+  { text = "Sigma", tags = { "security.forensics" = 1.0 } },
+  { text = "Splunk", tags = { "security.forensics" = 0.8, databases = 0.2 } },
+  { text = "YARA", tags = { "security.forensics" = 0.7, "reverse-engineering" = 0.3 } },
+  { text = "Incident Response", tags = { "security.forensics" = 0.7, "security.grc" = 0.3 } },
+  { text = "Malware Analysis", tags = { "security.forensics" = 0.6, "reverse-engineering" = 0.4 } },
+  { text = "Account Takeover Detection", tags = { "security.forensics" = 1.0 } },
+  { text = "Tabletop Exercises", tags = { "security.grc" = 0.6, "security.forensics" = 0.4 } },
+]
+
+[[row]]  # cloud: AWS, Kubernetes, identity
+id = "cloud"
+prior = 0.5
+titles = [
+  { text = "Cloud Security", tags = { "security.appsec" = 0.6, "software.backend" = 0.4 } },
+  { text = "Cloud and Kubernetes", tags = { "software.backend" = 0.6, "security.appsec" = 0.4 } },
+  { text = "Infrastructure Security", tags = { "security.appsec" = 0.6, "systems.os" = 0.4 } },
+]
+members = [
+  { text = "AWS", tags = { "software.backend" = 0.6, "security.appsec" = 0.4 } },
+  { text = "AWS IAM", tags = { "security.appsec" = 1.0 } },
+  { text = "Kubernetes", tags = { "software.backend" = 0.6, "systems.os" = 0.4 } },
+  { text = "Network Policies", tags = { "security.appsec" = 0.6, "systems.networking" = 0.4 } },
+  { text = "Terraform", tags = { "software.backend" = 1.0 } },
+  { text = "Docker", tags = { "software.backend" = 0.6, "systems.os" = 0.4 } },
+  { text = "Least-Privilege Access", tags = { "security.appsec" = 1.0 } },
+  { text = "Security Architecture", tags = { "security.appsec" = 0.8, "security.grc" = 0.2 } },
+]
+
+[[row]]  # ai-sec: attacks on and defenses for models and agents
+id = "ai-sec"
+prior = 0.5
+titles = [
+  { text = "AI Security", tags = { "ai.security" = 1.0 } },
+  { text = "LLM and Agent Security", tags = { "ai.security" = 0.6, "ai.agents" = 0.4 } },
+  { text = "ML Security", tags = { "ai.adversarial" = 0.7, "ai.security" = 0.3 } },
+]
+members = [
+  { text = "LLM Red Teaming", tags = { "ai.security" = 1.0 } },
+  { text = "Prompt Injection", tags = { "ai.security" = 0.7, "ai.agents" = 0.3 } },
+  { text = "Agent Tool Permissions", tags = { "ai.agents" = 0.5, "ai.security" = 0.5 } },
+  { text = "Guardrail Evaluation", tags = { "ai.security" = 0.6, research = 0.4 } },
+  { text = "Evaluation Harnesses", tags = { research = 0.6, "ai.security" = 0.4 } },
+  { text = "LLM-as-Judge", tags = { "ai.ml" = 0.6, research = 0.4 } },
+  { text = "Adversarial Patches", tags = { "ai.adversarial" = 0.7, "ai.cv" = 0.3 } },
+  { text = "Adversarial Training", tags = { "ai.adversarial" = 0.6, "ai.ml" = 0.4 } },
+]
+
+[[row]]  # ml: training, vision, statistics
+id = "ml"
+prior = 0.3
+titles = [
+  { text = "Machine Learning", tags = { "ai.ml" = 1.0 } },
+  { text = "Machine Learning and Statistics", tags = { "ai.ml" = 0.6, research = 0.4 } },
+  { text = "Computer Vision", tags = { "ai.cv" = 0.7, "ai.ml" = 0.3 } },
+]
+members = [
+  { text = "PyTorch", tags = { "ai.ml" = 1.0 } },
+  { text = "Model Fine-Tuning", tags = { "ai.ml" = 1.0 } },
+  { text = "Image Classification", tags = { "ai.cv" = 1.0 } },
+  { text = "ResNet", tags = { "ai.cv" = 0.6, "ai.ml" = 0.4 } },
+  { text = "Bootstrap Confidence Intervals", tags = { research = 1.0 } },
+  { text = "pandas", tags = { research = 0.6, databases = 0.4 } },
+  { text = "Jupyter", tags = { research = 0.5, "ai.ml" = 0.5 } },
+]
+
+[[row]]  # tools: languages and everyday tools; printed last when chosen
+id = "tools"
+prior = 0.9
+titles = [
+  { text = "Languages and Tools", tags = { "software.backend" = 0.5, "systems.os" = 0.5 } },
+  { text = "Programming", tags = { "software.backend" = 0.7, "systems.os" = 0.3 } },
+  { text = "Engineering Tools", tags = { "software.backend" = 0.6, "systems.os" = 0.4 } },
+]
+members = [
+  { text = "Python", tags = { "software.backend" = 0.7, "ai.ml" = 0.3 } },
+  { text = "Go", tags = { "software.backend" = 1.0 } },
+  { text = "C", tags = { "systems.os" = 1.0 } },
+  { text = "Java", tags = { "software.backend" = 1.0 } },
+  { text = "SQL", tags = { databases = 1.0 } },
+  { text = "JavaScript", tags = { "software.frontend" = 1.0 } },
+  { text = "Kotlin", tags = { "software.mobile" = 1.0 } },
+  { text = "Bash", tags = { "systems.os" = 1.0 } },
+  { text = "Linux", tags = { "systems.os" = 1.0 } },
+  { text = "Git", tags = { "software.backend" = 1.0 } },
+  { text = "Docker", tags = { "software.backend" = 0.6, "systems.os" = 0.4 } },
+]
+
+[[row]]  # certs: fixed, printed on every page
+id = "certs"
+fixed = true
+titles = [
+  { text = "Certifications", tags = { "security.grc" = 1.0 } },
+]
+members = [
+  { text = "OSCP", tags = { "security.offensive" = 1.0 } },
+  { text = "AWS Certified Security - Specialty", tags = { "security.appsec" = 0.6, "software.backend" = 0.4 } },
+]
+notes = ["Printed on every page, below the chosen rows, exactly as the template's certifications line reads."]

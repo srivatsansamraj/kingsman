@@ -1,0 +1,327 @@
+{
+ "requirements": [
+  {
+   "name": "U.S. citizenship",
+   "tokens": [
+    "U.S. citizenship",
+    "citizen"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "U.S. citizenship"
+   ]
+  },
+  {
+   "name": "Secret clearance",
+   "tokens": [
+    "Secret security clearance",
+    "active Secret",
+    "Top Secret",
+    "TS",
+    "security clearance"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "Secret clearance"
+   ]
+  },
+  {
+   "name": "SOC/IR/detection experience",
+   "tokens": [
+    "5+ years",
+    "SOC",
+    "incident response",
+    "detection engineering",
+    "security operations center"
+   ],
+   "required": true,
+   "capabilities": [
+    "incident response",
+    "detection engineering"
+   ],
+   "capability": "incident response",
+   "conditions": [
+    "5+ years"
+   ]
+  },
+  {
+   "name": "Splunk detection content",
+   "tokens": [
+    "Splunk",
+    "SPL",
+    "SIEM",
+    "detection rules",
+    "detection content"
+   ],
+   "required": true,
+   "capabilities": [
+    "detection engineering"
+   ],
+   "capability": "detection engineering",
+   "conditions": [
+    "Splunk",
+    "SPL"
+   ]
+  },
+  {
+   "name": "incident response",
+   "tokens": [
+    "incident response",
+    "forensic analysis",
+    "Windows forensics",
+    "IR"
+   ],
+   "required": true,
+   "capabilities": [
+    "incident response"
+   ],
+   "capability": "incident response",
+   "conditions": []
+  },
+  {
+   "name": "MITRE ATT&CK",
+   "tokens": [
+    "MITRE ATT&CK",
+    "ATT&CK framework",
+    "TTP mapping"
+   ],
+   "required": true,
+   "capabilities": [
+    "threat intelligence"
+   ],
+   "capability": "threat intelligence",
+   "conditions": [
+    "MITRE ATT&CK"
+   ]
+  },
+  {
+   "name": "Python or PowerShell scripting",
+   "tokens": [
+    "Python",
+    "PowerShell",
+    "scripting"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "Python",
+    "PowerShell"
+   ]
+  },
+  {
+   "name": "GCIH or GCIA or GCFA or CySA+",
+   "tokens": [
+    "GCIH",
+    "GCIA",
+    "GCFA",
+    "CySA+",
+    "DoD 8570",
+    "IAT Level II"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "GCIH",
+    "GCIA",
+    "GCFA",
+    "CySA+"
+   ]
+  },
+  {
+   "name": "detection rule development",
+   "tokens": [
+    "detection rules",
+    "Splunk",
+    "Sigma",
+    "identity telemetry",
+    "endpoint telemetry",
+    "cloud telemetry",
+    "EDR",
+    "AWS CloudTrail",
+    "Azure AD"
+   ],
+   "required": true,
+   "capabilities": [
+    "detection engineering"
+   ],
+   "capability": "detection engineering",
+   "conditions": [
+    "Splunk",
+    "Sigma"
+   ]
+  },
+  {
+   "name": "MITRE ATT&CK coverage mapping",
+   "tokens": [
+    "MITRE ATT&CK",
+    "coverage mapping",
+    "gap analysis"
+   ],
+   "required": true,
+   "capabilities": [
+    "detection engineering"
+   ],
+   "capability": "detection engineering",
+   "conditions": [
+    "MITRE ATT&CK"
+   ]
+  },
+  {
+   "name": "incident lead",
+   "tokens": [
+    "incident lead",
+    "scoping",
+    "containment",
+    "evidence collection",
+    "incident reporting"
+   ],
+   "required": true,
+   "capabilities": [
+    "incident response"
+   ],
+   "capability": "incident response",
+   "conditions": []
+  },
+  {
+   "name": "host and memory forensics",
+   "tokens": [
+    "host forensics",
+    "memory forensics",
+    "Windows forensics",
+    "Linux forensics",
+    "digital forensics"
+   ],
+   "required": true,
+   "capabilities": [
+    "digital forensics"
+   ],
+   "capability": "digital forensics",
+   "conditions": []
+  },
+  {
+   "name": "playbooks and SOAR automation",
+   "tokens": [
+    "response playbooks",
+    "SOAR",
+    "automation",
+    "Python"
+   ],
+   "required": true,
+   "capabilities": [
+    "incident response"
+   ],
+   "capability": "incident response",
+   "conditions": [
+    "SOAR",
+    "Python"
+   ]
+  },
+  {
+   "name": "threat intelligence",
+   "tokens": [
+    "threat intelligence",
+    "campaign analysis",
+    "federal networks"
+   ],
+   "required": true,
+   "capabilities": [
+    "threat intelligence"
+   ],
+   "capability": "threat intelligence",
+   "conditions": []
+  },
+  {
+   "name": "cloud detection",
+   "tokens": [
+    "cloud control plane",
+    "AWS",
+    "Amazon Web Services",
+    "Azure",
+    "AWS CloudTrail",
+    "Azure AD"
+   ],
+   "required": false,
+   "capabilities": [
+    "detection engineering"
+   ],
+   "capability": "detection engineering",
+   "conditions": [
+    "AWS",
+    "Azure",
+    "AWS CloudTrail",
+    "Azure AD"
+   ]
+  },
+  {
+   "name": "malware analysis and YARA",
+   "tokens": [
+    "malware analysis",
+    "YARA",
+    "YARA rules"
+   ],
+   "required": false,
+   "capabilities": [
+    "digital forensics"
+   ],
+   "capability": "digital forensics",
+   "conditions": [
+    "YARA"
+   ]
+  },
+  {
+   "name": "detection-as-code",
+   "tokens": [
+    "detection-as-code",
+    "version control",
+    "CI",
+    "continuous integration",
+    "testing detections",
+    "Git"
+   ],
+   "required": false,
+   "capabilities": [
+    "detection engineering"
+   ],
+   "capability": "detection engineering",
+   "conditions": [
+    "Git"
+   ]
+  },
+  {
+   "name": "bachelor's degree",
+   "tokens": [
+    "bachelor's degree",
+    "cybersecurity",
+    "computer science"
+   ],
+   "required": false,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "bachelor's degree in cybersecurity or computer science"
+   ]
+  }
+ ],
+ "valid": true,
+ "errors": [],
+ "first_errors": [],
+ "attempts": 1,
+ "input_tokens": 1125,
+ "output_tokens": 664,
+ "seconds": 25.2,
+ "batch": 5,
+ "title": "Detection and Response Engineer",
+ "vocabulary_sha256_16": "fce4b8d6fbc868de",
+ "format": 3,
+ "model": "claude-opus-5-5",
+ "answered_by": "claude-opus-5-5",
+ "fallback": null,
+ "made": "2026-09-29T06:36:06",
+ "posting": "paste-9725cefb"
+}

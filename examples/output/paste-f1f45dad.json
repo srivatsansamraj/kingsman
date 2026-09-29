@@ -1,0 +1,569 @@
+{
+ "posting": "Senior Accountant, Revenue",
+ "posting_id": "paste-f1f45dad",
+ "mode": "capabilities",
+ "extraction": {
+  "requirements": 17,
+  "required": 13,
+  "keywords": 20
+ },
+ "unmet": 1.0,
+ "skill_scores": {},
+ "demand": {
+  "sec.risk": 1.0
+ },
+ "reach": 0.27906976744186046,
+ "selected": [
+  "G1.1",
+  "G1.2",
+  "G1.3",
+  "G1.4",
+  "G1.5",
+  "G2.1",
+  "I1.1",
+  "I1.2",
+  "I1.3",
+  "I1.4",
+  "I2.1",
+  "I2.2",
+  "I2.3"
+ ],
+ "bullets": 13,
+ "project_lines": 28,
+ "coverage": 0.27906976744186046,
+ "emphasis": 0.023943661971830954,
+ "standing": 0.5103685273521823,
+ "incoherence": 0.23401913875598088,
+ "cost": 0.1136095927036976,
+ "cost_detail": {
+  "liability": 0.283,
+  "redundancy": 0.002
+ },
+ "depth": 0.705,
+ "score": 0.5300581953272877,
+ "missing_required": [
+  "Revenue close ownership",
+  "ASC 606 application",
+  "E-commerce and POS reconciliation",
+  "Revenue flux analysis",
+  "SOX internal controls",
+  "Audit support",
+  "NetSuite process improvement",
+  "CPA license or in progress",
+  "4+ years accounting experience",
+  "US GAAP knowledge",
+  "NetSuite or ERP experience",
+  "Advanced Excel"
+ ],
+ "requirement_credit": [
+  {
+   "name": "Revenue close ownership",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "I2.3"
+   ]
+  },
+  {
+   "name": "ASC 606 application",
+   "required": true,
+   "credit": 0.25,
+   "bullets": [
+    "I2.3"
+   ]
+  },
+  {
+   "name": "E-commerce and POS reconciliation",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "I2.3"
+   ]
+  },
+  {
+   "name": "Revenue flux analysis",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "I2.3"
+   ]
+  },
+  {
+   "name": "SOX internal controls",
+   "required": true,
+   "credit": 0.25,
+   "bullets": [
+    "I2.3"
+   ]
+  },
+  {
+   "name": "Audit support",
+   "required": true,
+   "credit": 0.5,
+   "bullets": [
+    "I2.3"
+   ]
+  },
+  {
+   "name": "NetSuite process improvement",
+   "required": true,
+   "credit": 0.25,
+   "bullets": [
+    "I2.3"
+   ]
+  },
+  {
+   "name": "Bachelor's degree accounting or finance",
+   "required": true,
+   "credit": 1.0,
+   "bullets": []
+  },
+  {
+   "name": "CPA license or in progress",
+   "required": true,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "4+ years accounting experience",
+   "required": true,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "Public accounting experience",
+   "required": false,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "US GAAP knowledge",
+   "required": true,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "NetSuite or ERP experience",
+   "required": true,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "Advanced Excel",
+   "required": true,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "Retail or consumer products industry",
+   "required": false,
+   "credit": 0.0,
+   "bullets": []
+  },
+  {
+   "name": "Wholesale allowance and returns reserve",
+   "required": false,
+   "credit": 0.5,
+   "bullets": [
+    "I2.3"
+   ]
+  },
+  {
+   "name": "Internal controls implementation or testing",
+   "required": false,
+   "credit": 0.25,
+   "bullets": [
+    "I2.3"
+   ]
+  }
+ ],
+ "trace": [
+  [
+   "add",
+   [
+    "I2.3"
+   ],
+   0.467
+  ],
+  [
+   "add",
+   [
+    "G1.5"
+   ],
+   0.516
+  ],
+  [
+   "add",
+   [
+    "I1.1"
+   ],
+   0.535
+  ],
+  [
+   "add",
+   [
+    "I1.5"
+   ],
+   0.551
+  ],
+  [
+   "add",
+   [
+    "G1.3"
+   ],
+   0.561
+  ],
+  [
+   "add",
+   [
+    "I2.1"
+   ],
+   0.572
+  ],
+  [
+   "add",
+   [
+    "I1.2"
+   ],
+   0.577
+  ],
+  [
+   "add",
+   [
+    "I1.3"
+   ],
+   0.582
+  ],
+  [
+   "swap",
+   [
+    "I1.5",
+    "I1.4"
+   ],
+   0.583
+  ],
+  [
+   "fill",
+   [
+    "G1.2"
+   ],
+   0.569
+  ],
+  [
+   "fill",
+   [
+    "I2.2"
+   ],
+   0.56
+  ],
+  [
+   "fill",
+   [
+    "G1.4"
+   ],
+   0.557
+  ],
+  [
+   "fill",
+   [
+    "G1.1"
+   ],
+   0.566
+  ],
+  [
+   "fill",
+   [
+    "G2.1"
+   ],
+   0.56
+  ]
+ ],
+ "page": [
+  {
+   "group": "G2",
+   "title": "Fuzzing an Open-Source Image-Decoding Library",
+   "bullets": [
+    "Found 5 memory-safety bugs, 3 of them heap buffer overflows, in an open-source image-decoding library by fuzzing it for 30 CPU-days with libFuzzer and AddressSanitizer."
+   ]
+  },
+  {
+   "group": "G1",
+   "title": "Prompt-Injection Evaluation of Tool-Using LLM Agents, Applied Security Lab",
+   "bullets": [
+    "Built a harness that runs 420 prompt-injection attacks against tool-using LLM agents in sandboxed tasks and records whether each attack reached a tool call.",
+    "Measured three published prompt-injection defenses on the harness; the strongest cut successful attacks from 31% to 9% and failed 4% of benign tasks.",
+    "Reported every attack success rate with bootstrap 95% confidence intervals over 5 seeds, which showed 2 of 12 gains claimed in earlier papers were within run-to-run noise.",
+    "Blocked 88% of the attacks that reached a tool call by giving each agent task an allowlist of the tools it needs and denying every other tool.",
+    "Built an LLM judge that labels attack success from transcripts, agreeing with two human labelers on 94% of 300 transcripts."
+   ]
+  },
+  {
+   "group": "I1",
+   "title": "Product Security Intern, Fernhill Payments",
+   "bullets": [
+    "Threat-modeled the card-tokenization service with its owning team and filed 14 findings, 11 of them fixed before the service's next release.",
+    "Closed an authorization gap that let a merchant-support role read any merchant's payout records, adding an ownership check and regression tests across 9 endpoints.",
+    "Reviewed 40 pull requests to payment services for injection, deserialization and access-control flaws, and wrote Semgrep rules for the 3 flaw patterns found more than once.",
+    "Triaged 60 scanner and bug-bounty reports against a written severity rubric, closing 38 as duplicates or false positives and assigning the rest to owning teams with fix dates."
+   ]
+  },
+  {
+   "group": "I2",
+   "title": "Detection Engineering Intern, Quarrystone Freight",
+   "bullets": [
+    "Wrote 18 Sigma detections for credential abuse in identity-provider logs, each tested against replayed attack data before release to the security operations team.",
+    "Found 4 compromised contractor accounts within a month of launching a Python and SQL job that scores sign-ins for impossible travel and token reuse.",
+    "Wrote response runbooks for the 6 highest-volume alerts and ran a tabletop exercise with the on-call team to test them."
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "name": "Revenue close ownership",
+   "required": true,
+   "capabilities": [
+    "financial and audit controls"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "ASC 606 application",
+   "required": true,
+   "capabilities": [
+    "financial and audit controls"
+   ],
+   "conditions": [
+    "ASC 606"
+   ]
+  },
+  {
+   "name": "E-commerce and POS reconciliation",
+   "required": true,
+   "capabilities": [
+    "financial and audit controls"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Revenue flux analysis",
+   "required": true,
+   "capabilities": [
+    "financial and audit controls"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "SOX internal controls",
+   "required": true,
+   "capabilities": [
+    "financial and audit controls"
+   ],
+   "conditions": [
+    "SOX"
+   ]
+  },
+  {
+   "name": "Audit support",
+   "required": true,
+   "capabilities": [
+    "financial and audit controls"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "NetSuite process improvement",
+   "required": true,
+   "capabilities": [
+    "financial and audit controls"
+   ],
+   "conditions": [
+    "NetSuite"
+   ]
+  },
+  {
+   "name": "Bachelor's degree accounting or finance",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "Bachelor's degree"
+   ]
+  },
+  {
+   "name": "CPA license or in progress",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "CPA"
+   ]
+  },
+  {
+   "name": "4+ years accounting experience",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "4+ years"
+   ]
+  },
+  {
+   "name": "Public accounting experience",
+   "required": false,
+   "capabilities": [],
+   "conditions": []
+  },
+  {
+   "name": "US GAAP knowledge",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "US GAAP"
+   ]
+  },
+  {
+   "name": "NetSuite or ERP experience",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "NetSuite",
+    "ERP"
+   ]
+  },
+  {
+   "name": "Advanced Excel",
+   "required": true,
+   "capabilities": [],
+   "conditions": [
+    "Excel"
+   ]
+  },
+  {
+   "name": "Retail or consumer products industry",
+   "required": false,
+   "capabilities": [],
+   "conditions": []
+  },
+  {
+   "name": "Wholesale allowance and returns reserve",
+   "required": false,
+   "capabilities": [
+    "financial and audit controls"
+   ],
+   "conditions": []
+  },
+  {
+   "name": "Internal controls implementation or testing",
+   "required": false,
+   "capabilities": [
+    "financial and audit controls"
+   ],
+   "conditions": [
+    "SOX"
+   ]
+  }
+ ],
+ "unmapped": [],
+ "skill_rows": [
+  {
+   "row": "appsec",
+   "title": "Application Security",
+   "members": [
+    "API Security",
+    "Authorization Testing",
+    "Burp Suite",
+    "OWASP Top 10"
+   ]
+  },
+  {
+   "row": "cloud",
+   "title": "Cloud Security",
+   "members": [
+    "AWS",
+    "AWS IAM",
+    "Kubernetes",
+    "Least-Privilege Access"
+   ]
+  },
+  {
+   "row": "detect",
+   "title": "Detection and Response",
+   "members": [
+    "Tabletop Exercises",
+    "Account Takeover Detection",
+    "Detection Engineering",
+    "Incident Response"
+   ]
+  },
+  {
+   "row": "offsec",
+   "title": "Offensive Security",
+   "members": [
+    "AddressSanitizer",
+    "Exploit Development",
+    "Fuzzing",
+    "GDB"
+   ]
+  },
+  {
+   "row": "tools",
+   "title": "Languages and Tools",
+   "members": [
+    "Bash",
+    "C",
+    "Docker",
+    "Git"
+   ]
+  }
+ ],
+ "coursework": [
+  {
+   "degree": "halvorsen",
+   "courses": [
+    "Privacy Engineering",
+    "Security Risk Management",
+    "Applied Cryptography",
+    "Cloud Security",
+    "Incident Response and Forensics",
+    "Large Language Model Security",
+    "Machine Learning Security",
+    "Malware Analysis",
+    "Network Security",
+    "Operating Systems Security",
+    "Reverse Engineering"
+   ]
+  },
+  {
+   "degree": "lakemont",
+   "courses": [
+    "Computer Networks",
+    "Computer Organization",
+    "Data Structures and Algorithms",
+    "Database Systems",
+    "Discrete Mathematics",
+    "Introduction to Computer Security",
+    "Machine Learning",
+    "Mobile Application Development",
+    "Operating Systems",
+    "Probability and Statistics",
+    "Software Engineering"
+   ]
+  }
+ ],
+ "projects_by": "model",
+ "choice": {
+  "projects": [
+   "U3",
+   "G5",
+   "I1",
+   "G2",
+   "I2",
+   "G1"
+  ],
+  "why": "Jev: the six projects most likely to belong on the page",
+  "placed": [
+   "I1",
+   "G2",
+   "I2",
+   "G1"
+  ]
+ },
+ "engine_match": 0.27906976744186046
+}

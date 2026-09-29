@@ -1,0 +1,230 @@
+{
+ "id": "paste-f1f45dad",
+ "sha": "f1f45dad77a7e4ab",
+ "requirements": [
+  {
+   "name": "Revenue close ownership",
+   "tokens": [
+    "monthly close",
+    "journal entries",
+    "accruals",
+    "returns",
+    "wholesale allowances",
+    "account reconciliations"
+   ],
+   "required": true,
+   "line": 8,
+   "source": "- Own the revenue close each month: journal entries, accruals for returns and wholesale allowances, and account reconciliations."
+  },
+  {
+   "name": "ASC 606 application",
+   "tokens": [
+    "ASC 606",
+    "revenue recognition",
+    "contract types",
+    "sales programs",
+    "accounting conclusions"
+   ],
+   "required": true,
+   "line": 9,
+   "source": "- Apply ASC 606 to new contract types and sales programs, and document the accounting conclusions."
+  },
+  {
+   "name": "E-commerce and POS reconciliation",
+   "tokens": [
+    "e-commerce",
+    "point-of-sale",
+    "payment processor",
+    "general ledger reconciliation"
+   ],
+   "required": true,
+   "line": 10,
+   "source": "- Reconcile e-commerce, point-of-sale and payment processor data to the general ledger."
+  },
+  {
+   "name": "Revenue flux analysis",
+   "tokens": [
+    "revenue flux analysis",
+    "variance analysis"
+   ],
+   "required": true,
+   "line": 11,
+   "source": "- Prepare revenue flux analyses and explain variances to the Controller and FP&A."
+  },
+  {
+   "name": "SOX internal controls",
+   "tokens": [
+    "internal controls",
+    "SOX readiness",
+    "SOX",
+    "controls over revenue"
+   ],
+   "required": true,
+   "line": 12,
+   "source": "- Maintain and test internal controls over revenue in support of our SOX readiness work."
+  },
+  {
+   "name": "Audit support",
+   "tokens": [
+    "external audit",
+    "audit schedules",
+    "audit support"
+   ],
+   "required": true,
+   "line": 13,
+   "source": "- Prepare schedules and support for the annual external audit."
+  },
+  {
+   "name": "NetSuite process improvement",
+   "tokens": [
+    "NetSuite",
+    "close processes",
+    "reporting"
+   ],
+   "required": true,
+   "line": 14,
+   "source": "- Improve close processes and reporting in NetSuite."
+  },
+  {
+   "name": "Bachelor's degree accounting or finance",
+   "tokens": [
+    "Bachelor's degree",
+    "accounting",
+    "finance"
+   ],
+   "required": true,
+   "line": 16,
+   "source": "- Bachelor's degree in accounting or finance."
+  },
+  {
+   "name": "CPA license or in progress",
+   "tokens": [
+    "CPA",
+    "Certified Public Accountant",
+    "CPA candidate"
+   ],
+   "required": true,
+   "line": 17,
+   "source": "- CPA license, or actively working toward it."
+  },
+  {
+   "name": "4+ years accounting experience",
+   "tokens": [
+    "4 years accounting",
+    "revenue accounting"
+   ],
+   "required": true,
+   "line": 18,
+   "source": "- 4+ years of accounting experience, including revenue accounting; public accounting experience is a plus."
+  },
+  {
+   "name": "Public accounting experience",
+   "tokens": [
+    "public accounting",
+    "Big 4",
+    "regional firm"
+   ],
+   "required": false,
+   "line": 18,
+   "source": "- 4+ years of accounting experience, including revenue accounting; public accounting experience is a plus."
+  },
+  {
+   "name": "US GAAP knowledge",
+   "tokens": [
+    "US GAAP",
+    "generally accepted accounting principles"
+   ],
+   "required": true,
+   "line": 19,
+   "source": "- Strong knowledge of US GAAP and ASC 606."
+  },
+  {
+   "name": "NetSuite or ERP experience",
+   "tokens": [
+    "NetSuite",
+    "ERP",
+    "enterprise resource planning"
+   ],
+   "required": true,
+   "line": 20,
+   "source": "- Experience with NetSuite or another ERP system."
+  },
+  {
+   "name": "Advanced Excel",
+   "tokens": [
+    "Excel",
+    "advanced Excel",
+    "pivot tables",
+    "VLOOKUP"
+   ],
+   "required": true,
+   "line": 21,
+   "source": "- Advanced Excel skills."
+  },
+  {
+   "name": "Retail or consumer products industry",
+   "tokens": [
+    "retail",
+    "consumer products",
+    "outdoor industry"
+   ],
+   "required": false,
+   "line": 24,
+   "source": "- Experience with retail or consumer products companies."
+  },
+  {
+   "name": "Wholesale allowance and returns reserve",
+   "tokens": [
+    "wholesale allowance",
+    "returns reserve",
+    "trade spend"
+   ],
+   "required": false,
+   "line": 25,
+   "source": "- Experience with wholesale allowance and returns reserve accounting."
+  },
+  {
+   "name": "Internal controls implementation or testing",
+   "tokens": [
+    "internal controls implementation",
+    "controls testing",
+    "SOX controls"
+   ],
+   "required": false,
+   "line": 26,
+   "source": "- Experience implementing or testing internal controls."
+  }
+ ],
+ "keywords": [
+  "Senior Accountant",
+  "Revenue Accounting",
+  "ASC 606",
+  "US GAAP",
+  "NetSuite",
+  "ERP",
+  "SOX",
+  "Internal Controls",
+  "CPA",
+  "Excel",
+  "Monthly Close",
+  "Journal Entries",
+  "Account Reconciliation",
+  "Audit Support",
+  "Flux Analysis",
+  "Retail",
+  "Consumer Products",
+  "Wholesale",
+  "E-commerce",
+  "Point-of-Sale"
+ ],
+ "info": {
+  "reader": "slots-claude-sonnet-4-6-low",
+  "answered_by": "claude-sonnet-4-6",
+  "fallback": null,
+  "attempts": 1,
+  "input_tokens": 1468,
+  "output_tokens": 521,
+  "seconds": 9.5,
+  "dropped": []
+ }
+}

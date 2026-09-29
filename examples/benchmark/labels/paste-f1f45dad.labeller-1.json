@@ -1,0 +1,30 @@
+{
+ "about": "Illustrative: written by hand for the fictional example candidate, to show the label format the bench tools read. Not a measurement, and not made by a model.",
+ "page": [
+  {
+   "project": "U3",
+   "bullets": [
+    "U3.1",
+    "U3.2"
+   ]
+  },
+  {
+   "project": "G5",
+   "bullets": [
+    "G5.1"
+   ]
+  },
+  {
+   "project": "I1",
+   "bullets": [
+    "I1.5"
+   ]
+  },
+  {
+   "project": "I2",
+   "bullets": [
+    "I2.3"
+   ]
+  }
+ ]
+}

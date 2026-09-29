@@ -1,0 +1,6 @@
+# Every text file is stored and checked out with LF line endings; the rest is binary.
+* text=auto eol=lf
+*.docx binary
+*.pdf binary
+*.png binary
+*.pyc binary

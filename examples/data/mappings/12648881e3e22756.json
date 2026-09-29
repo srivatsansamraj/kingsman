@@ -1,0 +1,322 @@
+{
+ "requirements": [
+  {
+   "name": "Backend engineering experience",
+   "tokens": [
+    "backend services",
+    "software engineering",
+    "2+ years"
+   ],
+   "required": true,
+   "capabilities": [
+    "backend services and APIs"
+   ],
+   "capability": "backend services and APIs",
+   "conditions": [
+    "2+ years"
+   ]
+  },
+  {
+   "name": "Python or Go",
+   "tokens": [
+    "Python",
+    "Go",
+    "Golang"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "Python",
+    "Go"
+   ]
+  },
+  {
+   "name": "Relational database / SQL",
+   "tokens": [
+    "relational database schemas",
+    "SQL",
+    "PostgreSQL",
+    "database design"
+   ],
+   "required": true,
+   "capabilities": [
+    "databases and schema design"
+   ],
+   "capability": "databases and schema design",
+   "conditions": [
+    "SQL",
+    "PostgreSQL"
+   ]
+  },
+  {
+   "name": "REST or gRPC APIs",
+   "tokens": [
+    "REST API",
+    "gRPC",
+    "API design",
+    "versioning",
+    "rate limiting"
+   ],
+   "required": true,
+   "capabilities": [
+    "backend services and APIs"
+   ],
+   "capability": "backend services and APIs",
+   "conditions": [
+    "REST",
+    "gRPC"
+   ]
+  },
+  {
+   "name": "Distributed systems concepts",
+   "tokens": [
+    "distributed systems",
+    "consistency",
+    "retries",
+    "idempotency",
+    "queues",
+    "message queues"
+   ],
+   "required": true,
+   "capabilities": [
+    "distributed systems"
+   ],
+   "capability": "distributed systems",
+   "conditions": []
+  },
+  {
+   "name": "Docker and CI/CD",
+   "tokens": [
+    "Docker",
+    "CI/CD",
+    "continuous integration",
+    "continuous delivery",
+    "deployment pipelines"
+   ],
+   "required": true,
+   "capabilities": [
+    "developer tooling and CI/CD"
+   ],
+   "capability": "developer tooling and CI/CD",
+   "conditions": [
+    "Docker"
+   ]
+  },
+  {
+   "name": "Testing and code review",
+   "tokens": [
+    "unit tests",
+    "integration tests",
+    "test suites",
+    "code review"
+   ],
+   "required": true,
+   "capabilities": [
+    "code review and security assessment"
+   ],
+   "capability": "code review and security assessment",
+   "conditions": []
+  },
+  {
+   "name": "Design backend services",
+   "tokens": [
+    "design",
+    "build",
+    "operate backend services",
+    "Python",
+    "Go",
+    "PostgreSQL"
+   ],
+   "required": true,
+   "capabilities": [
+    "backend services and APIs"
+   ],
+   "capability": "backend services and APIs",
+   "conditions": [
+    "Python",
+    "Go",
+    "PostgreSQL"
+   ]
+  },
+  {
+   "name": "API evolution",
+   "tokens": [
+    "REST API",
+    "gRPC",
+    "versioning",
+    "authentication",
+    "rate limiting"
+   ],
+   "required": true,
+   "capabilities": [
+    "backend services and APIs"
+   ],
+   "capability": "backend services and APIs",
+   "conditions": [
+    "REST",
+    "gRPC"
+   ]
+  },
+  {
+   "name": "Database schema and migrations",
+   "tokens": [
+    "database schema design",
+    "migrations",
+    "concurrent writes",
+    "financial data",
+    "PostgreSQL"
+   ],
+   "required": true,
+   "capabilities": [
+    "databases and schema design"
+   ],
+   "capability": "databases and schema design",
+   "conditions": [
+    "PostgreSQL"
+   ]
+  },
+  {
+   "name": "Job scheduler and event pipeline",
+   "tokens": [
+    "job scheduler",
+    "Kafka",
+    "idempotency",
+    "retries",
+    "event pipeline"
+   ],
+   "required": true,
+   "capabilities": [
+    "data pipelines"
+   ],
+   "capability": "data pipelines",
+   "conditions": [
+    "Kafka"
+   ]
+  },
+  {
+   "name": "CI/CD improvement",
+   "tokens": [
+    "CI/CD pipelines",
+    "test suites",
+    "deployment tooling"
+   ],
+   "required": true,
+   "capabilities": [
+    "developer tooling and CI/CD"
+   ],
+   "capability": "developer tooling and CI/CD",
+   "conditions": []
+  },
+  {
+   "name": "On-call and incident response",
+   "tokens": [
+    "on-call",
+    "incident response",
+    "incident follow-up"
+   ],
+   "required": true,
+   "capabilities": [
+    "production ownership"
+   ],
+   "capability": "production ownership",
+   "conditions": []
+  },
+  {
+   "name": "Secure coding",
+   "tokens": [
+    "secure coding",
+    "secrets management",
+    "access control",
+    "security"
+   ],
+   "required": true,
+   "capabilities": [
+    "application security"
+   ],
+   "capability": "application security",
+   "conditions": []
+  },
+  {
+   "name": "Kafka or event streaming",
+   "tokens": [
+    "Kafka",
+    "event streaming",
+    "message streaming",
+    "Apache Kafka"
+   ],
+   "required": false,
+   "capabilities": [
+    "data pipelines"
+   ],
+   "capability": "data pipelines",
+   "conditions": [
+    "Kafka"
+   ]
+  },
+  {
+   "name": "Financial systems",
+   "tokens": [
+    "payments",
+    "accounting",
+    "financial systems",
+    "fintech",
+    "crop-loan",
+    "bank reconciliation"
+   ],
+   "required": false,
+   "capabilities": [],
+   "capability": null,
+   "conditions": []
+  },
+  {
+   "name": "Kubernetes or AWS",
+   "tokens": [
+    "Kubernetes",
+    "K8s",
+    "Amazon Web Services",
+    "AWS",
+    "container orchestration"
+   ],
+   "required": false,
+   "capabilities": [
+    "containers and cloud infrastructure"
+   ],
+   "capability": "containers and cloud infrastructure",
+   "conditions": [
+    "Kubernetes",
+    "AWS"
+   ]
+  },
+  {
+   "name": "Application security",
+   "tokens": [
+    "application security",
+    "AppSec",
+    "secure coding"
+   ],
+   "required": false,
+   "capabilities": [
+    "application security"
+   ],
+   "capability": "application security",
+   "conditions": []
+  }
+ ],
+ "valid": true,
+ "errors": [],
+ "first_errors": [],
+ "attempts": 1,
+ "input_tokens": 1390,
+ "output_tokens": 569,
+ "seconds": 14.0,
+ "batch": 3,
+ "title": "Software Engineer, Backend (Platform)",
+ "vocabulary_sha256_16": "fce4b8d6fbc868de",
+ "format": 3,
+ "model": "claude-opus-5-5",
+ "answered_by": "claude-opus-5-5",
+ "fallback": null,
+ "made": "2026-09-29T06:36:20",
+ "posting": "paste-12648881"
+}

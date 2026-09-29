@@ -1,0 +1,664 @@
+# Example library: project records for a fictional candidate. The engine reads the fields below; labels,
+# remarks and source lines serve human readers only, and a note flagged private stays on this computer.
+
+about = '''
+Example data for a made-up candidate, Robin Kestrel, who completed a master's in cybersecurity in May 2026
+after two internships. The people, schools and employers are invented, as is every figure; each `source`
+line points at an imaginary document, to show how a real library records the origin of a claim.
+
+What the example covers: work in all five capability families; a project still running (G2); one old
+enough that its age discount bottoms out (O1); weak projects that alone hold some capability (O1 for data
+analysis, U2 for Android); a held project (P1); a fragile bullet (G5.2); a pending bullet (G4.4); an
+`excludes` pair giving two wordings of one result (I1.4 and I1.5); bullets carrying a liability (G2.3,
+U2.2); a bullet that lists no capability (U1.1); a private note (I1); and a note about a repository, which
+the judge's filter leaves out (G2).
+
+Id scheme: I for internships, G for graduate work, U for undergraduate work, P for personal projects, O
+for the oldest work; bullet ids add a dot and a number to the project id. On each bullet, `capabilities`
+lists what the bullet demonstrates, strongest first, and `conditions` the languages, tools and platforms
+it proves. `summary` and `facts` must each fit on one line, because model call 3 receives them with the
+title and end date.'''
+
+# ─────────────────────────────────────────────────────────────
+# Internships
+# ─────────────────────────────────────────────────────────────
+
+[[project]]
+id = "I1"
+title = "Product Security Intern, Fernhill Payments"
+facts = "Summer internship, June to August 2025; findings fixed in production services."
+complexity = 0.62
+brand = 0.55
+ends = "2025-08"
+summary = "Security reviews and fixes for a payment processor's card and payout services during a ten-week internship."
+
+[[project.note]]
+private = true
+text = "The internship manager agreed to act as a reference; ask before giving the name to an employer."
+
+[[project.bullet]]
+id = "I1.1"
+text = "Threat-modeled the card-tokenization service with its owning team and filed 14 findings, 11 of them fixed before the service's next release."
+tags = { "security.appsec" = 0.6, "security.grc" = 0.4 }
+evidence = ["threat modeling", "threat modelling", "STRIDE", "data flow diagram", "tokenization", "payments", "PCI"]
+capabilities = [
+  { name = "threat modelling", why = "STRIDE review of the card-tokenization service, findings fixed" },
+]
+conditions = ["STRIDE"]
+source = "Internship final report, August 2025"
+
+[[project.bullet]]
+id = "I1.2"
+text = "Closed an authorization gap that let a merchant-support role read any merchant's payout records, adding an ownership check and regression tests across 9 endpoints."
+tags = { "security.appsec" = 0.8, "software.backend" = 0.2 }
+evidence = [
+  "authorization", "access control", "broken access control", "IDOR", "API security", "regression tests",
+  "Burp Suite", "Java", "Spring Boot",
+]
+capabilities = [
+  { name = "authorization and least privilege", why = "ownership check on the payout endpoints" },
+  { name = "web and API security", why = "found by testing the endpoints as another role" },
+]
+conditions = ["Java", "Spring Boot", "Burp Suite"]
+source = "Internship final report, August 2025"
+
+[[project.bullet]]
+id = "I1.3"
+text = "Reviewed 40 pull requests to payment services for injection, deserialization and access-control flaws, and wrote Semgrep rules for the 3 flaw patterns found more than once."
+tags = { "security.appsec" = 0.8, "security.offensive" = 0.2 }
+evidence = [
+  "secure code review", "code review", "Semgrep", "SAST", "static analysis", "injection", "deserialization",
+  "pull requests", "OWASP Top 10",
+]
+capabilities = [
+  { name = "code review and security assessment", why = "security review of 40 pull requests" },
+  { name = "security test automation", why = "Semgrep rules for repeated flaw patterns" },
+]
+conditions = ["Semgrep", "Java"]
+source = "Internship final report, August 2025"
+
+[[project.bullet]]
+id = "I1.4"
+label = "triage, the method and the counts"
+text = "Triaged 60 scanner and bug-bounty reports against a written severity rubric, closing 38 as duplicates or false positives and assigning the rest to owning teams with fix dates."
+tags = { "security.appsec" = 0.7, "security.grc" = 0.3 }
+evidence = ["vulnerability management", "triage", "bug bounty", "severity", "CVSS", "remediation"]
+excludes = ["I1.5"]
+capabilities = [
+  { name = "vulnerability triage and management", why = "60 reports triaged and routed" },
+]
+source = "Internship final report, August 2025"
+
+[[project.bullet]]
+id = "I1.5"
+label = "triage, the outcome first"
+text = "Cut the open vulnerability backlog from 60 reports to 22 in six weeks by triaging scanner and bug-bounty findings against a severity rubric."
+tags = { "security.appsec" = 0.7, "security.grc" = 0.3 }
+evidence = ["vulnerability management", "triage", "backlog", "bug bounty", "severity", "remediation"]
+excludes = ["I1.4"]
+capabilities = [
+  { name = "vulnerability triage and management", why = "backlog cut from 60 to 22" },
+]
+source = "Internship final report, August 2025"
+
+[[project]]
+id = "I2"
+title = "Detection Engineering Intern, Quarrystone Freight"
+facts = "Summer internship, June to August 2022; rules and runbooks handed over to the security operations team."
+complexity = 0.52
+brand = 0.45
+ends = "2022-08"
+summary = "Detection rules, a sign-in anomaly job and response runbooks for a freight company's security operations team."
+
+[[project.bullet]]
+id = "I2.1"
+text = "Wrote 18 Sigma detections for credential abuse in identity-provider logs, each tested against replayed attack data before release to the security operations team."
+tags = { "security.forensics" = 1.0 }
+evidence = [
+  "detection engineering", "Sigma", "SIEM", "Splunk", "detection rules", "credential abuse",
+  "identity provider", "log analysis",
+]
+capabilities = [
+  { name = "detection engineering", why = "18 tested detections for credential abuse" },
+]
+conditions = ["Sigma", "Splunk"]
+source = "Internship handover notes, August 2022"
+
+[[project.bullet]]
+id = "I2.2"
+text = "Found 4 compromised contractor accounts within a month of launching a Python and SQL job that scores sign-ins for impossible travel and token reuse."
+tags = { "security.forensics" = 0.7, databases = 0.3 }
+evidence = ["account takeover", "anomaly detection", "impossible travel", "fraud", "sign-in logs", "Python", "SQL"]
+capabilities = [
+  { name = "abuse and fraud detection", why = "account-takeover scoring on sign-in logs" },
+  { name = "data pipelines", why = "scheduled scoring job over the sign-in logs" },
+]
+conditions = ["Python", "SQL"]
+source = "Internship handover notes, August 2022"
+
+[[project.bullet]]
+id = "I2.3"
+text = "Wrote response runbooks for the 6 highest-volume alerts and ran a tabletop exercise with the on-call team to test them."
+tags = { "security.forensics" = 0.6, "security.grc" = 0.4 }
+evidence = ["incident response", "runbooks", "playbooks", "tabletop exercise", "on-call", "SOC"]
+capabilities = [
+  { name = "incident response", why = "runbooks for the alerts, tested in a tabletop" },
+  { name = "security documentation", why = "six written runbooks" },
+]
+source = "Internship handover notes, August 2022"
+
+# ─────────────────────────────────────────────────────────────
+# Graduate work
+# ─────────────────────────────────────────────────────────────
+
+[[project]]
+id = "G1"
+title = "Prompt-Injection Evaluation of Tool-Using LLM Agents, Applied Security Lab"
+facts = "Graduate research, January 2025 to May 2026; harness built and results written up in a lab technical report."
+complexity = 0.7
+brand = 0.45
+ends = "2026-05"
+summary = "A test harness and measurements of prompt-injection attacks and defenses on LLM agents that call tools."
+
+[[project.note]]
+private = false
+text = "The results are written up in the lab's technical report; a workshop paper based on it is under review."
+
+[[project.bullet]]
+id = "G1.1"
+text = "Built a harness that runs 420 prompt-injection attacks against tool-using LLM agents in sandboxed tasks and records whether each attack reached a tool call."
+tags = { "ai.security" = 0.6, "ai.agents" = 0.2, research = 0.2 }
+evidence = [
+  "LLM red teaming", "AI red teaming", "prompt injection", "LLM agents", "agentic AI", "tool use",
+  "evaluation harness", "Python", "Docker",
+]
+capabilities = [
+  { name = "LLM red teaming", why = "420 prompt-injection attacks run against agents" },
+  { name = "evaluation and benchmark design", why = "the harness and its success criterion" },
+]
+conditions = ["Python", "Docker"]
+source = "Lab technical report, May 2026"
+
+[[project.bullet]]
+id = "G1.2"
+text = "Measured three published prompt-injection defenses on the harness; the strongest cut successful attacks from 31% to 9% and failed 4% of benign tasks."
+tags = { "ai.security" = 0.7, research = 0.3 }
+evidence = [
+  "prompt injection defense", "prompt injection defence", "guardrails", "AI safety", "false positive rate",
+  "evaluation",
+]
+capabilities = [
+  { name = "prompt injection defence", why = "three defenses measured on attack and benign tasks" },
+  { name = "AI safeguard testing", why = "success and false-refusal rates of each defense" },
+]
+source = "Lab technical report, May 2026"
+
+[[project.bullet]]
+id = "G1.3"
+text = "Reported every attack success rate with bootstrap 95% confidence intervals over 5 seeds, which showed 2 of 12 gains claimed in earlier papers were within run-to-run noise."
+tags = { research = 0.7, "ai.ml" = 0.3 }
+evidence = ["statistics", "confidence intervals", "bootstrap", "measurement", "reproducibility", "evaluation", "evaluations"]
+capabilities = [
+  { name = "measurement and statistics", why = "bootstrap intervals over seeds" },
+]
+source = "Lab technical report, May 2026"
+
+[[project.bullet]]
+id = "G1.4"
+text = "Blocked 88% of the attacks that reached a tool call by giving each agent task an allowlist of the tools it needs and denying every other tool."
+tags = { "ai.security" = 0.5, "ai.agents" = 0.5 }
+evidence = ["agent permissions", "tool allowlist", "least privilege", "sandboxing", "agent security", "AI security"]
+capabilities = [
+  { name = "agent containment and permissions", why = "per-task tool allowlist for LLM agents" },
+]
+source = "Lab technical report, May 2026"
+
+[[project.bullet]]
+id = "G1.5"
+text = "Built an LLM judge that labels attack success from transcripts, agreeing with two human labelers on 94% of 300 transcripts."
+tags = { "ai.ml" = 0.5, research = 0.3, "ai.security" = 0.2 }
+evidence = ["LLM-as-judge", "LLM judge", "model evaluation", "inter-rater agreement", "labeling", "evals"]
+capabilities = [
+  { name = "model and judge evaluation", why = "judge agreement measured against two human labelers" },
+]
+source = "Lab technical report, May 2026"
+
+[[project]]
+id = "G2"
+title = "Fuzzing an Open-Source Image-Decoding Library"
+facts = "Personal project, March 2025 to present; 5 bugs reported upstream, 3 fixes merged."
+complexity = 0.6
+brand = 0.35
+ends = "present"
+ends_note = "fuzzing and upstream fixes continue after graduation"
+summary = "Coverage-guided fuzzing of a widely packaged C image-decoding library, with bug reports and fixes sent upstream."
+
+[[project.note]]
+private = false
+text = "The fuzz targets live in the upstream repository's fuzzing directory, and the fixes are credited in its release notes."
+
+[[project.bullet]]
+id = "G2.1"
+text = "Found 5 memory-safety bugs, 3 of them heap buffer overflows, in an open-source image-decoding library by fuzzing it for 30 CPU-days with libFuzzer and AddressSanitizer."
+tags = { "security.offensive" = 0.8, "systems.os" = 0.2 }
+evidence = [
+  "fuzzing", "libFuzzer", "AddressSanitizer", "memory safety", "heap overflow", "vulnerability research", "C",
+]
+capabilities = [
+  { name = "vulnerability research", why = "5 memory-safety bugs found by fuzzing" },
+]
+conditions = ["C", "libFuzzer", "AddressSanitizer"]
+source = "Upstream bug reports, 2025"
+
+[[project.bullet]]
+id = "G2.2"
+text = "Wrote fixes for 3 of the bugs, merged upstream with regression tests, and sent minimized reproducers for the other 2 to the maintainers."
+tags = { "security.appsec" = 0.5, research = 0.3, "systems.os" = 0.2 }
+evidence = [
+  "open source", "upstream", "pull requests", "merged", "regression tests", "coordinated disclosure", "Git", "C",
+]
+capabilities = [
+  { name = "upstream open-source contribution", why = "3 fixes merged upstream with tests" },
+]
+conditions = ["C"]
+source = "Upstream pull requests, 2025 and 2026"
+
+[[project.bullet]]
+id = "G2.3"
+text = "Added the fuzz targets to the library's continuous integration, which now fuzzes each pull request for 10 minutes before merge."
+tags = { "security.offensive" = 0.4, "software.backend" = 0.3, "security.appsec" = 0.3 }
+evidence = ["continuous integration", "CI/CD", "fuzz testing", "security testing", "DevSecOps"]
+liability = 0.2
+capabilities = [
+  { name = "security test automation", why = "fuzzing on every pull request" },
+  { name = "developer tooling and CI/CD", why = "fuzz job added to the project's CI" },
+]
+source = "Upstream pull requests, 2026"
+
+[[project]]
+id = "G3"
+title = "Adversarial Patches on a Traffic-Sign Classifier, Machine Learning Security Course"
+facts = "Course project, January to May 2025; attacks and defense run on a held-out photo set."
+complexity = 0.4
+brand = 0.35
+ends = "2025-05"
+summary = "Printable adversarial patches against an image classifier for road signs, and adversarial training as a defense."
+
+[[project.bullet]]
+id = "G3.1"
+text = "Trained printable adversarial patches that made a traffic-sign classifier misread stop signs in 72% of held-out photos, against 3% for random patches of the same size."
+tags = { "ai.adversarial" = 0.8, "ai.cv" = 0.2 }
+evidence = [
+  "adversarial machine learning", "adversarial examples", "evasion", "adversarial patches", "robustness",
+  "PyTorch",
+]
+capabilities = [
+  { name = "adversarial machine learning", why = "physical adversarial patches against a classifier" },
+]
+conditions = ["PyTorch"]
+source = "Course project report, May 2025"
+
+[[project.bullet]]
+id = "G3.2"
+text = "Fine-tuned a ResNet-18 sign classifier to 97% test accuracy as the target, then retrained it on adversarial examples, which lowered patch success to 41%."
+tags = { "ai.ml" = 0.4, "ai.cv" = 0.4, "ai.adversarial" = 0.2 }
+evidence = [
+  "model training", "fine-tuning", "ResNet", "image classification", "computer vision", "adversarial training",
+  "PyTorch", "Python",
+]
+capabilities = [
+  { name = "model training", why = "fine-tuned and adversarially retrained classifier" },
+  { name = "computer vision", why = "traffic-sign image classification" },
+]
+conditions = ["PyTorch", "Python"]
+source = "Course project report, May 2025"
+
+[[project]]
+id = "G4"
+title = "Malware Triage Sandbox, Malware Analysis Course"
+facts = "Course project, September to December 2025; sandbox built and run on 60 samples from 4 families."
+complexity = 0.5
+brand = 0.3
+ends = "2025-12"
+summary = "An automated sandbox that runs Windows malware samples in a disposable virtual machine and reports their behavior."
+
+[[project.bullet]]
+id = "G4.1"
+text = "Built a sandbox that runs Windows malware samples in a snapshot-restored virtual machine and collects process, file and network activity into one report per sample."
+tags = { "security.forensics" = 0.6, "systems.os" = 0.2, "reverse-engineering" = 0.2 }
+evidence = [
+  "malware analysis", "sandbox", "dynamic analysis", "Windows internals", "virtual machines", "forensics", "Python",
+  "Linux", "Bash",
+]
+capabilities = [
+  { name = "digital forensics", why = "behavior reports from detonated samples" },
+  { name = "OS and endpoint security", why = "process, file and network activity on Windows" },
+]
+conditions = ["Python", "Windows"]
+source = "Course project report, December 2025"
+
+[[project.bullet]]
+id = "G4.2"
+text = "Wrote YARA rules from the sandbox reports for 4 malware families, matching 57 of 60 held-out samples with no hits on 500 clean binaries."
+tags = { "security.forensics" = 0.7, "reverse-engineering" = 0.3 }
+evidence = ["YARA", "malware detection", "signatures", "threat hunting", "Ghidra", "static analysis"]
+capabilities = [
+  { name = "detection engineering", why = "YARA rules measured on held-out and clean samples" },
+  { name = "threat intelligence", why = "rules per malware family" },
+]
+conditions = ["YARA", "Ghidra"]
+source = "Course project report, December 2025"
+
+[[project.bullet]]
+id = "G4.3"
+text = "Wrote the sandbox's in-guest monitor in C, hooking 14 Windows API calls to log file, registry and process activity while adding under 5% to each sample's run time."
+tags = { "systems.os" = 0.6, "security.forensics" = 0.2, "reverse-engineering" = 0.2 }
+evidence = ["systems programming", "C", "Windows API", "API hooking", "Windows internals", "low-level", "instrumentation"]
+capabilities = [
+  { name = "systems programming", why = "in-guest API-hooking monitor written in C" },
+  { name = "OS and endpoint security", why = "file, registry and process telemetry on Windows" },
+]
+conditions = ["C", "Windows"]
+source = "Course project report, December 2025"
+
+[[project.bullet]]
+id = "G4.4"
+pending = true
+label = "kernel callback driver for process telemetry; waits on a measured overhead figure"
+
+[[project]]
+id = "G5"
+title = "Ransomware Tabletop and Response Plan for a University IT Team, Security Risk Management Course"
+facts = "Course project with a university IT department, February to April 2025; plan adopted by the department."
+complexity = 0.3
+brand = 0.35
+ends = "2025-04"
+summary = "A ransomware tabletop exercise, risk ranking and incident-response plan for a 12-person university IT team."
+
+[[project.bullet]]
+id = "G5.1"
+text = "Ran a ransomware tabletop exercise for a 12-person university IT team and ranked the 9 gaps it exposed by likelihood and impact for the team's next budget request."
+tags = { "security.grc" = 0.7, "security.forensics" = 0.3 }
+evidence = ["risk assessment", "tabletop exercise", "ransomware", "risk register", "risk management"]
+capabilities = [
+  { name = "risk assessment", why = "gaps ranked by likelihood and impact" },
+]
+source = "Course project report, April 2025"
+
+[[project.bullet]]
+id = "G5.2"
+text = "Mapped the team's controls to NIST CSF 2.0 and found 23 of 106 subcategories with no control in place."
+tags = { "security.grc" = 1.0 }
+evidence = ["NIST CSF", "NIST Cybersecurity Framework", "compliance", "controls", "gap analysis"]
+fragile = true
+capabilities = [
+  { name = "security frameworks and compliance", why = "control mapping to NIST CSF 2.0" },
+]
+conditions = ["NIST CSF"]
+source = "Course project report, April 2025"
+
+[[project.bullet.remark]]
+label = "fragile"
+text = "The 23 of 106 count is from memory of the final report; check it against the submitted copy before this bullet is used."
+
+[[project.bullet]]
+id = "G5.3"
+text = "Wrote the team's first incident-response plan, with escalation contacts and evidence-handling steps, which the department adopted in fall 2025."
+tags = { "security.grc" = 0.5, "security.forensics" = 0.5 }
+evidence = ["incident response plan", "security documentation", "policy", "evidence handling", "chain of custody"]
+capabilities = [
+  { name = "security documentation", why = "the department's incident-response plan" },
+  { name = "incident response", why = "escalation and evidence-handling steps" },
+]
+source = "Course project report, April 2025; department adoption notice, October 2025"
+
+[[project]]
+id = "G6"
+title = "Kubernetes Lab Platform on AWS for a Security Course, Graduate Research Assistant"
+facts = "Built and run as a graduate research assistant, January to December 2025; used by 160 students over two semesters."
+complexity = 0.58
+brand = 0.4
+ends = "2025-12"
+summary = "A multi-tenant Kubernetes platform on AWS where students of a security course run their labs in isolated environments."
+
+[[project.bullet]]
+id = "G6.1"
+text = "Gave each of 85 students an isolated lab environment by moving a security course's labs to a Kubernetes cluster on AWS, with network policies that block traffic between tenants."
+tags = { "security.appsec" = 0.5, "software.backend" = 0.3, "systems.networking" = 0.2 }
+evidence = [
+  "cloud security", "Kubernetes", "AWS", "EKS", "network policies", "multi-tenant", "tenant isolation", "Terraform",
+]
+capabilities = [
+  { name = "cloud security", why = "tenant isolation on a shared cluster" },
+  { name = "containers and cloud infrastructure", why = "Kubernetes cluster on AWS, built with Terraform" },
+]
+conditions = ["AWS", "Kubernetes", "Terraform"]
+source = "Lab platform handover document, December 2025"
+
+[[project.bullet]]
+id = "G6.2"
+text = "Removed a shared cloud access key from the grading service by giving each of its pods an IAM role scoped to one storage bucket."
+tags = { "security.appsec" = 0.7, "software.backend" = 0.3 }
+evidence = ["IAM", "AWS IAM", "service accounts", "IRSA", "least privilege", "credentials", "secrets management", "Go"]
+capabilities = [
+  { name = "workload and service identity", why = "per-pod IAM roles in place of a shared key" },
+  { name = "authorization and least privilege", why = "each role scoped to one bucket" },
+]
+conditions = ["AWS", "Go"]
+source = "Lab platform handover document, December 2025"
+
+[[project.bullet]]
+id = "G6.3"
+text = "Kept student code away from grading data and cloud credentials by designing trust boundaries that confine it to unprivileged pods with no network path to either."
+tags = { "security.appsec" = 0.8, "systems.os" = 0.2 }
+evidence = [
+  "security architecture", "secure design", "trust boundaries", "container security", "pod security",
+  "defense in depth", "Kubernetes",
+]
+capabilities = [
+  { name = "secure system architecture", why = "trust boundaries between student code, grading and credentials" },
+]
+conditions = ["Kubernetes"]
+source = "Lab platform design document, January 2025"
+
+[[project.bullet]]
+id = "G6.4"
+text = "Kept the platform at 99.5% availability during lab hours across two semesters for 160 students, and took the on-call shifts around assignment deadlines."
+tags = { "software.backend" = 0.6, leadership = 0.2, performance = 0.2 }
+evidence = ["production", "on-call", "availability", "operations", "monitoring", "uptime"]
+capabilities = [
+  { name = "production ownership", why = "availability and on-call for a platform in use" },
+  { name = "shipping to real users", why = "160 students over two semesters" },
+]
+source = "Lab platform handover document, December 2025"
+
+# ─────────────────────────────────────────────────────────────
+# Undergraduate work
+# ─────────────────────────────────────────────────────────────
+
+[[project]]
+id = "U1"
+title = "Capture-the-Flag Team Captain, Lakemont State University"
+facts = "Student club, August 2021 to April 2023; regional competition placing and training material."
+complexity = 0.42
+brand = 0.35
+ends = "2023-04"
+summary = "Captain of a university capture-the-flag team: exploitation practice, training sessions and competition entries."
+
+[[project.bullet]]
+id = "U1.1"
+text = "Placed 7th of 340 teams in a regional collegiate capture-the-flag competition as team captain."
+tags = { "security.offensive" = 0.6, leadership = 0.4 }
+evidence = ["CTF", "capture the flag", "competition"]
+source = "Competition results page, March 2023"
+
+[[project.bullet]]
+id = "U1.2"
+text = "Solved 25 binary and web challenges with exploits using heap corruption and return-oriented programming, and wrote up each one for new members."
+tags = { "security.offensive" = 0.7, "reverse-engineering" = 0.3 }
+evidence = [
+  "exploit development", "binary exploitation", "ROP", "return-oriented programming", "heap exploitation",
+  "web exploitation", "pwntools", "GDB",
+]
+capabilities = [
+  { name = "exploit development", why = "heap and ROP exploits for 25 challenges" },
+]
+conditions = ["Python", "GDB", "pwntools"]
+source = "Club write-up archive, 2021 to 2023"
+
+[[project.bullet]]
+id = "U1.3"
+text = "Grew weekly training attendance from 4 to 12 members by running hands-on sessions on web and binary exploitation for a 15-member team."
+tags = { leadership = 0.5, teaching = 0.5 }
+evidence = ["leadership", "mentoring", "teaching", "training", "workshops"]
+capabilities = [
+  { name = "team leadership", why = "captain of a 15-member team" },
+  { name = "mentoring and teaching", why = "weekly hands-on training sessions" },
+]
+source = "Club attendance sheets, 2021 to 2023"
+
+[[project]]
+id = "U2"
+title = "Android Permission Auditor, Mobile Development Course"
+facts = "Course project, January to May 2022; app built and tested on 6 devices."
+complexity = 0.35
+brand = 0.25
+ends = "2022-05"
+summary = "An Android app that lists each installed app's dangerous permissions and flags the ones left unused."
+
+[[project.bullet]]
+id = "U2.1"
+text = "Built an Android app that lists each installed app's dangerous permissions and flags those unused for 30 days, tested on 6 devices."
+tags = { "software.mobile" = 0.6, "security.appsec" = 0.4 }
+evidence = ["Android", "Kotlin", "mobile security", "permissions", "privacy", "mobile app"]
+capabilities = [
+  { name = "Android development", why = "the auditor app itself" },
+  { name = "application security", why = "flags permissions an app holds but does not use" },
+]
+conditions = ["Kotlin", "Android"]
+source = "Course project report, May 2022"
+
+[[project.bullet]]
+id = "U2.2"
+text = "Shipped the app to the class showcase, where 40 classmates installed it and 9 revoked at least one permission it flagged."
+tags = { "software.mobile" = 0.8, "security.appsec" = 0.2 }
+evidence = ["release", "users", "Android"]
+liability = 0.3
+capabilities = [
+  { name = "shipping to real users", why = "40 installs from the class showcase" },
+]
+source = "Course showcase statistics, May 2022"
+
+[[project]]
+id = "U3"
+title = "Inventory Web App for a Regional Food Bank, Senior Capstone"
+facts = "Senior capstone, September 2022 to May 2023; in use by the food bank's volunteers at handover."
+complexity = 0.45
+brand = 0.3
+ends = "2023-05"
+summary = "A Django and PostgreSQL web app a food bank uses to log donations and track stock, replacing a shared spreadsheet."
+
+[[project.bullet]]
+id = "U3.1"
+text = "Replaced a food bank's shared spreadsheet with a Django and PostgreSQL web app that 30 volunteers use to log donations and stock."
+tags = { "software.backend" = 0.5, "software.frontend" = 0.3, databases = 0.2 }
+evidence = ["full stack", "full-stack", "web application", "Django", "PostgreSQL", "Python", "HTML", "CSS"]
+capabilities = [
+  { name = "full-stack web", why = "the donation and stock web app" },
+  { name = "shipping to real users", why = "used by 30 volunteers" },
+]
+conditions = ["Python", "Django", "PostgreSQL"]
+source = "Capstone final report, May 2023"
+
+[[project.bullet]]
+id = "U3.2"
+text = "Cut the monthly stock count from two days to half a day by designing an inventory schema that tracks each donated lot and its expiry date."
+tags = { databases = 0.8, "software.backend" = 0.2 }
+evidence = ["database design", "schema design", "data modeling", "relational databases", "SQL", "PostgreSQL"]
+capabilities = [
+  { name = "databases and schema design", why = "lot and expiry schema for the inventory" },
+]
+conditions = ["PostgreSQL", "SQL"]
+source = "Capstone final report, May 2023"
+
+[[project.bullet]]
+id = "U3.3"
+text = "Added a REST API for the food bank's barcode scanners, with per-device tokens and rate limits."
+tags = { "software.backend" = 0.7, "security.appsec" = 0.3 }
+evidence = ["REST API", "API design", "backend", "authentication", "rate limiting", "Django REST Framework"]
+capabilities = [
+  { name = "backend services and APIs", why = "REST API for the scanners" },
+  { name = "authentication and IAM", why = "per-device tokens" },
+]
+conditions = ["Python", "Django"]
+source = "Capstone final report, May 2023"
+
+# ─────────────────────────────────────────────────────────────
+# Personal and older work
+# ─────────────────────────────────────────────────────────────
+
+[[project]]
+id = "P1"
+title = "Home Network Device Monitor on a Raspberry Pi"
+facts = "Personal project, finished February 2024; follows a published tutorial with small extensions."
+complexity = 0.25
+brand = 0.1
+ends = "2024-02"
+held = true
+summary = "A Raspberry Pi that watches a home network for new devices and logs when each first appears."
+
+[[project.note]]
+private = false
+text = "Held back from every page: the design mostly follows a tutorial. Kept here as a record."
+
+[[project.bullet]]
+id = "P1.1"
+text = "Built a Raspberry Pi monitor that alerts when a new device joins a home network, using ARP scans and a SQLite log."
+tags = { "systems.embedded" = 0.6, "systems.networking" = 0.4 }
+evidence = ["Raspberry Pi", "ARP", "network monitoring", "IoT", "SQLite", "Python"]
+capabilities = [
+  { name = "device security", why = "alerts on unknown devices joining the network" },
+]
+conditions = ["Python", "Raspberry Pi"]
+source = "Personal notes, 2024"
+
+[[project.bullet]]
+id = "P1.2"
+text = "Logged 11 months of device joins and charted when each device was first seen."
+tags = { "systems.networking" = 0.5, databases = 0.5 }
+evidence = ["dashboard", "logging", "visualization"]
+capabilities = [
+  { name = "dashboards and visualisation", why = "chart of first-seen devices" },
+]
+source = "Personal notes, 2024"
+
+[[project]]
+id = "O1"
+title = "Campus Bus Arrival Board, First-Year Hackathon Project"
+facts = "Hackathon project extended through the spring semester, finished April 2020; ran on a lobby display for one semester."
+complexity = 0.25
+brand = 0.2
+ends = "2020-04"
+summary = "A web page showing live bus arrivals for campus routes from the city's public transit feed, and an analysis of route delays."
+
+[[project.bullet]]
+id = "O1.1"
+text = "Built a live arrival board for 5 campus bus routes from the city's public transit feed, in JavaScript with a Node.js backend, shown on a lobby display for one semester."
+tags = { "software.frontend" = 0.6, "software.backend" = 0.4 }
+evidence = ["JavaScript", "Node.js", "web front end", "GTFS", "public transit", "real-time data"]
+capabilities = [
+  { name = "web front end", why = "the live arrival board" },
+]
+conditions = ["JavaScript", "Node.js"]
+source = "Hackathon submission, 2019; semester log, April 2020"
+
+[[project.bullet]]
+id = "O1.2"
+text = "Compared scheduled and actual arrivals over 8 weeks and showed that 2 routes ran a median 6 minutes late at rush hour."
+tags = { research = 0.6, databases = 0.4 }
+evidence = ["data analysis", "pandas", "Jupyter", "statistics", "median", "Python"]
+capabilities = [
+  { name = "data analysis", why = "delay analysis over 8 weeks of arrivals" },
+]
+conditions = ["Python", "pandas"]
+source = "Semester log, April 2020"

@@ -1,0 +1,255 @@
+{
+ "id": "paste-89f5dd84",
+ "sha": "89f5dd84198aa9d6",
+ "requirements": [
+  {
+   "name": "years of experience",
+   "tokens": [
+    "1 to 3 years",
+    "application security",
+    "software engineering"
+   ],
+   "required": true,
+   "line": 16,
+   "source": "- 1 to 3 years of experience in application security, software engineering or a related role; security internships and graduate research count toward this."
+  },
+  {
+   "name": "OWASP Top 10",
+   "tokens": [
+    "OWASP Top 10",
+    "web vulnerability",
+    "API vulnerability"
+   ],
+   "required": true,
+   "line": 17,
+   "source": "- Working knowledge of the OWASP Top 10 and common web and API vulnerability classes."
+  },
+  {
+   "name": "threat modeling",
+   "tokens": [
+    "threat modeling",
+    "STRIDE"
+   ],
+   "required": true,
+   "line": 18,
+   "source": "- Hands-on experience with threat modeling (STRIDE or similar)."
+  },
+  {
+   "name": "code review languages",
+   "tokens": [
+    "code review",
+    "Python",
+    "Java",
+    "Go"
+   ],
+   "required": true,
+   "line": 19,
+   "source": "- Experience reviewing code for security issues in at least one of Python, Java or Go."
+  },
+  {
+   "name": "web testing tools",
+   "tokens": [
+    "Burp Suite",
+    "web testing",
+    "penetration testing tools"
+   ],
+   "required": true,
+   "line": 20,
+   "source": "- Familiarity with web testing tools such as Burp Suite."
+  },
+  {
+   "name": "vulnerability triage",
+   "tokens": [
+    "triage vulnerabilities",
+    "severity",
+    "remediation"
+   ],
+   "required": true,
+   "line": 21,
+   "source": "- Experience triaging vulnerabilities and working with engineers to get them fixed."
+  },
+  {
+   "name": "degree",
+   "tokens": [
+    "bachelor's degree",
+    "computer science",
+    "cybersecurity"
+   ],
+   "required": true,
+   "line": 22,
+   "source": "- Bachelor's degree in computer science, cybersecurity or a related field, or equivalent experience."
+  },
+  {
+   "name": "threat modeling sessions",
+   "tokens": [
+    "threat modeling",
+    "engineering tickets",
+    "new features"
+   ],
+   "required": true,
+   "line": 8,
+   "source": "- Lead threat modeling sessions for new features and services, and turn the results into concrete engineering tickets."
+  },
+  {
+   "name": "PR and design review",
+   "tokens": [
+    "pull request review",
+    "design document review",
+    "injection",
+    "authentication",
+    "authorization",
+    "data exposure"
+   ],
+   "required": true,
+   "line": 9,
+   "source": "- Review pull requests and design documents for injection, authentication, authorization and data exposure flaws."
+  },
+  {
+   "name": "API security testing",
+   "tokens": [
+    "REST API",
+    "GraphQL",
+    "broken access control",
+    "business-logic"
+   ],
+   "required": true,
+   "line": 10,
+   "source": "- Test our REST and GraphQL APIs for broken access control and business-logic issues, and help teams fix what you find."
+  },
+  {
+   "name": "static analysis and dependency scanning",
+   "tokens": [
+    "Semgrep",
+    "static analysis",
+    "dependency scanning",
+    "CI",
+    "custom rules"
+   ],
+   "required": true,
+   "line": 11,
+   "source": "- Run and tune our static analysis (Semgrep) and dependency scanning in CI, writing custom rules for patterns specific to our codebase."
+  },
+  {
+   "name": "bug bounty and pentest triage",
+   "tokens": [
+    "bug bounty",
+    "penetration test",
+    "scanner findings",
+    "severity"
+   ],
+   "required": true,
+   "line": 12,
+   "source": "- Triage findings from scanners, our bug bounty program and penetration tests, assign severity, and track remediation to closure."
+  },
+  {
+   "name": "secure coding libraries",
+   "tokens": [
+    "secure-by-default",
+    "Python",
+    "Java",
+    "secure libraries"
+   ],
+   "required": true,
+   "line": 13,
+   "source": "- Contribute to secure-by-default libraries and guidance for our Python and Java services."
+  },
+  {
+   "name": "AWS security architecture",
+   "tokens": [
+    "AWS",
+    "Amazon Web Services",
+    "security architecture review"
+   ],
+   "required": true,
+   "line": 14,
+   "source": "- Take part in security architecture reviews for changes to our AWS environment."
+  },
+  {
+   "name": "Semgrep or CodeQL rules",
+   "tokens": [
+    "Semgrep rules",
+    "CodeQL rules"
+   ],
+   "required": false,
+   "line": 24,
+   "source": "- Experience writing Semgrep or CodeQL rules."
+  },
+  {
+   "name": "AWS cloud security",
+   "tokens": [
+    "AWS",
+    "Amazon Web Services",
+    "IAM",
+    "network controls",
+    "logging",
+    "cloud security"
+   ],
+   "required": false,
+   "line": 25,
+   "source": "- Exposure to cloud security on AWS (IAM, network controls, logging)."
+  },
+  {
+   "name": "regulated environment",
+   "tokens": [
+    "HIPAA",
+    "PCI DSS",
+    "healthcare",
+    "regulated environment"
+   ],
+   "required": false,
+   "line": 26,
+   "source": "- Experience in a regulated environment such as healthcare (HIPAA) or payments (PCI DSS)."
+  },
+  {
+   "name": "certifications",
+   "tokens": [
+    "OSCP",
+    "GWAPT"
+   ],
+   "required": false,
+   "line": 27,
+   "source": "- Relevant certifications such as OSCP or GWAPT."
+  }
+ ],
+ "keywords": [
+  "application security",
+  "AppSec",
+  "OWASP Top 10",
+  "threat modeling",
+  "STRIDE",
+  "Semgrep",
+  "CodeQL",
+  "Burp Suite",
+  "static analysis",
+  "SAST",
+  "dependency scanning",
+  "REST API security",
+  "GraphQL security",
+  "broken access control",
+  "Python",
+  "Java",
+  "Go",
+  "AWS",
+  "Amazon Web Services",
+  "IAM",
+  "HIPAA",
+  "PCI DSS",
+  "OSCP",
+  "GWAPT",
+  "bug bounty",
+  "vulnerability triage",
+  "secure code review",
+  "CI security",
+  "cloud security"
+ ],
+ "info": {
+  "reader": "slots-claude-sonnet-4-6-low",
+  "answered_by": "claude-sonnet-4-6",
+  "fallback": null,
+  "attempts": 1,
+  "input_tokens": 1696,
+  "output_tokens": 561,
+  "seconds": 12.2,
+  "dropped": []
+ }
+}

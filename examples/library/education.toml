@@ -1,0 +1,62 @@
+# The two degrees, top to bottom as printed. Only the course lists vary from posting to posting.
+
+about = '''
+Both degrees appear on every page. Under each, the engine prints a course list picked for the posting: at
+most eleven courses, ranked first by how much of the posting's requirement weight they answer (through
+`skill-capabilities.toml`) and then by topic fit. Each degree must list eight courses or more.
+
+The Word template prints the institution, award, dates and `fixed` line itself, so edit them there as well
+as here. The `fixed` line appears on every page and can meet a condition a posting names. `names` holds
+alternative wordings a posting may use for the degree, such as "bachelor's degree"; they satisfy a degree
+requirement without steering the topic mix, which `evidence` words do.'''
+
+[[degree]]  # located in Denver, Colorado
+id = "halvorsen"
+institution = "Halvorsen Institute of Technology"
+award = "Master of Science in Cybersecurity"
+dates = "Sep 2024 – May 2026"
+evidence = ["cybersecurity", "information security", "security engineering", "computer security"]
+names = [
+  "master's degree", "master's", "Master of Science", "MS in Cybersecurity", "graduate degree", "advanced degree",
+]
+fixed = "Graduate Research Assistant, Applied Security Lab"
+note = "The template prints the research assistant line, dated January 2025 to May 2026, below this degree."
+courses = [
+  { text = "Software Security", tags = { "security.appsec" = 0.7, "security.offensive" = 0.3 } },
+  { text = "Machine Learning Security", tags = { "ai.adversarial" = 0.6, "ai.security" = 0.4 } },
+  { text = "Large Language Model Security", tags = { "ai.security" = 0.8, "ai.agents" = 0.2 } },
+  { text = "Cloud Security", tags = { "security.appsec" = 0.6, "software.backend" = 0.4 } },
+  { text = "Applied Cryptography", tags = { "security.appsec" = 0.6, research = 0.4 } },
+  { text = "Network Security", tags = { "systems.networking" = 0.6, "security.appsec" = 0.4 } },
+  { text = "Malware Analysis", tags = { "security.forensics" = 0.6, "reverse-engineering" = 0.4 } },
+  { text = "Reverse Engineering", tags = { "reverse-engineering" = 0.8, "security.offensive" = 0.2 } },
+  { text = "Incident Response and Forensics", tags = { "security.forensics" = 1.0 } },
+  { text = "Operating Systems Security", tags = { "systems.os" = 0.6, "security.appsec" = 0.4 } },
+  { text = "Security Risk Management", tags = { "security.grc" = 1.0 } },
+  { text = "Privacy Engineering", tags = { "security.grc" = 0.6, "security.appsec" = 0.4 } },
+  { text = "Security Metrics and Measurement", tags = { research = 0.6, "security.grc" = 0.4 } },
+]
+
+[[degree]]  # located in Madison, Wisconsin
+id = "lakemont"
+institution = "Lakemont State University"
+award = "Bachelor of Science in Computer Science"
+dates = "Sep 2019 – May 2023"
+evidence = ["computer science", "software engineering", "computing"]
+names = [
+  "bachelor's degree", "bachelor's", "Bachelor of Science", "BS in Computer Science", "undergraduate degree",
+]
+courses = [
+  { text = "Introduction to Computer Security", tags = { "security.appsec" = 0.6, "security.offensive" = 0.4 } },
+  { text = "Data Structures and Algorithms", tags = { "software.backend" = 0.6, research = 0.4 } },
+  { text = "Computer Organization", tags = { "systems.os" = 1.0 } },
+  { text = "Operating Systems", tags = { "systems.os" = 1.0 } },
+  { text = "Computer Networks", tags = { "systems.networking" = 1.0 } },
+  { text = "Database Systems", tags = { databases = 1.0 } },
+  { text = "Software Engineering", tags = { "software.backend" = 0.7, leadership = 0.3 } },
+  { text = "Web Development", tags = { "software.frontend" = 0.6, "software.backend" = 0.4 } },
+  { text = "Mobile Application Development", tags = { "software.mobile" = 1.0 } },
+  { text = "Machine Learning", tags = { "ai.ml" = 1.0 } },
+  { text = "Probability and Statistics", tags = { research = 0.7, "ai.ml" = 0.3 } },
+  { text = "Discrete Mathematics", tags = { research = 1.0 } },
+]

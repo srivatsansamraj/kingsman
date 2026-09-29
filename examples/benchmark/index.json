@@ -1,0 +1,42 @@
+[
+ {
+  "id": "paste-89f5dd84",
+  "band": "lane: application security",
+  "title": "Application Security Engineer, Quillmere Health (X1)"
+ },
+ {
+  "id": "paste-87b68035",
+  "band": "lane: offensive security",
+  "title": "Offensive Security Engineer, Blackfen Labs (X2)"
+ },
+ {
+  "id": "paste-3d814d16",
+  "band": "lane: AI security",
+  "title": "AI Security Evaluation Engineer, Lumenfold AI (X3)"
+ },
+ {
+  "id": "paste-9725cefb",
+  "band": "adjacent: detection and response",
+  "title": "Detection and Response Engineer, Carrowmere (X4)"
+ },
+ {
+  "id": "paste-afdfe55e",
+  "band": "adjacent: cloud security",
+  "title": "Cloud Security Engineer, Stratavale (X5)"
+ },
+ {
+  "id": "paste-12648881",
+  "band": "adjacent: backend engineering",
+  "title": "Software Engineer, Backend, Orchard Ledger (X6)"
+ },
+ {
+  "id": "paste-f945f360",
+  "band": "distant: data analysis",
+  "title": "Data Analyst, Supply Chain, Wrenfield Markets (X7)"
+ },
+ {
+  "id": "paste-f1f45dad",
+  "band": "control: accounting",
+  "title": "Senior Accountant, Revenue, Copperline Outdoor Co. (X8)"
+ }
+]

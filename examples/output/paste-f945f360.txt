@@ -1,0 +1,34 @@
+================================================================================================
+POSTING: Data Analyst, Supply Chain
+================================================================================================
+14 requirements (11 required), 21 keywords
+mode capabilities, reach 0.72, unmet word demand 75%
+demand:
+    ai.data                0.86  ######################################
+    ai.evaluation          0.14  ######
+
+13 bullets in 4 projects, 28/28 project lines
+  coverage 0.72   emphasis 0.20   standing 0.52   incoherence 0.28   cost 0.14   depth 0.70   score 0.843
+
+  Fuzzing an Open-Source Image-Decoding Library
+      Found 5 memory-safety bugs, 3 of them heap buffer overflows, in an open-source image-decoding library by fuzzing it for 30 CPU-days with libFuzzer and AddressSanitizer.
+      Wrote fixes for 3 of the bugs, merged upstream with regression tests, and sent minimized reproducers for the other 2 to the maintainers.
+      Added the fuzz targets to the library's continuous integration, which now fuzzes each pull request for 10 minutes before merge.
+
+  Prompt-Injection Evaluation of Tool-Using LLM Agents, Applied Security Lab
+      Built a harness that runs 420 prompt-injection attacks against tool-using LLM agents in sandboxed tasks and records whether each attack reached a tool call.
+      Measured three published prompt-injection defenses on the harness; the strongest cut successful attacks from 31% to 9% and failed 4% of benign tasks.
+      Reported every attack success rate with bootstrap 95% confidence intervals over 5 seeds, which showed 2 of 12 gains claimed in earlier papers were within run-to-run noise.
+      Blocked 88% of the attacks that reached a tool call by giving each agent task an allowlist of the tools it needs and denying every other tool.
+      Built an LLM judge that labels attack success from transcripts, agreeing with two human labelers on 94% of 300 transcripts.
+
+  Product Security Intern, Fernhill Payments
+      Threat-modeled the card-tokenization service with its owning team and filed 14 findings, 11 of them fixed before the service's next release.
+      Closed an authorization gap that let a merchant-support role read any merchant's payout records, adding an ownership check and regression tests across 9 endpoints.
+      Reviewed 40 pull requests to payment services for injection, deserialization and access-control flaws, and wrote Semgrep rules for the 3 flaw patterns found more than once.
+      Triaged 60 scanner and bug-bounty reports against a written severity rubric, closing 38 as duplicates or false positives and assigning the rest to owning teams with fix dates.
+
+  Campus Bus Arrival Board, First-Year Hackathon Project
+      Compared scheduled and actual arrivals over 8 weeks and showed that 2 routes ran a median 6 minutes late at rush hour.
+
+  required, not fully met: Tableau dashboards, Years of experience, Excel skills

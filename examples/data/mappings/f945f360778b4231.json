@@ -1,0 +1,226 @@
+{
+ "requirements": [
+  {
+   "name": "SQL proficiency",
+   "tokens": [
+    "SQL",
+    "SQL queries",
+    "data warehouse"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "SQL"
+   ]
+  },
+  {
+   "name": "Tableau dashboards",
+   "tokens": [
+    "Tableau",
+    "dashboard",
+    "build and maintain dashboards"
+   ],
+   "required": true,
+   "capabilities": [
+    "dashboards and visualisation"
+   ],
+   "capability": "dashboards and visualisation",
+   "conditions": [
+    "Tableau"
+   ]
+  },
+  {
+   "name": "Demand forecasting",
+   "tokens": [
+    "demand forecast",
+    "forecast accuracy",
+    "forecasting"
+   ],
+   "required": true,
+   "capabilities": [
+    "data analysis"
+   ],
+   "capability": "data analysis",
+   "conditions": []
+  },
+  {
+   "name": "Out-of-stock and spoilage analysis",
+   "tokens": [
+    "out-of-stock",
+    "spoilage",
+    "order quantities",
+    "delivery schedules"
+   ],
+   "required": true,
+   "capabilities": [
+    "data analysis"
+   ],
+   "capability": "data analysis",
+   "conditions": []
+  },
+  {
+   "name": "Supplier performance reporting",
+   "tokens": [
+    "supplier fill rates",
+    "on-time delivery",
+    "supplier performance"
+   ],
+   "required": true,
+   "capabilities": [
+    "data analysis"
+   ],
+   "capability": "data analysis",
+   "conditions": []
+  },
+  {
+   "name": "Data cleaning and reconciliation",
+   "tokens": [
+    "clean and reconcile data",
+    "point-of-sale",
+    "warehouse management",
+    "supplier systems"
+   ],
+   "required": true,
+   "capabilities": [
+    "data analysis"
+   ],
+   "capability": "data analysis",
+   "conditions": []
+  },
+  {
+   "name": "Ad hoc analysis",
+   "tokens": [
+    "ad hoc analysis",
+    "merchandising",
+    "store operations"
+   ],
+   "required": true,
+   "capabilities": [
+    "data analysis"
+   ],
+   "capability": "data analysis",
+   "conditions": []
+  },
+  {
+   "name": "Bachelor's degree",
+   "tokens": [
+    "Bachelor's degree",
+    "statistics",
+    "economics",
+    "business analytics",
+    "supply chain",
+    "computer science"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "Bachelor's degree"
+   ]
+  },
+  {
+   "name": "Years of experience",
+   "tokens": [
+    "1 to 3 years",
+    "data analyst",
+    "business analyst"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "1 to 3 years"
+   ]
+  },
+  {
+   "name": "Excel skills",
+   "tokens": [
+    "Excel",
+    "pivot tables",
+    "lookups",
+    "advanced Excel"
+   ],
+   "required": true,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "Excel"
+   ]
+  },
+  {
+   "name": "Forecasting methods and statistics",
+   "tokens": [
+    "forecasting methods",
+    "statistics",
+    "basic forecasting"
+   ],
+   "required": true,
+   "capabilities": [
+    "measurement and statistics"
+   ],
+   "capability": "measurement and statistics",
+   "conditions": []
+  },
+  {
+   "name": "Retail or supply chain analytics experience",
+   "tokens": [
+    "retail",
+    "grocery",
+    "supply chain analytics"
+   ],
+   "required": false,
+   "capabilities": [],
+   "capability": null,
+   "conditions": []
+  },
+  {
+   "name": "Python or R",
+   "tokens": [
+    "Python",
+    "R",
+    "pandas",
+    "tidyverse",
+    "data analysis"
+   ],
+   "required": false,
+   "capabilities": [
+    "data analysis"
+   ],
+   "capability": "data analysis",
+   "conditions": [
+    "Python",
+    "R"
+   ]
+  },
+  {
+   "name": "Cloud data warehouse",
+   "tokens": [
+    "Snowflake",
+    "cloud data warehouse"
+   ],
+   "required": false,
+   "capabilities": [],
+   "capability": null,
+   "conditions": [
+    "Snowflake"
+   ]
+  }
+ ],
+ "valid": true,
+ "errors": [],
+ "first_errors": [],
+ "attempts": 1,
+ "input_tokens": 1390,
+ "output_tokens": 569,
+ "seconds": 14.0,
+ "batch": 3,
+ "title": "Data Analyst, Supply Chain",
+ "vocabulary_sha256_16": "fce4b8d6fbc868de",
+ "format": 3,
+ "model": "claude-opus-5-5",
+ "answered_by": "claude-opus-5-5",
+ "fallback": null,
+ "made": "2026-09-29T06:36:20",
+ "posting": "paste-f945f360"
+}
